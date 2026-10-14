@@ -1,5 +1,5 @@
 window.PENGUIN_UEFA_SNAPSHOT = {
-  "generatedAt": "2026-10-14T01:08:57.880Z",
+  "generatedAt": "2026-10-14T02:22:33.128Z",
   "matchday": 2,
   "source": "UEFA UCL Fantasy opponent-team API",
   "records": [
@@ -10838,6 +10838,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 37,
       "rawScore": 37,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 139,
       "captain": "H. Kane",
       "lineup": [
@@ -10848,6 +10850,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -10858,6 +10861,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -10867,6 +10871,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -10876,6 +10881,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -10885,6 +10891,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -10894,6 +10901,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -10903,6 +10911,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -10912,6 +10921,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -10921,6 +10931,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -10930,6 +10941,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -10939,6 +10951,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -10948,6 +10961,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -10957,6 +10971,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -10966,6 +10981,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -10975,10 +10991,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250050319,
+            "name": "F. Thauvin"
+          },
+          {
+            "id": 250153621,
+            "name": "N. Paz"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250187727,
+            "name": "R. Zalazar"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -10989,6 +11031,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 25,
       "rawScore": 25,
       "transferPenalty": 0,
+      "transferCount": 1,
+      "chip": null,
       "overallPoints": 126,
       "captain": "M. Olise",
       "lineup": [
@@ -11000,6 +11044,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -11009,6 +11054,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11018,6 +11064,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -11027,6 +11074,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -11036,6 +11084,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -11045,6 +11094,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -11054,6 +11104,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -11063,6 +11114,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -11072,6 +11124,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -11081,6 +11134,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -11090,6 +11144,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -11099,6 +11154,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -11108,6 +11164,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -11117,6 +11174,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -11126,10 +11184,28 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 1,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250186227,
+            "name": "A. Diao"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250099671,
+            "name": "G. Til"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -11140,6 +11216,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 28,
       "rawScore": 28,
       "transferPenalty": 0,
+      "transferCount": 0,
+      "chip": null,
       "overallPoints": 122,
       "captain": "E. Haaland",
       "lineup": [
@@ -11150,6 +11228,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11159,6 +11238,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -11168,6 +11248,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -11177,6 +11258,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11187,6 +11269,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -11196,6 +11279,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -11205,6 +11289,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -11214,6 +11299,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -11223,6 +11309,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -11232,6 +11319,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -11241,6 +11329,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11250,6 +11339,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11259,6 +11349,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -11268,6 +11359,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -11277,10 +11369,18 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 0,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [],
+        "outgoing": []
+      }
     },
     {
       "region": "arctic",
@@ -11291,6 +11391,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 23,
       "rawScore": 27,
       "transferPenalty": -4,
+      "transferCount": 3,
+      "chip": null,
       "overallPoints": 129,
       "captain": "M. Olise",
       "lineup": [
@@ -11301,6 +11403,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11310,6 +11413,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11320,6 +11424,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -11329,6 +11434,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11338,6 +11444,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -11347,6 +11454,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -11356,6 +11464,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -11365,6 +11474,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -11374,6 +11484,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -11383,6 +11494,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -11392,6 +11504,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -11401,6 +11514,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -11410,6 +11524,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -11419,6 +11534,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -11428,10 +11544,44 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 3,
+        "penalty": -4,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250171184,
+            "name": "M. Olise"
+          },
+          {
+            "id": 250131901,
+            "name": "Gabriel"
+          },
+          {
+            "id": 250156423,
+            "name": "D. Svensson"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250092517,
+            "name": "J. Ryerson"
+          },
+          {
+            "id": 250178823,
+            "name": "P. Dorgu"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -11442,6 +11592,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 44,
       "rawScore": 48,
       "transferPenalty": -4,
+      "transferCount": 3,
+      "chip": null,
       "overallPoints": 163,
       "captain": "H. Kane",
       "lineup": [
@@ -11453,6 +11605,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -11462,6 +11615,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11472,6 +11626,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11481,6 +11636,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -11490,6 +11646,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -11499,6 +11656,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -11508,6 +11666,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -11517,6 +11676,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -11526,6 +11686,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -11535,6 +11696,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -11544,6 +11706,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -11553,6 +11716,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -11562,6 +11726,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -11571,6 +11736,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -11580,10 +11746,44 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 3,
+        "penalty": -4,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250056189,
+            "name": "F. Dimarco"
+          },
+          {
+            "id": 250101284,
+            "name": "F. Valverde"
+          },
+          {
+            "id": 250153621,
+            "name": "N. Paz"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250187727,
+            "name": "R. Zalazar"
+          },
+          {
+            "id": 250090766,
+            "name": "M. Mittelstädt"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -11594,6 +11794,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 48,
       "rawScore": 48,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 152,
       "captain": "L. Yamal",
       "lineup": [
@@ -11604,6 +11806,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11613,6 +11816,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11622,6 +11826,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -11632,6 +11837,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -11641,6 +11847,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11651,6 +11858,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11660,6 +11868,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -11669,6 +11878,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -11678,6 +11888,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -11687,6 +11898,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -11696,6 +11908,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -11705,6 +11918,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -11714,6 +11928,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -11723,6 +11938,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -11732,10 +11948,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          },
+          {
+            "id": 250113392,
+            "name": "R. Calafiori"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250090766,
+            "name": "M. Mittelstädt"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -11746,6 +11988,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 51,
       "rawScore": 51,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 144,
       "captain": "H. Kane",
       "lineup": [
@@ -11756,6 +12000,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -11766,6 +12011,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -11775,6 +12021,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11784,6 +12031,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -11793,6 +12041,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -11802,6 +12051,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -11811,6 +12061,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11820,6 +12071,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -11829,6 +12081,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -11838,6 +12091,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -11847,6 +12101,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -11856,6 +12111,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -11865,6 +12121,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -11874,6 +12131,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -11883,10 +12141,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 50327420,
+            "name": "V. van Dijk"
+          },
+          {
+            "id": 250138382,
+            "name": "J. Leweling"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250110943,
+            "name": "Matheus Cunha"
+          },
+          {
+            "id": 250190377,
+            "name": "Xavi Espart"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -11897,6 +12181,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 33,
       "rawScore": 33,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 140,
       "captain": "M. Olise",
       "lineup": [
@@ -11907,6 +12193,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11916,6 +12203,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -11926,6 +12214,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -11935,6 +12224,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11945,6 +12235,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11954,6 +12245,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -11963,6 +12255,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -11972,6 +12265,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -11981,6 +12275,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -11990,6 +12285,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -11999,6 +12295,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -12008,6 +12305,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -12017,6 +12315,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -12026,6 +12325,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -12035,10 +12335,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          },
+          {
+            "id": 250130006,
+            "name": "Sergi Altimira"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250042705,
+            "name": "L. Shaw"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -12049,6 +12375,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 44,
       "rawScore": 44,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 141,
       "captain": "M. Olise",
       "lineup": [
@@ -12060,6 +12388,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -12070,6 +12399,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -12079,6 +12409,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -12089,6 +12420,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -12098,6 +12430,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -12107,6 +12440,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -12116,6 +12450,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -12125,6 +12460,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -12134,6 +12470,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -12143,6 +12480,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -12152,6 +12490,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -12161,6 +12500,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -12170,6 +12510,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -12179,6 +12520,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -12188,10 +12530,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          },
+          {
+            "id": 250172672,
+            "name": "A. Mac Allister"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250164780,
+            "name": "Fermín López"
+          },
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -12202,6 +12570,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 33,
       "rawScore": 37,
       "transferPenalty": -4,
+      "transferCount": 3,
+      "chip": null,
       "overallPoints": 134,
       "captain": "M. Olise",
       "lineup": [
@@ -12212,6 +12582,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -12222,6 +12593,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -12231,6 +12603,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -12241,6 +12614,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -12250,6 +12624,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -12259,6 +12634,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -12268,6 +12644,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -12277,6 +12654,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -12286,6 +12664,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -12295,6 +12674,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -12304,6 +12684,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -12313,6 +12694,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -12322,6 +12704,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -12331,6 +12714,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -12340,10 +12724,44 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 3,
+        "penalty": -4,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          },
+          {
+            "id": 250192993,
+            "name": "J. Manzambi"
+          },
+          {
+            "id": 250099867,
+            "name": "Alisson Becker"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250078886,
+            "name": "Bruno Fernandes"
+          },
+          {
+            "id": 250046901,
+            "name": "T. Strakosha"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -12354,6 +12772,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 38,
       "rawScore": 38,
       "transferPenalty": 0,
+      "transferCount": 1,
+      "chip": null,
       "overallPoints": 130,
       "captain": "H. Kane",
       "lineup": [
@@ -12364,6 +12784,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -12373,6 +12794,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -12383,6 +12805,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -12392,6 +12815,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -12401,6 +12825,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -12410,6 +12835,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -12419,6 +12845,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -12428,6 +12855,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -12437,6 +12865,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -12446,6 +12875,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -12455,6 +12885,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -12464,6 +12895,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -12473,6 +12905,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -12482,6 +12915,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -12491,10 +12925,28 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 1,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250188223,
+            "name": "Carlos Augusto"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250197801,
+            "name": "Gerard Martín"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -12505,6 +12957,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 62,
       "rawScore": 62,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 128,
       "captain": "H. Kane",
       "lineup": [
@@ -12515,6 +12969,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -12524,6 +12979,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -12533,6 +12989,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -12543,6 +13000,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -12552,6 +13010,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -12561,6 +13020,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -12570,6 +13030,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -12579,6 +13040,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -12588,6 +13050,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -12597,6 +13060,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -12606,6 +13070,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -12615,6 +13080,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -12624,6 +13090,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -12633,6 +13100,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -12642,10 +13110,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250118281,
+            "name": "Lautaro Martínez"
+          },
+          {
+            "id": 250192993,
+            "name": "J. Manzambi"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250089868,
+            "name": "A. Isak"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -12656,6 +13150,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 55,
       "rawScore": 55,
       "transferPenalty": 0,
+      "transferCount": 1,
+      "chip": null,
       "overallPoints": 154,
       "captain": "H. Kane",
       "lineup": [
@@ -12666,6 +13162,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -12676,6 +13173,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -12686,6 +13184,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -12695,6 +13194,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -12704,6 +13204,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -12713,6 +13214,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -12722,6 +13224,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -12731,6 +13234,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -12740,6 +13244,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -12749,6 +13254,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -12758,6 +13264,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -12767,6 +13274,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -12776,6 +13284,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -12785,6 +13294,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -12794,10 +13304,28 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 1,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250192993,
+            "name": "J. Manzambi"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250124460,
+            "name": "C. Tzolis"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -12808,6 +13336,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 47,
       "rawScore": 47,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 126,
       "captain": "H. Kane",
       "lineup": [
@@ -12819,6 +13349,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -12828,6 +13359,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -12837,6 +13369,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -12847,6 +13380,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -12856,6 +13390,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -12865,6 +13400,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -12874,6 +13410,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -12883,6 +13420,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -12892,6 +13430,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -12901,6 +13440,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -12910,6 +13450,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -12919,6 +13460,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -12928,6 +13470,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -12937,6 +13480,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -12946,10 +13490,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250096761,
+            "name": "J. Martínez"
+          },
+          {
+            "id": 250124222,
+            "name": "M. Beier"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250183450,
+            "name": "B. Varga"
+          },
+          {
+            "id": 250085391,
+            "name": "A. Brignoli"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -12960,6 +13530,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 16,
       "rawScore": 16,
       "transferPenalty": 0,
+      "transferCount": 0,
+      "chip": null,
       "overallPoints": 85,
       "captain": "K. Mbappé",
       "lineup": [
@@ -12970,6 +13542,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -12979,6 +13552,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -12988,6 +13562,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -12998,6 +13573,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -13007,6 +13583,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -13016,6 +13593,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -13025,6 +13603,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -13034,6 +13613,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13043,6 +13623,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -13052,6 +13633,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -13061,6 +13643,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -13070,6 +13653,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -13079,6 +13663,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -13088,6 +13673,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -13097,10 +13683,18 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 0,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [],
+        "outgoing": []
+      }
     },
     {
       "region": "arctic",
@@ -13111,6 +13705,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 37,
       "rawScore": 37,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 112,
       "captain": "H. Kane",
       "lineup": [
@@ -13121,6 +13717,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -13130,6 +13727,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13139,6 +13737,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13148,6 +13747,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -13158,6 +13758,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -13167,6 +13768,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -13176,6 +13778,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -13185,6 +13788,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -13194,6 +13798,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -13203,6 +13808,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -13212,6 +13818,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -13221,6 +13828,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -13230,6 +13838,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -13239,6 +13848,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -13248,10 +13858,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250128377,
+            "name": "Jude Bellingham"
+          },
+          {
+            "id": 250124063,
+            "name": "R. Cherki"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250088246,
+            "name": "M. Rashford"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -13262,6 +13898,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 33,
       "rawScore": 33,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 146,
       "captain": "M. Olise",
       "lineup": [
@@ -13272,6 +13910,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -13282,6 +13921,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -13291,6 +13931,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13300,6 +13941,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13309,6 +13951,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13318,6 +13961,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -13327,6 +13971,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -13336,6 +13981,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -13345,6 +13991,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -13354,6 +14001,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -13363,6 +14011,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -13372,6 +14021,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -13381,6 +14031,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -13390,6 +14041,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -13399,10 +14051,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250050319,
+            "name": "F. Thauvin"
+          },
+          {
+            "id": 50327420,
+            "name": "V. van Dijk"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250212323,
+            "name": "Wesley França"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -13413,6 +14091,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 51,
       "rawScore": 55,
       "transferPenalty": -4,
+      "transferCount": 3,
+      "chip": null,
       "overallPoints": 151,
       "captain": "H. Kane",
       "lineup": [
@@ -13423,6 +14103,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -13432,6 +14113,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -13442,6 +14124,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -13451,6 +14134,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13461,6 +14145,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13470,6 +14155,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13479,6 +14165,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -13488,6 +14175,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -13497,6 +14185,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -13506,6 +14195,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13515,6 +14205,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -13524,6 +14215,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -13533,6 +14225,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -13542,6 +14235,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -13551,10 +14245,44 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 3,
+        "penalty": -4,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250181082,
+            "name": "M. Lewis-Skelly"
+          },
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          },
+          {
+            "id": 250164780,
+            "name": "Fermín López"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250113392,
+            "name": "R. Calafiori"
+          },
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250078886,
+            "name": "Bruno Fernandes"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -13565,6 +14293,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 32,
       "rawScore": 32,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 132,
       "captain": "M. Olise",
       "lineup": [
@@ -13575,6 +14305,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13584,6 +14315,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -13594,6 +14326,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -13603,6 +14336,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -13612,6 +14346,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13622,6 +14357,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13631,6 +14367,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13640,6 +14377,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -13649,6 +14387,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -13658,6 +14397,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -13667,6 +14407,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -13676,6 +14417,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -13685,6 +14427,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -13694,6 +14437,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -13703,10 +14447,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          },
+          {
+            "id": 250134170,
+            "name": "Ronald Araújo"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250088061,
+            "name": "A. Hakimi"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -13717,6 +14487,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 69,
       "rawScore": 69,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 189,
       "captain": "H. Kane",
       "lineup": [
@@ -13727,6 +14499,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -13737,6 +14510,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -13746,6 +14520,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -13755,6 +14530,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13765,6 +14541,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13775,6 +14552,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13784,6 +14562,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -13793,6 +14572,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -13802,6 +14582,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -13811,6 +14592,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -13820,6 +14602,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -13829,6 +14612,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -13838,6 +14622,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -13847,6 +14632,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -13856,10 +14642,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250122213,
+            "name": "Mauro Júnior"
+          },
+          {
+            "id": 250186227,
+            "name": "A. Diao"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250041741,
+            "name": "B. Cristante"
+          },
+          {
+            "id": 250090766,
+            "name": "M. Mittelstädt"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -13870,6 +14682,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 70,
       "rawScore": 70,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 184,
       "captain": "H. Kane",
       "lineup": [
@@ -13880,6 +14694,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13889,6 +14704,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -13898,6 +14714,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -13908,6 +14725,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -13918,6 +14736,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -13927,6 +14746,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13937,6 +14757,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13946,6 +14767,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -13955,6 +14777,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -13964,6 +14787,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -13973,6 +14797,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -13982,6 +14807,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -13991,6 +14817,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -14000,6 +14827,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -14009,10 +14837,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          },
+          {
+            "id": 250050319,
+            "name": "F. Thauvin"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250164780,
+            "name": "Fermín López"
+          },
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -14023,6 +14877,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 25,
       "rawScore": 25,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 131,
       "captain": "M. Olise",
       "lineup": [
@@ -14033,6 +14889,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -14042,6 +14899,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -14052,6 +14910,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -14061,6 +14920,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -14070,6 +14930,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -14079,6 +14940,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -14088,6 +14950,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -14097,6 +14960,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -14106,6 +14970,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -14115,6 +14980,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -14124,6 +14990,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -14133,6 +15000,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -14142,6 +15010,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -14151,6 +15020,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -14160,10 +15030,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250022829,
+            "name": "Hakan Çalhanoğlu"
+          },
+          {
+            "id": 250134138,
+            "name": "B. Barcola"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250187727,
+            "name": "R. Zalazar"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -14174,6 +15070,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 52,
       "rawScore": 52,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 164,
       "captain": "H. Kane",
       "lineup": [
@@ -14185,6 +15083,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -14194,6 +15093,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -14204,6 +15104,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -14213,6 +15114,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -14222,6 +15124,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -14231,6 +15134,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -14240,6 +15144,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -14249,6 +15154,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -14258,6 +15164,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -14267,6 +15174,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -14276,6 +15184,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -14285,6 +15194,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -14294,6 +15204,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -14303,6 +15214,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -14312,10 +15224,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          },
+          {
+            "id": 250163731,
+            "name": "Yan Couto"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250090766,
+            "name": "M. Mittelstädt"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -14326,6 +15264,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 35,
       "rawScore": 35,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 144,
       "captain": "H. Kane",
       "lineup": [
@@ -14336,6 +15276,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -14346,6 +15287,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -14355,6 +15297,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -14364,6 +15307,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -14373,6 +15317,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -14382,6 +15327,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -14391,6 +15337,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -14400,6 +15347,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -14409,6 +15357,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -14418,6 +15367,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -14427,6 +15377,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -14436,6 +15387,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -14445,6 +15397,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -14454,6 +15407,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -14463,10 +15417,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250128377,
+            "name": "Jude Bellingham"
+          },
+          {
+            "id": 250080569,
+            "name": "E. Buendía"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250187727,
+            "name": "R. Zalazar"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -14477,6 +15457,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 34,
       "rawScore": 34,
       "transferPenalty": 0,
+      "transferCount": 1,
+      "chip": null,
       "overallPoints": 122,
       "captain": "M. Olise",
       "lineup": [
@@ -14487,6 +15469,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -14496,6 +15479,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -14506,6 +15490,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -14516,6 +15501,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -14525,6 +15511,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -14534,6 +15521,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -14543,6 +15531,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -14552,6 +15541,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -14561,6 +15551,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -14570,6 +15561,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -14579,6 +15571,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -14588,6 +15581,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -14597,6 +15591,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -14606,6 +15601,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -14615,10 +15611,28 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 1,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250081341,
+            "name": "M. Ødegaard"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250104066,
+            "name": "D. Szoboszlai"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -14629,6 +15643,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 43,
       "rawScore": 43,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 128,
       "captain": "H. Kane",
       "lineup": [
@@ -14639,6 +15655,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -14648,6 +15665,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -14658,6 +15676,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -14667,6 +15686,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -14676,6 +15696,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -14685,6 +15706,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -14694,6 +15716,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -14703,6 +15726,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -14712,6 +15736,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -14721,6 +15746,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -14730,6 +15756,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -14739,6 +15766,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -14748,6 +15776,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -14757,6 +15786,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -14766,10 +15796,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250118281,
+            "name": "Lautaro Martínez"
+          },
+          {
+            "id": 250153621,
+            "name": "N. Paz"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250089868,
+            "name": "A. Isak"
+          },
+          {
+            "id": 250078886,
+            "name": "Bruno Fernandes"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -14780,6 +15836,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 47,
       "rawScore": 47,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 148,
       "captain": "H. Kane",
       "lineup": [
@@ -14790,6 +15848,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -14799,6 +15858,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -14809,6 +15869,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -14818,6 +15879,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -14827,6 +15889,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -14836,6 +15899,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -14845,6 +15909,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -14854,6 +15919,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -14863,6 +15929,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -14872,6 +15939,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -14881,6 +15949,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -14890,6 +15959,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -14899,6 +15969,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -14908,6 +15979,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -14917,10 +15989,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250117036,
+            "name": "A. Gordon"
+          },
+          {
+            "id": 250131901,
+            "name": "Gabriel"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250090766,
+            "name": "M. Mittelstädt"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -14931,6 +16029,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 49,
       "rawScore": 49,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 148,
       "captain": "Lautaro Martínez",
       "lineup": [
@@ -14941,6 +16041,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -14950,6 +16051,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -14959,6 +16061,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -14968,6 +16071,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -14978,6 +16082,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -14987,6 +16092,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -14996,6 +16102,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -15005,6 +16112,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -15014,6 +16122,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -15023,6 +16132,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -15032,6 +16142,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -15041,6 +16152,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -15050,6 +16162,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -15059,6 +16172,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15068,10 +16182,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250118281,
+            "name": "Lautaro Martínez"
+          },
+          {
+            "id": 250153621,
+            "name": "N. Paz"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250187620,
+            "name": "R. Pepi"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -15082,6 +16222,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 49,
       "rawScore": 49,
       "transferPenalty": 0,
+      "transferCount": 0,
+      "chip": "WC",
       "overallPoints": 103,
       "captain": "H. Kane",
       "lineup": [
@@ -15092,6 +16234,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -15101,6 +16244,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -15111,6 +16255,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -15120,6 +16265,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15130,6 +16276,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15139,6 +16286,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -15148,6 +16296,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -15157,6 +16306,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -15166,6 +16316,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -15175,6 +16326,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15184,6 +16336,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -15193,6 +16346,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -15202,6 +16356,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -15211,6 +16366,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -15220,10 +16376,92 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         }
       ],
-      "status": "进行中"
+      "status": "进行中",
+      "transfers": {
+        "count": 9,
+        "penalty": 0,
+        "chip": "WC",
+        "incoming": [
+          {
+            "id": 250171184,
+            "name": "M. Olise"
+          },
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          },
+          {
+            "id": 250123068,
+            "name": "E. Konsa"
+          },
+          {
+            "id": 250177722,
+            "name": "A. Maksimović"
+          },
+          {
+            "id": 250088061,
+            "name": "A. Hakimi"
+          },
+          {
+            "id": 250162177,
+            "name": "D. Doué"
+          },
+          {
+            "id": 250188223,
+            "name": "Carlos Augusto"
+          },
+          {
+            "id": 250058958,
+            "name": "J. McGinn"
+          },
+          {
+            "id": 250109003,
+            "name": "Troy Parrott"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250113392,
+            "name": "R. Calafiori"
+          },
+          {
+            "id": 250131901,
+            "name": "Gabriel"
+          },
+          {
+            "id": 250153634,
+            "name": "G. Simeone"
+          },
+          {
+            "id": 250176453,
+            "name": "P. Cubarsí"
+          },
+          {
+            "id": 250117036,
+            "name": "A. Gordon"
+          },
+          {
+            "id": 250163404,
+            "name": "P. Esposito"
+          },
+          {
+            "id": 250113001,
+            "name": "R. Gravenberch"
+          },
+          {
+            "id": 250101808,
+            "name": "K. Kvaratskhelia"
+          },
+          {
+            "id": 250101444,
+            "name": "Vitinha"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -15234,6 +16472,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 45,
       "rawScore": 45,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 149,
       "captain": "H. Kane",
       "lineup": [
@@ -15244,6 +16484,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -15253,6 +16494,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -15262,6 +16504,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15272,6 +16515,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -15281,6 +16525,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15290,6 +16535,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -15299,6 +16545,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -15308,6 +16555,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -15317,6 +16565,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15326,6 +16575,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -15335,6 +16585,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -15344,6 +16595,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -15353,6 +16605,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -15362,6 +16615,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -15371,10 +16625,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250080553,
+            "name": "S. Guirassy"
+          },
+          {
+            "id": 250153621,
+            "name": "N. Paz"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250089868,
+            "name": "A. Isak"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -15385,6 +16665,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 50,
       "rawScore": 50,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 136,
       "captain": "H. Kane",
       "lineup": [
@@ -15395,6 +16677,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -15404,6 +16687,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -15414,6 +16698,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -15423,6 +16708,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15433,6 +16719,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15442,6 +16729,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -15451,6 +16739,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -15460,6 +16749,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -15469,6 +16759,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15478,6 +16769,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -15487,6 +16779,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -15496,6 +16789,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -15505,6 +16799,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -15514,6 +16809,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -15523,10 +16819,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          },
+          {
+            "id": 250079383,
+            "name": "E. Demirović"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250089868,
+            "name": "A. Isak"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -15537,6 +16859,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 37,
       "rawScore": 37,
       "transferPenalty": 0,
+      "transferCount": 0,
+      "chip": null,
       "overallPoints": 99,
       "captain": "L. Yamal",
       "lineup": [
@@ -15547,6 +16871,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15557,6 +16882,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15566,6 +16892,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -15575,6 +16902,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -15584,6 +16912,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -15593,6 +16922,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15602,6 +16932,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -15611,6 +16942,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -15620,6 +16952,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -15629,6 +16962,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -15638,6 +16972,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -15647,6 +16982,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -15656,6 +16992,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -15665,6 +17002,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -15674,10 +17012,18 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 0,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [],
+        "outgoing": []
+      }
     },
     {
       "region": "arctic",
@@ -15688,6 +17034,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 36,
       "rawScore": 36,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 144,
       "captain": "M. Olise",
       "lineup": [
@@ -15698,6 +17046,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15707,6 +17056,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -15716,6 +17066,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -15726,6 +17077,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -15735,6 +17087,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15745,6 +17098,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15754,6 +17108,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -15763,6 +17118,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -15772,6 +17128,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -15781,6 +17138,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -15790,6 +17148,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -15799,6 +17158,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -15808,6 +17168,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -15817,6 +17178,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -15826,10 +17188,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250158167,
+            "name": "D. Šturm"
+          },
+          {
+            "id": 250171184,
+            "name": "M. Olise"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250168144,
+            "name": "D. Pejcinovic"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -15840,6 +17228,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 80,
       "rawScore": 80,
       "transferPenalty": 0,
+      "transferCount": 0,
+      "chip": "LL",
       "overallPoints": 195,
       "captain": "M. Olise",
       "lineup": [
@@ -15850,6 +17240,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15859,6 +17250,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -15868,6 +17260,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -15877,6 +17270,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -15887,6 +17281,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -15896,6 +17291,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15906,6 +17302,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15915,6 +17312,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -15924,6 +17322,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -15933,6 +17332,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -15942,6 +17342,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -15951,6 +17352,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -15960,6 +17362,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -15969,6 +17372,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -15978,10 +17382,108 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 0,
+        "penalty": 0,
+        "chip": "LL",
+        "incoming": [
+          {
+            "id": 250132811,
+            "name": "Luis Díaz"
+          },
+          {
+            "id": 250171278,
+            "name": "D. Raya"
+          },
+          {
+            "id": 250118281,
+            "name": "Lautaro Martínez"
+          },
+          {
+            "id": 250024746,
+            "name": "João Cancelo"
+          },
+          {
+            "id": 250131901,
+            "name": "Gabriel"
+          },
+          {
+            "id": 250042422,
+            "name": "A. Grimaldo"
+          },
+          {
+            "id": 250164780,
+            "name": "Fermín López"
+          },
+          {
+            "id": 250056189,
+            "name": "F. Dimarco"
+          },
+          {
+            "id": 50327420,
+            "name": "V. van Dijk"
+          },
+          {
+            "id": 250076574,
+            "name": "K. Mbappé"
+          },
+          {
+            "id": 250153621,
+            "name": "N. Paz"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250190350,
+            "name": "N. Brown"
+          },
+          {
+            "id": 250089868,
+            "name": "A. Isak"
+          },
+          {
+            "id": 250078886,
+            "name": "Bruno Fernandes"
+          },
+          {
+            "id": 250088061,
+            "name": "A. Hakimi"
+          },
+          {
+            "id": 250136465,
+            "name": "Nuno Mendes"
+          },
+          {
+            "id": 250147458,
+            "name": "L. Suárez"
+          },
+          {
+            "id": 250187727,
+            "name": "R. Zalazar"
+          },
+          {
+            "id": 250070418,
+            "name": "F. Bredlow"
+          },
+          {
+            "id": 250090766,
+            "name": "M. Mittelstädt"
+          },
+          {
+            "id": 250127538,
+            "name": "J. Vagnoman"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -15992,6 +17494,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 39,
       "rawScore": 39,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 155,
       "captain": "M. Olise",
       "lineup": [
@@ -16002,6 +17506,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -16011,6 +17516,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16020,6 +17526,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -16029,6 +17536,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16039,6 +17547,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -16048,6 +17557,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16058,6 +17568,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16067,6 +17578,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16076,6 +17588,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -16085,6 +17598,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16094,6 +17608,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -16103,6 +17618,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -16112,6 +17628,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -16121,6 +17638,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -16130,10 +17648,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250131901,
+            "name": "Gabriel"
+          },
+          {
+            "id": 250153621,
+            "name": "N. Paz"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250190377,
+            "name": "Xavi Espart"
+          }
+        ]
+      }
     },
     {
       "region": "arctic",
@@ -16144,6 +17688,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 59,
       "rawScore": 59,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 161,
       "captain": "H. Kane",
       "lineup": [
@@ -16154,6 +17700,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16163,6 +17710,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -16172,6 +17720,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16182,6 +17731,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -16192,6 +17742,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -16201,6 +17752,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16210,6 +17762,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -16219,6 +17772,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16228,6 +17782,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16237,6 +17792,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16246,6 +17802,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -16255,6 +17812,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -16264,6 +17822,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -16273,6 +17832,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -16282,10 +17842,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250042422,
+            "name": "A. Grimaldo"
+          },
+          {
+            "id": 250128377,
+            "name": "Jude Bellingham"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250090766,
+            "name": "M. Mittelstädt"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -16296,6 +17882,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 41,
       "rawScore": 41,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 131,
       "captain": "Luis Díaz",
       "lineup": [
@@ -16306,6 +17894,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16315,6 +17904,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16324,6 +17914,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16334,6 +17925,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -16343,6 +17935,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16352,6 +17945,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -16361,6 +17955,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16370,6 +17965,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -16379,6 +17975,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -16388,6 +17985,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -16397,6 +17995,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -16406,6 +18005,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -16415,6 +18015,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -16424,6 +18025,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -16433,10 +18035,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250128377,
+            "name": "Jude Bellingham"
+          },
+          {
+            "id": 250080569,
+            "name": "E. Buendía"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250187458,
+            "name": "R. van Bommel"
+          },
+          {
+            "id": 250055294,
+            "name": "R. Marin"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -16447,6 +18075,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 24,
       "rawScore": 24,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 114,
       "captain": "M. Olise",
       "lineup": [
@@ -16458,6 +18088,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -16467,6 +18098,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16476,6 +18108,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16485,6 +18118,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -16494,6 +18128,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16503,6 +18138,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -16512,6 +18148,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -16521,6 +18158,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -16530,6 +18168,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -16539,6 +18178,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -16548,6 +18188,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -16557,6 +18198,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16566,6 +18208,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -16575,6 +18218,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16584,10 +18228,28 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 1,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250177722,
+            "name": "A. Maksimović"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250107249,
+            "name": "H. Evjen"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -16598,6 +18260,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 52,
       "rawScore": 52,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 154,
       "captain": "H. Kane",
       "lineup": [
@@ -16608,6 +18272,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16617,6 +18282,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -16627,6 +18293,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -16636,6 +18303,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16645,6 +18313,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16654,6 +18323,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16663,6 +18333,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16672,6 +18343,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -16681,6 +18353,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16690,6 +18363,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -16699,6 +18373,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -16708,6 +18383,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -16717,6 +18393,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -16726,6 +18403,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -16735,10 +18413,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250171184,
+            "name": "M. Olise"
+          },
+          {
+            "id": 250140940,
+            "name": "M. Baturina"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250099671,
+            "name": "G. Til"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -16749,6 +18453,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 61,
       "rawScore": 61,
       "transferPenalty": 0,
+      "transferCount": 0,
+      "chip": "LL",
       "overallPoints": 144,
       "captain": "H. Kane",
       "lineup": [
@@ -16759,6 +18465,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -16768,6 +18475,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16778,6 +18486,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -16787,6 +18496,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16796,6 +18506,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16806,6 +18517,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16815,6 +18527,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16824,6 +18537,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16833,6 +18547,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16842,6 +18557,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -16851,6 +18567,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -16860,6 +18577,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -16869,6 +18587,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -16878,6 +18597,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -16887,10 +18607,116 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 0,
+        "penalty": 0,
+        "chip": "LL",
+        "incoming": [
+          {
+            "id": 250171278,
+            "name": "D. Raya"
+          },
+          {
+            "id": 250091199,
+            "name": "A. Bastoni"
+          },
+          {
+            "id": 250171184,
+            "name": "M. Olise"
+          },
+          {
+            "id": 250128120,
+            "name": "A. Davies"
+          },
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          },
+          {
+            "id": 250022829,
+            "name": "Hakan Çalhanoğlu"
+          },
+          {
+            "id": 250106939,
+            "name": "B. Saka"
+          },
+          {
+            "id": 250103758,
+            "name": "E. Haaland"
+          },
+          {
+            "id": 50327420,
+            "name": "V. van Dijk"
+          },
+          {
+            "id": 250076574,
+            "name": "K. Mbappé"
+          },
+          {
+            "id": 250139445,
+            "name": "F. Wirtz"
+          },
+          {
+            "id": 250156423,
+            "name": "D. Svensson"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250113392,
+            "name": "R. Calafiori"
+          },
+          {
+            "id": 250181082,
+            "name": "M. Lewis-Skelly"
+          },
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250190350,
+            "name": "N. Brown"
+          },
+          {
+            "id": 250132811,
+            "name": "Luis Díaz"
+          },
+          {
+            "id": 250080553,
+            "name": "S. Guirassy"
+          },
+          {
+            "id": 250078886,
+            "name": "Bruno Fernandes"
+          },
+          {
+            "id": 250118908,
+            "name": "S. Lammens"
+          },
+          {
+            "id": 250101444,
+            "name": "Vitinha"
+          },
+          {
+            "id": 250121533,
+            "name": "Vinícius Júnior"
+          },
+          {
+            "id": 250168144,
+            "name": "D. Pejcinovic"
+          },
+          {
+            "id": 250190377,
+            "name": "Xavi Espart"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -16901,6 +18727,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 70,
       "rawScore": 70,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 178,
       "captain": "H. Kane",
       "lineup": [
@@ -16911,6 +18739,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16921,6 +18750,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -16931,6 +18761,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -16940,6 +18771,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -16949,6 +18781,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16958,6 +18791,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16967,6 +18801,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16976,6 +18811,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16985,6 +18821,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -16994,6 +18831,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -17003,6 +18841,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -17012,6 +18851,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -17021,6 +18861,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -17030,6 +18871,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -17039,10 +18881,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250042422,
+            "name": "A. Grimaldo"
+          },
+          {
+            "id": 250194673,
+            "name": "D. Undav"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250127111,
+            "name": "B. Šeško"
+          },
+          {
+            "id": 250064064,
+            "name": "Marquinhos"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -17053,6 +18921,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 62,
       "rawScore": 66,
       "transferPenalty": -4,
+      "transferCount": 3,
+      "chip": null,
       "overallPoints": 179,
       "captain": "H. Kane",
       "lineup": [
@@ -17063,6 +18933,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17072,6 +18943,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17082,6 +18954,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -17091,6 +18964,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17101,6 +18975,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17110,6 +18985,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -17119,6 +18995,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -17128,6 +19005,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -17137,6 +19015,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -17146,6 +19025,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -17155,6 +19035,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -17164,6 +19045,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -17173,6 +19055,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -17182,6 +19065,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -17191,10 +19075,44 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 3,
+        "penalty": -4,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          },
+          {
+            "id": 250056189,
+            "name": "F. Dimarco"
+          },
+          {
+            "id": 250164215,
+            "name": "V. Muñoz"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250104066,
+            "name": "D. Szoboszlai"
+          },
+          {
+            "id": 250090766,
+            "name": "M. Mittelstädt"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -17205,6 +19123,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 52,
       "rawScore": 52,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 131,
       "captain": "H. Kane",
       "lineup": [
@@ -17215,6 +19135,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17224,6 +19145,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -17233,6 +19155,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -17242,6 +19165,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17252,6 +19176,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -17261,6 +19186,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17270,6 +19196,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -17279,6 +19206,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -17288,6 +19216,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -17297,6 +19226,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -17306,6 +19236,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -17315,6 +19246,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -17324,6 +19256,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -17333,6 +19266,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -17342,10 +19276,28 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 1,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250188223,
+            "name": "Carlos Augusto"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250075007,
+            "name": "H. Maguire"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -17356,6 +19308,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 47,
       "rawScore": 47,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 143,
       "captain": "L. Yamal",
       "lineup": [
@@ -17366,6 +19320,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -17375,6 +19330,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -17384,6 +19340,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17394,6 +19351,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -17404,6 +19362,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17413,6 +19372,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -17422,6 +19382,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17431,6 +19392,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17440,6 +19402,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -17449,6 +19412,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -17458,6 +19422,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -17467,6 +19432,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -17476,6 +19442,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -17485,6 +19452,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -17494,10 +19462,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          },
+          {
+            "id": 250081341,
+            "name": "M. Ødegaard"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250104066,
+            "name": "D. Szoboszlai"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -17508,6 +19502,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 49,
       "rawScore": 49,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 160,
       "captain": "L. Yamal",
       "lineup": [
@@ -17518,6 +19514,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17528,6 +19525,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -17537,6 +19535,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17547,6 +19546,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17556,6 +19556,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -17565,6 +19566,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -17574,6 +19576,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -17583,6 +19586,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17592,6 +19596,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -17601,6 +19606,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -17610,6 +19616,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -17619,6 +19626,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -17628,6 +19636,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -17637,6 +19646,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -17646,10 +19656,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          },
+          {
+            "id": 250127538,
+            "name": "J. Vagnoman"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250090766,
+            "name": "M. Mittelstädt"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -17660,6 +19696,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 46,
       "rawScore": 46,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 141,
       "captain": "M. Olise",
       "lineup": [
@@ -17670,6 +19708,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -17679,6 +19718,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17689,6 +19729,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -17698,6 +19739,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17707,6 +19749,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -17716,6 +19759,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17725,6 +19769,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -17734,6 +19779,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -17743,6 +19789,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -17752,6 +19799,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -17761,6 +19809,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -17770,6 +19819,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -17779,6 +19829,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -17788,6 +19839,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -17797,10 +19849,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250131901,
+            "name": "Gabriel"
+          },
+          {
+            "id": 250130006,
+            "name": "Sergi Altimira"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250092517,
+            "name": "J. Ryerson"
+          },
+          {
+            "id": 250090766,
+            "name": "M. Mittelstädt"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -17811,6 +19889,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 36,
       "rawScore": 36,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 116,
       "captain": "M. Olise",
       "lineup": [
@@ -17821,6 +19901,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -17831,6 +19912,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -17840,6 +19922,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17849,6 +19932,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -17858,6 +19942,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17867,6 +19952,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17876,6 +19962,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -17885,6 +19972,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -17894,6 +19982,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -17903,6 +19992,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -17912,6 +20002,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -17921,6 +20012,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -17930,6 +20022,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -17939,6 +20032,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -17948,10 +20042,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250171184,
+            "name": "M. Olise"
+          },
+          {
+            "id": 250123068,
+            "name": "E. Konsa"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250190350,
+            "name": "N. Brown"
+          },
+          {
+            "id": 250101808,
+            "name": "K. Kvaratskhelia"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -17962,6 +20082,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 44,
       "rawScore": 44,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 116,
       "captain": "H. Kane",
       "lineup": [
@@ -17972,6 +20094,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17981,6 +20104,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -17990,6 +20114,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -18000,6 +20125,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -18009,6 +20135,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -18018,6 +20145,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -18027,6 +20155,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -18036,6 +20165,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -18045,6 +20175,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -18054,6 +20185,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -18063,6 +20195,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -18072,6 +20205,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -18081,6 +20215,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -18090,6 +20225,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -18099,10 +20235,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250081555,
+            "name": "D. Malen"
+          },
+          {
+            "id": 250202036,
+            "name": "Flávio Gonçalves"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250150915,
+            "name": "J. Cardoso"
+          },
+          {
+            "id": 250127111,
+            "name": "B. Šeško"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -18113,6 +20275,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 69,
       "rawScore": 69,
       "transferPenalty": 0,
+      "transferCount": 1,
+      "chip": null,
       "overallPoints": 175,
       "captain": "H. Kane",
       "lineup": [
@@ -18123,6 +20287,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -18132,6 +20297,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -18142,6 +20308,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -18152,6 +20319,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -18161,6 +20329,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -18170,6 +20339,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18180,6 +20350,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18189,6 +20360,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -18198,6 +20370,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18207,6 +20380,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -18216,6 +20390,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -18225,6 +20400,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18234,6 +20410,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -18243,6 +20420,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -18252,10 +20430,28 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 1,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -18266,6 +20462,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 35,
       "rawScore": 35,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 127,
       "captain": "M. Olise",
       "lineup": [
@@ -18276,6 +20474,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -18286,6 +20485,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -18295,6 +20495,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -18304,6 +20505,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18314,6 +20516,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18323,6 +20526,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -18332,6 +20536,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18341,6 +20546,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18350,6 +20556,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -18359,6 +20566,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -18368,6 +20576,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -18377,6 +20586,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -18386,6 +20596,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -18395,6 +20606,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -18404,10 +20616,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          },
+          {
+            "id": 250134170,
+            "name": "Ronald Araújo"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250088061,
+            "name": "A. Hakimi"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -18418,6 +20656,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 43,
       "rawScore": 47,
       "transferPenalty": -4,
+      "transferCount": 3,
+      "chip": null,
       "overallPoints": 150,
       "captain": "H. Kane",
       "lineup": [
@@ -18429,6 +20669,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -18438,6 +20679,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -18447,6 +20689,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18456,6 +20699,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18465,6 +20709,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -18474,6 +20719,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -18483,6 +20729,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -18492,6 +20739,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -18501,6 +20749,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -18510,6 +20759,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -18519,6 +20769,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -18528,6 +20779,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -18537,6 +20789,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -18546,6 +20799,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -18555,10 +20809,44 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 3,
+        "penalty": -4,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250050319,
+            "name": "F. Thauvin"
+          },
+          {
+            "id": 250056189,
+            "name": "F. Dimarco"
+          },
+          {
+            "id": 250194673,
+            "name": "D. Undav"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250187620,
+            "name": "R. Pepi"
+          },
+          {
+            "id": 250090766,
+            "name": "M. Mittelstädt"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -18569,6 +20857,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 50,
       "rawScore": 50,
       "transferPenalty": 0,
+      "transferCount": 1,
+      "chip": null,
       "overallPoints": 167,
       "captain": "H. Kane",
       "lineup": [
@@ -18579,6 +20869,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18588,6 +20879,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18598,6 +20890,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -18607,6 +20900,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18616,6 +20910,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -18625,6 +20920,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -18634,6 +20930,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18643,6 +20940,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -18652,6 +20950,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -18661,6 +20960,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -18670,6 +20970,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -18679,6 +20980,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18688,6 +20990,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -18697,6 +21000,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -18706,10 +21010,28 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 1,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250081720,
+            "name": "D. Olmo"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -18720,6 +21042,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 61,
       "rawScore": 61,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 169,
       "captain": "L. Yamal",
       "lineup": [
@@ -18730,6 +21054,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -18739,6 +21064,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18749,6 +21075,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -18759,6 +21086,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -18768,6 +21096,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18778,6 +21107,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18787,6 +21117,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -18796,6 +21127,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -18805,6 +21137,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -18814,6 +21147,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -18823,6 +21157,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -18832,6 +21167,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18841,6 +21177,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -18850,6 +21187,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -18859,10 +21197,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250056189,
+            "name": "F. Dimarco"
+          },
+          {
+            "id": 250127538,
+            "name": "J. Vagnoman"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250117581,
+            "name": "I. Maatsen"
+          },
+          {
+            "id": 250090766,
+            "name": "M. Mittelstädt"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -18873,6 +21237,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 16,
       "rawScore": 16,
       "transferPenalty": 0,
+      "transferCount": 0,
+      "chip": null,
       "overallPoints": 125,
       "captain": "K. Mbappé",
       "lineup": [
@@ -18883,6 +21249,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -18892,6 +21259,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18901,6 +21269,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -18911,6 +21280,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -18920,6 +21290,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18929,6 +21300,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -18938,6 +21310,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18947,6 +21320,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -18956,6 +21330,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -18965,6 +21340,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -18974,6 +21350,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18983,6 +21360,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -18992,6 +21370,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -19001,6 +21380,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -19010,10 +21390,18 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 0,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [],
+        "outgoing": []
+      }
     },
     {
       "region": "antarctic",
@@ -19024,6 +21412,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 40,
       "rawScore": 40,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 148,
       "captain": "M. Olise",
       "lineup": [
@@ -19034,6 +21424,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19044,6 +21435,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -19053,6 +21445,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19063,6 +21456,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19072,6 +21466,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -19081,6 +21476,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19090,6 +21486,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -19099,6 +21496,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -19108,6 +21506,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -19117,6 +21516,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -19126,6 +21526,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -19135,6 +21536,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -19144,6 +21546,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -19153,6 +21556,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -19162,10 +21566,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          },
+          {
+            "id": 250178067,
+            "name": "G. Zechiel"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250099671,
+            "name": "G. Til"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -19176,6 +21606,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 28,
       "rawScore": 28,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 118,
       "captain": "M. Olise",
       "lineup": [
@@ -19186,6 +21618,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19195,6 +21628,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -19205,6 +21639,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -19214,6 +21649,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19224,6 +21660,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19233,6 +21670,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -19242,6 +21680,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -19251,6 +21690,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -19260,6 +21700,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -19269,6 +21710,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -19278,6 +21720,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -19287,6 +21730,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -19296,6 +21740,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -19305,6 +21750,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -19314,10 +21760,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 50327420,
+            "name": "V. van Dijk"
+          },
+          {
+            "id": 250186227,
+            "name": "A. Diao"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250092517,
+            "name": "J. Ryerson"
+          },
+          {
+            "id": 250200231,
+            "name": "M. Araújo"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -19328,6 +21800,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 41,
       "rawScore": 41,
       "transferPenalty": 0,
+      "transferCount": 0,
+      "chip": "WC",
       "overallPoints": 119,
       "captain": "M. Olise",
       "lineup": [
@@ -19338,6 +21812,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -19347,6 +21822,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -19357,6 +21833,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -19366,6 +21843,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19375,6 +21853,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -19385,6 +21864,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19394,6 +21874,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19403,6 +21884,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -19412,6 +21894,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -19421,6 +21904,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -19430,6 +21914,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -19439,6 +21924,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -19448,6 +21934,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -19457,6 +21944,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -19466,10 +21954,116 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         }
       ],
-      "status": "进行中"
+      "status": "进行中",
+      "transfers": {
+        "count": 12,
+        "penalty": 0,
+        "chip": "WC",
+        "incoming": [
+          {
+            "id": 250024746,
+            "name": "João Cancelo"
+          },
+          {
+            "id": 250016833,
+            "name": "H. Kane"
+          },
+          {
+            "id": 250171184,
+            "name": "M. Olise"
+          },
+          {
+            "id": 250128120,
+            "name": "A. Davies"
+          },
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          },
+          {
+            "id": 250050319,
+            "name": "F. Thauvin"
+          },
+          {
+            "id": 50327420,
+            "name": "V. van Dijk"
+          },
+          {
+            "id": 250080553,
+            "name": "S. Guirassy"
+          },
+          {
+            "id": 250055294,
+            "name": "R. Marin"
+          },
+          {
+            "id": 250188223,
+            "name": "Carlos Augusto"
+          },
+          {
+            "id": 250058958,
+            "name": "J. McGinn"
+          },
+          {
+            "id": 250042625,
+            "name": "D. Livaković"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250163454,
+            "name": "P. Hincapié"
+          },
+          {
+            "id": 250042422,
+            "name": "A. Grimaldo"
+          },
+          {
+            "id": 250117036,
+            "name": "A. Gordon"
+          },
+          {
+            "id": 250132811,
+            "name": "Luis Díaz"
+          },
+          {
+            "id": 250055660,
+            "name": "J. Tah"
+          },
+          {
+            "id": 250163404,
+            "name": "P. Esposito"
+          },
+          {
+            "id": 250104066,
+            "name": "D. Szoboszlai"
+          },
+          {
+            "id": 250124063,
+            "name": "R. Cherki"
+          },
+          {
+            "id": 250078886,
+            "name": "Bruno Fernandes"
+          },
+          {
+            "id": 250174126,
+            "name": "W. Pacho"
+          },
+          {
+            "id": 250076574,
+            "name": "K. Mbappé"
+          },
+          {
+            "id": 108923,
+            "name": "Ø. Nyland"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -19480,6 +22074,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 33,
       "rawScore": 33,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 124,
       "captain": "M. Olise",
       "lineup": [
@@ -19490,6 +22086,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19499,6 +22096,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -19508,6 +22106,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -19518,6 +22117,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -19527,6 +22127,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19536,6 +22137,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -19545,6 +22147,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -19554,6 +22157,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -19563,6 +22167,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -19572,6 +22177,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -19581,6 +22187,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -19590,6 +22197,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -19599,6 +22207,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -19608,6 +22217,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -19617,10 +22227,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250145845,
+            "name": "G. Catamo"
+          },
+          {
+            "id": 250153621,
+            "name": "N. Paz"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250078886,
+            "name": "Bruno Fernandes"
+          },
+          {
+            "id": 250180059,
+            "name": "João Simões"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -19631,6 +22267,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 63,
       "rawScore": 63,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 182,
       "captain": "H. Kane",
       "lineup": [
@@ -19641,6 +22279,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -19651,6 +22290,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -19660,6 +22300,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19670,6 +22311,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19679,6 +22321,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -19688,6 +22331,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -19697,6 +22341,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19706,6 +22351,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19715,6 +22361,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -19724,6 +22371,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -19733,6 +22381,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -19742,6 +22391,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -19751,6 +22401,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -19760,6 +22411,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -19769,10 +22421,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250050319,
+            "name": "F. Thauvin"
+          },
+          {
+            "id": 250153621,
+            "name": "N. Paz"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250187727,
+            "name": "R. Zalazar"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -19783,6 +22461,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 48,
       "rawScore": 48,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 112,
       "captain": "M. Olise",
       "lineup": [
@@ -19793,6 +22473,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -19802,6 +22483,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -19812,6 +22494,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -19821,6 +22504,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19831,6 +22515,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19840,6 +22525,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -19849,6 +22535,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -19858,6 +22545,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -19867,6 +22555,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19876,6 +22565,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -19885,6 +22575,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -19894,6 +22585,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -19903,6 +22595,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -19912,6 +22605,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -19921,10 +22615,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250171184,
+            "name": "M. Olise"
+          },
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250078886,
+            "name": "Bruno Fernandes"
+          },
+          {
+            "id": 250101808,
+            "name": "K. Kvaratskhelia"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -19935,6 +22655,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 44,
       "rawScore": 44,
       "transferPenalty": 0,
+      "transferCount": 0,
+      "chip": "WC",
       "overallPoints": 149,
       "captain": "M. Olise",
       "lineup": [
@@ -19945,6 +22667,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -19955,6 +22678,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -19964,6 +22688,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -19973,6 +22698,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19983,6 +22709,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -19992,6 +22719,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -20001,6 +22729,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -20010,6 +22739,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -20019,6 +22749,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -20028,6 +22759,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -20037,6 +22769,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -20046,6 +22779,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -20055,6 +22789,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -20064,6 +22799,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -20073,10 +22809,92 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         }
       ],
-      "status": "进行中"
+      "status": "进行中",
+      "transfers": {
+        "count": 9,
+        "penalty": 0,
+        "chip": "WC",
+        "incoming": [
+          {
+            "id": 250190350,
+            "name": "N. Brown"
+          },
+          {
+            "id": 250096761,
+            "name": "J. Martínez"
+          },
+          {
+            "id": 250171184,
+            "name": "M. Olise"
+          },
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          },
+          {
+            "id": 250056189,
+            "name": "F. Dimarco"
+          },
+          {
+            "id": 250069832,
+            "name": "G. Kobel"
+          },
+          {
+            "id": 250172672,
+            "name": "A. Mac Allister"
+          },
+          {
+            "id": 250079383,
+            "name": "E. Demirović"
+          },
+          {
+            "id": 250134138,
+            "name": "B. Barcola"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250131901,
+            "name": "Gabriel"
+          },
+          {
+            "id": 250117581,
+            "name": "I. Maatsen"
+          },
+          {
+            "id": 250118131,
+            "name": "Joan García"
+          },
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250089868,
+            "name": "A. Isak"
+          },
+          {
+            "id": 250104066,
+            "name": "D. Szoboszlai"
+          },
+          {
+            "id": 250078886,
+            "name": "Bruno Fernandes"
+          },
+          {
+            "id": 250187727,
+            "name": "R. Zalazar"
+          },
+          {
+            "id": 250218560,
+            "name": "Z. Suzuki"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -20087,6 +22905,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 52,
       "rawScore": 56,
       "transferPenalty": -4,
+      "transferCount": 3,
+      "chip": null,
       "overallPoints": 169,
       "captain": "H. Kane",
       "lineup": [
@@ -20097,6 +22917,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -20106,6 +22927,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -20116,6 +22938,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -20125,6 +22948,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -20134,6 +22958,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -20143,6 +22968,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -20152,6 +22978,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -20161,6 +22988,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -20170,6 +22998,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -20179,6 +23008,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -20188,6 +23018,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -20197,6 +23028,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -20206,6 +23038,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -20215,6 +23048,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -20224,10 +23058,44 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 3,
+        "penalty": -4,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250050319,
+            "name": "F. Thauvin"
+          },
+          {
+            "id": 250055660,
+            "name": "J. Tah"
+          },
+          {
+            "id": 250153621,
+            "name": "N. Paz"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250187727,
+            "name": "R. Zalazar"
+          },
+          {
+            "id": 250090766,
+            "name": "M. Mittelstädt"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -20238,6 +23106,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 59,
       "rawScore": 59,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 152,
       "captain": "H. Kane",
       "lineup": [
@@ -20248,6 +23118,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -20257,6 +23128,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -20267,6 +23139,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -20276,6 +23149,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -20286,6 +23160,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -20295,6 +23170,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -20304,6 +23180,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -20313,6 +23190,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -20322,6 +23200,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -20331,6 +23210,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -20340,6 +23220,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -20349,6 +23230,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -20358,6 +23240,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -20367,6 +23250,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -20376,10 +23260,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250176450,
+            "name": "L. Yamal"
+          },
+          {
+            "id": 250153621,
+            "name": "N. Paz"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250078886,
+            "name": "Bruno Fernandes"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -20390,6 +23300,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 49,
       "rawScore": 49,
       "transferPenalty": 0,
+      "transferCount": 1,
+      "chip": null,
       "overallPoints": 131,
       "captain": "H. Kane",
       "lineup": [
@@ -20400,6 +23312,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -20409,6 +23322,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -20419,6 +23333,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -20428,6 +23343,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -20437,6 +23353,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -20446,6 +23363,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -20455,6 +23373,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -20464,6 +23383,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -20473,6 +23393,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -20482,6 +23403,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -20491,6 +23413,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -20500,6 +23423,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -20509,6 +23433,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -20518,6 +23443,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -20527,10 +23453,28 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 1,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250127347,
+            "name": "K. Adeyemi"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250089868,
+            "name": "A. Isak"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -20541,6 +23485,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 64,
       "rawScore": 64,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 114,
       "captain": "Luis Díaz",
       "lineup": [
@@ -20551,6 +23497,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -20560,6 +23507,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -20569,6 +23517,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -20579,6 +23528,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -20588,6 +23538,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -20597,6 +23548,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -20606,6 +23558,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -20615,6 +23568,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -20624,6 +23578,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -20633,6 +23588,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -20642,6 +23598,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -20651,6 +23608,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -20660,6 +23618,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -20669,6 +23628,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -20678,10 +23638,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250086928,
+            "name": "M. Guéhi"
+          },
+          {
+            "id": 250079383,
+            "name": "E. Demirović"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250089868,
+            "name": "A. Isak"
+          },
+          {
+            "id": 250090766,
+            "name": "M. Mittelstädt"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -20692,6 +23678,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 33,
       "rawScore": 33,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 143,
       "captain": "M. Olise",
       "lineup": [
@@ -20703,6 +23691,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -20713,6 +23702,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -20722,6 +23712,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -20731,6 +23722,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -20740,6 +23732,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -20749,6 +23742,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -20758,6 +23752,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -20767,6 +23762,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -20776,6 +23772,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -20785,6 +23782,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -20794,6 +23792,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -20803,6 +23802,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -20812,6 +23812,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -20821,6 +23822,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -20830,10 +23832,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250128377,
+            "name": "Jude Bellingham"
+          },
+          {
+            "id": 250113392,
+            "name": "R. Calafiori"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250090766,
+            "name": "M. Mittelstädt"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -20844,6 +23872,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 29,
       "rawScore": 33,
       "transferPenalty": -4,
+      "transferCount": 3,
+      "chip": null,
       "overallPoints": 137,
       "captain": "M. Olise",
       "lineup": [
@@ -20854,6 +23884,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -20864,6 +23895,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -20873,6 +23905,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -20883,6 +23916,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -20892,6 +23926,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -20901,6 +23936,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -20910,6 +23946,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -20919,6 +23956,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -20928,6 +23966,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -20937,6 +23976,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -20946,6 +23986,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -20955,6 +23996,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -20964,6 +24006,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -20973,6 +24016,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -20982,10 +24026,44 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 3,
+        "penalty": -4,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250171184,
+            "name": "M. Olise"
+          },
+          {
+            "id": 250178067,
+            "name": "G. Zechiel"
+          },
+          {
+            "id": 250156423,
+            "name": "D. Svensson"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250188246,
+            "name": "Tiago Santos"
+          },
+          {
+            "id": 250187727,
+            "name": "R. Zalazar"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -20996,6 +24074,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 46,
       "rawScore": 46,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 155,
       "captain": "M. Olise",
       "lineup": [
@@ -21006,6 +24086,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -21015,6 +24096,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -21025,6 +24107,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -21034,6 +24117,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -21044,6 +24128,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -21053,6 +24138,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -21062,6 +24148,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -21071,6 +24158,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -21080,6 +24168,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -21089,6 +24178,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -21098,6 +24188,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -21107,6 +24198,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -21116,6 +24208,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -21125,6 +24218,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -21134,10 +24228,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250068805,
+            "name": "M. Thuram"
+          },
+          {
+            "id": 250153621,
+            "name": "N. Paz"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250168144,
+            "name": "D. Pejcinovic"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -21148,6 +24268,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 53,
       "rawScore": 53,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 172,
       "captain": "H. Kane",
       "lineup": [
@@ -21158,6 +24280,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -21167,6 +24290,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -21176,6 +24300,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -21186,6 +24311,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -21195,6 +24321,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -21204,6 +24331,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -21213,6 +24341,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -21222,6 +24351,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -21231,6 +24361,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -21240,6 +24371,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -21249,6 +24381,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -21258,6 +24391,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -21267,6 +24401,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -21276,6 +24411,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -21285,10 +24421,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250128377,
+            "name": "Jude Bellingham"
+          },
+          {
+            "id": 250080553,
+            "name": "S. Guirassy"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250089868,
+            "name": "A. Isak"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -21299,6 +24461,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 26,
       "rawScore": 26,
       "transferPenalty": 0,
+      "transferCount": 0,
+      "chip": null,
       "overallPoints": 113,
       "captain": "K. Mbappé",
       "lineup": [
@@ -21309,6 +24473,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -21318,6 +24483,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -21328,6 +24494,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -21337,6 +24504,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -21346,6 +24514,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -21355,6 +24524,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -21364,6 +24534,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -21373,6 +24544,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -21382,6 +24554,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -21391,6 +24564,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -21400,6 +24574,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -21409,6 +24584,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -21418,6 +24594,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -21427,6 +24604,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -21436,10 +24614,18 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 0,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [],
+        "outgoing": []
+      }
     },
     {
       "region": "antarctic",
@@ -21450,6 +24636,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 48,
       "rawScore": 48,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 167,
       "captain": "H. Kane",
       "lineup": [
@@ -21460,6 +24648,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -21470,6 +24659,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -21479,6 +24669,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -21488,6 +24679,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -21498,6 +24690,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -21507,6 +24700,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -21516,6 +24710,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -21525,6 +24720,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -21534,6 +24730,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -21543,6 +24740,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -21552,6 +24750,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -21561,6 +24760,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -21570,6 +24770,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -21579,6 +24780,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -21588,10 +24790,36 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250127347,
+            "name": "K. Adeyemi"
+          },
+          {
+            "id": 250113001,
+            "name": "R. Gravenberch"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250007655,
+            "name": "R. Barkley"
+          },
+          {
+            "id": 250089868,
+            "name": "A. Isak"
+          }
+        ]
+      }
     },
     {
       "region": "antarctic",
@@ -21602,6 +24830,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 49,
       "rawScore": 49,
       "transferPenalty": 0,
+      "transferCount": 0,
+      "chip": "WC",
       "overallPoints": 128,
       "captain": "M. Olise",
       "lineup": [
@@ -21612,6 +24842,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -21621,6 +24852,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -21631,6 +24863,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -21640,6 +24873,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -21649,6 +24883,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -21658,6 +24893,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -21667,6 +24903,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -21676,6 +24913,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -21685,6 +24923,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -21694,6 +24933,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -21703,6 +24943,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -21712,6 +24953,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -21721,6 +24963,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -21730,6 +24973,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -21739,10 +24983,92 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         }
       ],
-      "status": "进行中"
+      "status": "进行中",
+      "transfers": {
+        "count": 9,
+        "penalty": 0,
+        "chip": "WC",
+        "incoming": [
+          {
+            "id": 250118281,
+            "name": "Lautaro Martínez"
+          },
+          {
+            "id": 250117036,
+            "name": "A. Gordon"
+          },
+          {
+            "id": 250056189,
+            "name": "F. Dimarco"
+          },
+          {
+            "id": 250123068,
+            "name": "E. Konsa"
+          },
+          {
+            "id": 250106939,
+            "name": "B. Saka"
+          },
+          {
+            "id": 250140940,
+            "name": "M. Baturina"
+          },
+          {
+            "id": 250212323,
+            "name": "Wesley França"
+          },
+          {
+            "id": 250134138,
+            "name": "B. Barcola"
+          },
+          {
+            "id": 250177928,
+            "name": "J. Jacquet"
+          }
+        ],
+        "outgoing": [
+          {
+            "id": 250113392,
+            "name": "R. Calafiori"
+          },
+          {
+            "id": 250164780,
+            "name": "Fermín López"
+          },
+          {
+            "id": 250112880,
+            "name": "Raphinha"
+          },
+          {
+            "id": 250190350,
+            "name": "N. Brown"
+          },
+          {
+            "id": 250156423,
+            "name": "D. Svensson"
+          },
+          {
+            "id": 250110943,
+            "name": "Matheus Cunha"
+          },
+          {
+            "id": 250101808,
+            "name": "K. Kvaratskhelia"
+          },
+          {
+            "id": 250187620,
+            "name": "R. Pepi"
+          },
+          {
+            "id": 250136464,
+            "name": "Gonçalo Inácio"
+          }
+        ]
+      }
     }
   ],
   "extras": [
@@ -22055,6 +25381,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 46,
       "rawScore": 46,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 141,
       "captain": "M. Olise",
       "lineup": [
@@ -22065,6 +25393,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -22074,6 +25403,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -22084,6 +25414,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -22093,6 +25424,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -22102,6 +25434,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -22111,6 +25444,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -22120,6 +25454,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -22129,6 +25464,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -22138,6 +25474,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -22147,6 +25484,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         },
         {
@@ -22156,6 +25494,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -22165,6 +25504,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -22174,6 +25514,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -22183,6 +25524,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -22192,10 +25534,79 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250171278,
+            "name": "D. Raya"
+          },
+          {
+            "id": 250099671,
+            "name": "G. Til"
+          },
+          {
+            "id": 250016833,
+            "name": "H. Kane"
+          },
+          {
+            "id": 250171184,
+            "name": "M. Olise"
+          },
+          {
+            "id": 250131901,
+            "name": "Gabriel"
+          },
+          {
+            "id": 250164780,
+            "name": "Fermín López"
+          },
+          {
+            "id": 250065413,
+            "name": "K. Laimer"
+          },
+          {
+            "id": 250130006,
+            "name": "Sergi Altimira"
+          },
+          {
+            "id": 250127538,
+            "name": "J. Vagnoman"
+          },
+          {
+            "id": 250046901,
+            "name": "T. Strakosha"
+          },
+          {
+            "id": 250136465,
+            "name": "Nuno Mendes"
+          },
+          {
+            "id": 250076574,
+            "name": "K. Mbappé"
+          },
+          {
+            "id": 250055294,
+            "name": "R. Marin"
+          },
+          {
+            "id": 250194673,
+            "name": "D. Undav"
+          },
+          {
+            "id": 250162177,
+            "name": "D. Doué"
+          }
+        ],
+        "outgoing": []
+      }
     },
     {
       "region": "antarctic",
@@ -22206,6 +25617,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "score": 49,
       "rawScore": 49,
       "transferPenalty": 0,
+      "transferCount": 2,
+      "chip": null,
       "overallPoints": 148,
       "captain": "Lautaro Martínez",
       "lineup": [
@@ -22216,6 +25629,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -22225,6 +25639,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 1
         },
         {
@@ -22234,6 +25649,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -22243,6 +25659,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -22253,6 +25670,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "manOfMatch": true,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 4
         },
         {
@@ -22262,6 +25680,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -22271,6 +25690,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -22280,6 +25700,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 2
         },
         {
@@ -22289,6 +25710,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -22298,6 +25720,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 4
         },
         {
@@ -22307,6 +25730,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -22316,6 +25740,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 3
         },
         {
@@ -22325,6 +25750,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": false,
+          "teamPlayed": false,
           "position": 2
         },
         {
@@ -22334,6 +25760,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": false,
           "played": true,
+          "teamPlayed": true,
           "position": 3
         },
         {
@@ -22343,10 +25770,79 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "captain": false,
           "bench": true,
           "played": false,
+          "teamPlayed": false,
           "position": 1
         }
       ],
-      "status": "统计中"
+      "status": "统计中",
+      "transfers": {
+        "count": 2,
+        "penalty": 0,
+        "chip": null,
+        "incoming": [
+          {
+            "id": 250078886,
+            "name": "Bruno Fernandes"
+          },
+          {
+            "id": 250171278,
+            "name": "D. Raya"
+          },
+          {
+            "id": 250118281,
+            "name": "Lautaro Martínez"
+          },
+          {
+            "id": 250190350,
+            "name": "N. Brown"
+          },
+          {
+            "id": 250016833,
+            "name": "H. Kane"
+          },
+          {
+            "id": 250171184,
+            "name": "M. Olise"
+          },
+          {
+            "id": 250123068,
+            "name": "E. Konsa"
+          },
+          {
+            "id": 250163786,
+            "name": "J. Seys"
+          },
+          {
+            "id": 250127538,
+            "name": "J. Vagnoman"
+          },
+          {
+            "id": 250076574,
+            "name": "K. Mbappé"
+          },
+          {
+            "id": 250153874,
+            "name": "Gabriel Veiga"
+          },
+          {
+            "id": 250153621,
+            "name": "N. Paz"
+          },
+          {
+            "id": 250088061,
+            "name": "A. Hakimi"
+          },
+          {
+            "id": 250202036,
+            "name": "Flávio Gonçalves"
+          },
+          {
+            "id": 250076007,
+            "name": "M. Svilar"
+          }
+        ],
+        "outgoing": []
+      }
     }
   ],
   "roundAnalytics": {

@@ -183,11 +183,17 @@ async function fetchMember(region, expectedTeamName, guid) {
       ...(currentManOfMatchIds.has(Number(player.id)) ? { manOfMatch: true } : {}),
       bench: Number(player.benchposition) > 0,
       played: Number(player.isplayed) === 1,
+      teamPlayed: Number(playerInfo?.teamPlayed) === 1,
       position: Number(player.skill),
     };
   });
   const captain = lineup.find((player) => player.captain);
   const transferPenalty = Math.min(0, Number(value.userSubNegativePoints) || 0);
+  const chip = Number(value.isBoosterOneTaken) === 1 && Number(value.boosterOneMdID) === MATCHDAY
+    ? "LL"
+    : Number(value.isWildCardTaken) === 1 && Number(value.userWildCardMatchday) === MATCHDAY
+      ? "WC"
+      : null;
   return {
     region,
     guid,
@@ -197,6 +203,8 @@ async function fetchMember(region, expectedTeamName, guid) {
     score: Number(value.gdPoints ?? 0) + transferPenalty,
     rawScore: Number(value.gdPoints ?? 0),
     transferPenalty,
+    transferCount: Number(value.userSubstitutions) || 0,
+    chip,
     overallPoints: Number(value.ovPoints ?? 0),
     captain: captain?.name || null,
     lineup,
@@ -211,7 +219,6 @@ for (let index = 0; index < all.length; index += 6) {
   records.push(...await Promise.all(batch.map(({ region, teamName, guid }) => fetchMember(region, teamName, guid))));
 }
 
-const officialRecords = records.filter((record) => !extras[record.region].has(record.guid));
 let previousSnapshot = {};
 try {
   const previousSource = await readFile("uefa-live-data.js", "utf8");
@@ -219,6 +226,32 @@ try {
 } catch {
   previousSnapshot = {};
 }
+const previousRoundByMember = new Map(
+  (Array.isArray(previousSnapshot.records) ? previousSnapshot.records : [])
+    .filter((record) => Number(record.matchday) === MATCHDAY - 1)
+    .map((record) => [`${record.region}|${record.guid}`, record])
+);
+const recordsWithTransfers = records.map((record) => {
+  const previous = previousRoundByMember.get(`${record.region}|${record.guid}`);
+  const previousIds = new Set((previous?.lineup || []).map((player) => Number(player.id)));
+  const currentIds = new Set((record.lineup || []).map((player) => Number(player.id)));
+  const incoming = (record.lineup || []).filter((player) => !previousIds.has(Number(player.id))).map(({ id, name }) => ({ id, name }));
+  const outgoing = (previous?.lineup || []).filter((player) => !currentIds.has(Number(player.id))).map(({ id, name }) => ({ id, name }));
+  const actualTransferCount = record.chip === "LL"
+    ? 0
+    : previous ? Math.max(incoming.length, outgoing.length) : record.transferCount;
+  return {
+    ...record,
+    transfers: {
+      count: actualTransferCount,
+      penalty: record.transferPenalty,
+      chip: record.chip,
+      incoming,
+      outgoing,
+    },
+  };
+});
+const officialRecords = recordsWithTransfers.filter((record) => !extras[record.region].has(record.guid));
 const previousRecords = Array.isArray(previousSnapshot.records)
   ? previousSnapshot.records.filter((record) => Number(record.matchday) !== MATCHDAY)
   : [];
@@ -230,7 +263,7 @@ const snapshot = {
   matchday: MATCHDAY,
   source: "UEFA UCL Fantasy opponent-team API",
   records: [...previousRecords, ...officialRecords],
-  extras: [...previousExtras, ...records.filter((record) => extras[record.region].has(record.guid))],
+  extras: [...previousExtras, ...recordsWithTransfers.filter((record) => extras[record.region].has(record.guid))],
   roundAnalytics: {
     ...(previousSnapshot.roundAnalytics || {}),
     [MATCHDAY]: roundAnalytics,

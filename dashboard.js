@@ -218,13 +218,15 @@ function lineupPlayersHtml(items, isBench) {
   if (!items.length) return '<p class="lineup-empty">暂无球员</p>';
   return `<ol class="lineup-player-list">${items.map((player) => {
     const isPlayed = Boolean(player?.played);
+    const teamPlayed = player?.teamPlayed === undefined ? activeRound < snapshotRound || isPlayed : Boolean(player.teamPlayed);
     const isUnavailable = isBench && isPlayed;
-    const points = isPlayed ? Number(player?.points) || 0 : 0;
+    const points = Number(player?.points) || 0;
+    const pointsHtml = !teamPlayed && points === 0 ? '<span class="not-played">未出场</span>' : `${points}<small>分</small>`;
     const stateClass = `${isPlayed ? " is-played" : " is-unplayed"}${isUnavailable ? " is-unavailable" : ""}`;
     const stateTitle = isUnavailable ? ' title="已开赛且位于替补席，本轮得分无效"' : "";
     const manOfMatch = player?.manOfMatch ? '<b class="motm-star" title="欧足联全场最佳（+3分）">⭐</b>' : "";
     const captain = player?.captain ? '<b class="captain-mark" title="队长">©</b>' : "";
-    return `<li class="lineup-player${stateClass}"${stateTitle}><span class="position-code">${positionLabel(player?.position)}</span><span class="lineup-player-name">${escapeHtml(player?.name || "未知球员")}${manOfMatch}${captain}</span><strong class="lineup-player-points">${points}<small>分</small></strong></li>`;
+    return `<li class="lineup-player${stateClass}"${stateTitle}><span class="position-code">${positionLabel(player?.position)}</span><span class="lineup-player-name">${escapeHtml(player?.name || "未知球员")}${manOfMatch}${captain}</span><strong class="lineup-player-points">${pointsHtml}</strong></li>`;
   }).join("")}</ol>`;
 }
 
@@ -235,6 +237,25 @@ function fullLineupHtml(items) {
   const substitutes = indexed.filter(({ player }) => player?.bench).sort((a, b) => Number(b.player?.position === 1) - Number(a.player?.position === 1) || a.index - b.index).map(({ player }) => player);
   return `<div class="lineup-section lineup-section--starters"><div class="lineup-section-title"><strong>首发</strong></div>${lineupPlayersHtml(starters, false)}</div>
     <div class="lineup-section lineup-section--bench"><div class="lineup-section-title"><strong>替补</strong></div>${lineupPlayersHtml(substitutes, true)}</div>`;
+}
+
+function transferSideHtml(manager, transfers) {
+  const data = transfers && typeof transfers === "object" ? transfers : {};
+  const chip = data.chip === "LL" || data.chip === "WC" ? data.chip : "";
+  const incoming = Array.isArray(data.incoming) ? data.incoming : [];
+  const outgoing = Array.isArray(data.outgoing) ? data.outgoing : [];
+  const count = Math.max(incoming.length, outgoing.length, Number(data.count) || 0);
+  const penalty = Math.min(0, Number(data.penalty) || 0);
+  if (chip === "LL") {
+    return `<section class="transfer-side"><h3>${escapeHtml(manager)}</h3><p class="transfer-chip-only"><strong>LL</strong><span>已开启 LL 卡</span></p></section>`;
+  }
+  const rowCount = Math.max(incoming.length, outgoing.length);
+  const rows = Array.from({ length: rowCount }, (_, index) => {
+    const playerOut = outgoing[index];
+    const playerIn = incoming[index];
+    return `<li><span class="transfer-out">${playerOut ? `− ${escapeHtml(playerOut.name)}` : ""}</span><i>→</i><span class="transfer-in">${playerIn ? `+ ${escapeHtml(playerIn.name)}` : ""}</span></li>`;
+  }).join("");
+  return `<section class="transfer-side"><h3>${escapeHtml(manager)}${chip === "WC" ? '<b class="transfer-chip">WC</b>' : ""}</h3><div class="transfer-summary"><span>转会 <strong>${count}</strong></span><span class="${penalty < 0 ? "has-penalty" : ""}">扣分 <strong>${penalty}</strong></span></div>${rows ? `<ol class="transfer-list">${rows}</ol>` : '<p class="transfer-empty">无转会</p>'}</section>`;
 }
 
 function openMatchModal(matchIndex) {
@@ -255,7 +276,7 @@ function openMatchModal(matchIndex) {
     <div class="modal-detail-body"><div class="lineup-heading"><strong>双方阵容</strong></div><div class="lineup-columns">
       <section class="lineup-side"><h3><img src="${logoUrl(home)}" alt="" /><span>${escapeHtml(managerFor(homeName))}</span></h3>${fullLineupHtml(homeLineup)}</section>
       <section class="lineup-side"><h3><img src="${logoUrl(away)}" alt="" /><span>${escapeHtml(managerFor(awayName))}</span></h3>${fullLineupHtml(awayLineup)}</section>
-    </div></div>`;
+    </div><div class="transfer-heading"><strong>转会详情</strong></div><div class="transfer-columns">${transferSideHtml(managerFor(homeName), data.homeTransfers)}${transferSideHtml(managerFor(awayName), data.awayTransfers)}</div></div>`;
   dashboardEls.matchModal.hidden = false; document.body.style.overflow = "hidden"; dashboardEls.modalClose.focus();
 }
 function closeMatchModal() { dashboardEls.matchModal.hidden = true; document.body.style.overflow = ""; }
@@ -403,6 +424,7 @@ function setManagerScores(records) {
       score,
       overallPoints: Number(record.overallPoints),
       lineup: Array.isArray(record.lineup) ? record.lineup : [],
+      transfers: record.transfers || { count: Number(record.transferCount) || 0, penalty: Number(record.transferPenalty) || 0, incoming: [], outgoing: [] },
       captain: record.captain ?? null,
       status: record.status || "已同步",
     };
@@ -420,6 +442,8 @@ function setManagerScores(records) {
         awayScore: away.score,
         homeLineup: home.lineup,
         awayLineup: away.lineup,
+        homeTransfers: home.transfers,
+        awayTransfers: away.transfers,
         homeCaptain: home.captain,
         awayCaptain: away.captain,
         status: combinedMatchStatus(home.status, away.status),
