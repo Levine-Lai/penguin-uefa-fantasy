@@ -127,6 +127,16 @@ const playerFeed = await fetch(playerFeedUrl, { headers }).then((response) => {
   return response.json();
 });
 const playerInfoById = new Map(playerFeed.data.value.playerList.map((player) => [Number(player.id), player]));
+const playerOfMatchFeedUrl = `https://gaming.uefa.com/en/uclfantasy/services/feeds/playerofmatch/stats_90_en_${MATCHDAY}.json`;
+const playerOfMatchFeed = await fetch(playerOfMatchFeedUrl, { headers }).then((response) => {
+  if (!response.ok) throw new Error(`Player of the match feed HTTP ${response.status}`);
+  return response.json();
+});
+const currentManOfMatchIds = new Set(
+  (Array.isArray(playerOfMatchFeed?.data?.value) ? playerOfMatchFeed.data.value : [])
+    .filter((player) => Number(player.gdId) === MATCHDAY && Number(player.mOMSts) === 1 && Number(player.mOMPt) === 3)
+    .map((player) => Number(player.id))
+);
 
 const analyticsPlayers = playerFeed.data.value.playerList
   .filter((player) => Number(player.isActive) === 1 && Number(player.value) > 0)
@@ -137,6 +147,7 @@ const analyticsPlayers = playerFeed.data.value.playerList
     points: Number(player.curGDPts ?? player.lastGdPoints ?? 0),
     price: Number(player.value || 0),
     ownership: Number(player.selPer || 0),
+    played: Number(player.teamPlayed) === 1,
   }));
 
 const takeTop = (items, compare) => [...items].sort(compare).slice(0, 25);
@@ -148,9 +159,9 @@ const roundAnalytics = {
   score: takeTop(analyticsPlayers, byPoints),
   ownership: takeTop(analyticsPlayers, byOwnership),
   lowSalaryHigh: takeTop(analyticsPlayers.filter((player) => player.points > 0), (a, b) => valueRatio(b) - valueRatio(a) || byPoints(a, b)),
-  highSalaryLow: takeTop(analyticsPlayers, (a, b) => valueRatio(a) - valueRatio(b) || b.price - a.price || byOwnership(a, b)),
+  highSalaryLow: takeTop(analyticsPlayers.filter((player) => player.played), (a, b) => valueRatio(a) - valueRatio(b) || b.price - a.price || byOwnership(a, b)),
   hiddenGems: takeTop(analyticsPlayers.filter((player) => player.points > 0 && player.ownership > 0), (a, b) => ownershipRatio(b) - ownershipRatio(a) || byPoints(a, b)),
-  popularTraps: takeTop(analyticsPlayers.filter((player) => player.ownership > 0), (a, b) => ownershipRatio(a) - ownershipRatio(b) || b.ownership - a.ownership || a.name.localeCompare(b.name)),
+  popularTraps: takeTop(analyticsPlayers.filter((player) => player.played && player.ownership > 0), (a, b) => ownershipRatio(a) - ownershipRatio(b) || b.ownership - a.ownership || a.name.localeCompare(b.name)),
 };
 
 async function fetchMember(region, expectedTeamName, guid) {
@@ -169,20 +180,23 @@ async function fetchMember(region, expectedTeamName, guid) {
       name: playerInfo?.pDName || playerInfo?.pFName || String(player.id),
       points: Number(player.overallpointsnew ?? player.overallpoints ?? 0),
       captain: Number(player.iscaptain) === 1,
-      ...(Number(playerInfo?.mOM) === 1 && Number(playerInfo?.mOMPts) === 3 ? { manOfMatch: true } : {}),
+      ...(currentManOfMatchIds.has(Number(player.id)) ? { manOfMatch: true } : {}),
       bench: Number(player.benchposition) > 0,
       played: Number(player.isplayed) === 1,
       position: Number(player.skill),
     };
   });
   const captain = lineup.find((player) => player.captain);
+  const transferPenalty = Math.min(0, Number(value.userSubNegativePoints) || 0);
   return {
     region,
     guid,
     fantasyTeam: value.teamName || expectedTeamName,
     displayName: value.username || "",
     matchday: MATCHDAY,
-    score: Number(value.gdPoints ?? 0),
+    score: Number(value.gdPoints ?? 0) + transferPenalty,
+    rawScore: Number(value.gdPoints ?? 0),
+    transferPenalty,
     overallPoints: Number(value.ovPoints ?? 0),
     captain: captain?.name || null,
     lineup,

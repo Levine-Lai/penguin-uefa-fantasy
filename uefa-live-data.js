@@ -1,5 +1,5 @@
 window.PENGUIN_UEFA_SNAPSHOT = {
-  "generatedAt": "2026-10-14T00:54:38.429Z",
+  "generatedAt": "2026-10-14T01:08:57.880Z",
   "matchday": 2,
   "source": "UEFA UCL Fantasy opponent-team API",
   "records": [
@@ -10836,6 +10836,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "AVERAGE",
       "matchday": 2,
       "score": 37,
+      "rawScore": 37,
+      "transferPenalty": 0,
       "overallPoints": 139,
       "captain": "H. Kane",
       "lineup": [
@@ -10863,7 +10865,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -10891,7 +10892,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "F. Thauvin",
           "points": 2,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -10928,7 +10928,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Guirassy",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 4
@@ -10988,6 +10987,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "CHI",
       "matchday": 2,
       "score": 25,
+      "rawScore": 25,
+      "transferPenalty": 0,
       "overallPoints": 126,
       "captain": "M. Olise",
       "lineup": [
@@ -11006,7 +11007,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -11070,7 +11070,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "R. Marin",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 3
@@ -11139,6 +11138,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Ray",
       "matchday": 2,
       "score": 28,
+      "rawScore": 28,
+      "transferPenalty": 0,
       "overallPoints": 122,
       "captain": "E. Haaland",
       "lineup": [
@@ -11220,7 +11221,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "E. Haaland",
           "points": 0,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": false,
           "position": 4
@@ -11239,7 +11239,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "Raphinha",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -11249,7 +11248,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "R. Zalazar",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": true,
           "position": 3
@@ -11290,7 +11288,9 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "fantasyTeam": "放棄是極其難",
       "displayName": "安德",
       "matchday": 2,
-      "score": 27,
+      "score": 23,
+      "rawScore": 27,
+      "transferPenalty": -4,
       "overallPoints": 129,
       "captain": "M. Olise",
       "lineup": [
@@ -11327,7 +11327,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -11355,7 +11354,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Dest",
           "points": 2,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 2
@@ -11383,7 +11381,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Baturina",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": false,
           "position": 3
@@ -11393,7 +11390,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Guirassy",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 4
@@ -11443,7 +11439,9 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "fantasyTeam": "nbw",
       "displayName": "Chyancheng Wu",
       "matchday": 2,
-      "score": 48,
+      "score": 44,
+      "rawScore": 48,
+      "transferPenalty": -4,
       "overallPoints": 163,
       "captain": "H. Kane",
       "lineup": [
@@ -11462,7 +11460,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -11509,7 +11506,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "F. Valverde",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": false,
           "position": 3
@@ -11519,7 +11515,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Guirassy",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": false,
           "position": 4
@@ -11597,6 +11592,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Steven",
       "matchday": 2,
       "score": 48,
+      "rawScore": 48,
+      "transferPenalty": 0,
       "overallPoints": 152,
       "captain": "L. Yamal",
       "lineup": [
@@ -11642,7 +11639,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -11689,7 +11685,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Guirassy",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": false,
           "position": 4
@@ -11749,6 +11744,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "micky",
       "matchday": 2,
       "score": 51,
+      "rawScore": 51,
+      "transferPenalty": 0,
       "overallPoints": 144,
       "captain": "H. Kane",
       "lineup": [
@@ -11776,7 +11773,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -11840,7 +11836,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "E. Haaland",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": false,
           "position": 4
@@ -11900,6 +11895,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Du",
       "matchday": 2,
       "score": 33,
+      "rawScore": 33,
+      "transferPenalty": 0,
       "overallPoints": 140,
       "captain": "M. Olise",
       "lineup": [
@@ -11936,7 +11933,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -11983,7 +11979,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Guirassy",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 4
@@ -11993,7 +11988,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "R. Zalazar",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -12053,6 +12047,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "座山雕",
       "matchday": 2,
       "score": 44,
+      "rawScore": 44,
+      "transferPenalty": 0,
       "overallPoints": 141,
       "captain": "M. Olise",
       "lineup": [
@@ -12081,7 +12077,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -12137,7 +12132,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "E. Haaland",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 4
@@ -12205,7 +12199,9 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "fantasyTeam": "九命黑獭一统天下",
       "displayName": "Alex",
       "matchday": 2,
-      "score": 37,
+      "score": 33,
+      "rawScore": 37,
+      "transferPenalty": -4,
       "overallPoints": 134,
       "captain": "M. Olise",
       "lineup": [
@@ -12233,7 +12229,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -12298,7 +12293,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "E. Haaland",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 4
@@ -12358,6 +12352,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Kw",
       "matchday": 2,
       "score": 38,
+      "rawScore": 38,
+      "transferPenalty": 0,
       "overallPoints": 130,
       "captain": "H. Kane",
       "lineup": [
@@ -12394,7 +12390,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -12431,7 +12426,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "E. Haaland",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": false,
           "position": 4
@@ -12441,7 +12435,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "D. Szoboszlai",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 3
@@ -12510,6 +12503,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "JYC15",
       "matchday": 2,
       "score": 62,
+      "rawScore": 62,
+      "transferPenalty": 0,
       "overallPoints": 128,
       "captain": "H. Kane",
       "lineup": [
@@ -12659,6 +12654,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Ericking Arsenal",
       "matchday": 2,
       "score": 55,
+      "rawScore": 55,
+      "transferPenalty": 0,
       "overallPoints": 154,
       "captain": "H. Kane",
       "lineup": [
@@ -12696,7 +12693,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -12810,6 +12806,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "vx",
       "matchday": 2,
       "score": 47,
+      "rawScore": 47,
+      "transferPenalty": 0,
       "overallPoints": 126,
       "captain": "H. Kane",
       "lineup": [
@@ -12837,7 +12835,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -12961,6 +12958,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Wei",
       "matchday": 2,
       "score": 16,
+      "rawScore": 16,
+      "transferPenalty": 0,
       "overallPoints": 85,
       "captain": "K. Mbappé",
       "lineup": [
@@ -13033,7 +13032,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "Raphinha",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -13111,6 +13109,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "第一边锋萨默维尔",
       "matchday": 2,
       "score": 37,
+      "rawScore": 37,
+      "transferPenalty": 0,
       "overallPoints": 112,
       "captain": "H. Kane",
       "lineup": [
@@ -13260,6 +13260,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Chichung So",
       "matchday": 2,
       "score": 33,
+      "rawScore": 33,
+      "transferPenalty": 0,
       "overallPoints": 146,
       "captain": "M. Olise",
       "lineup": [
@@ -13287,7 +13289,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -13297,7 +13298,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "F. Thauvin",
           "points": 2,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -13410,7 +13410,9 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "fantasyTeam": "dongma",
       "displayName": "kingwenwei",
       "matchday": 2,
-      "score": 55,
+      "score": 51,
+      "rawScore": 55,
+      "transferPenalty": -4,
       "overallPoints": 151,
       "captain": "H. Kane",
       "lineup": [
@@ -13447,7 +13449,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -13503,7 +13504,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "R. Zalazar",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -13563,6 +13563,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Kimi",
       "matchday": 2,
       "score": 32,
+      "rawScore": 32,
+      "transferPenalty": 0,
       "overallPoints": 132,
       "captain": "M. Olise",
       "lineup": [
@@ -13608,7 +13610,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -13714,6 +13715,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Jim Ocean",
       "matchday": 2,
       "score": 69,
+      "rawScore": 69,
+      "transferPenalty": 0,
       "overallPoints": 189,
       "captain": "H. Kane",
       "lineup": [
@@ -13750,7 +13753,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -13780,7 +13782,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Dest",
           "points": 2,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 2
@@ -13867,6 +13868,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Dapeng",
       "matchday": 2,
       "score": 70,
+      "rawScore": 70,
+      "transferPenalty": 0,
       "overallPoints": 184,
       "captain": "H. Kane",
       "lineup": [
@@ -13922,7 +13925,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -13942,7 +13944,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "F. Thauvin",
           "points": 2,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -13979,7 +13980,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Baturina",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 3
@@ -14021,6 +14021,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "fitz",
       "matchday": 2,
       "score": 25,
+      "rawScore": 25,
+      "transferPenalty": 0,
       "overallPoints": 131,
       "captain": "M. Olise",
       "lineup": [
@@ -14057,7 +14059,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -14171,6 +14172,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Bad K",
       "matchday": 2,
       "score": 52,
+      "rawScore": 52,
+      "transferPenalty": 0,
       "overallPoints": 164,
       "captain": "H. Kane",
       "lineup": [
@@ -14189,7 +14192,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -14254,7 +14256,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "R. Zalazar",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -14323,6 +14324,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Zach",
       "matchday": 2,
       "score": 35,
+      "rawScore": 35,
+      "transferPenalty": 0,
       "overallPoints": 144,
       "captain": "H. Kane",
       "lineup": [
@@ -14350,7 +14353,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -14360,7 +14362,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Dest",
           "points": 2,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 2
@@ -14474,6 +14475,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "W²",
       "matchday": 2,
       "score": 34,
+      "rawScore": 34,
+      "transferPenalty": 0,
       "overallPoints": 122,
       "captain": "M. Olise",
       "lineup": [
@@ -14520,7 +14523,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -14548,7 +14550,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Ødegaard",
           "points": 1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -14626,6 +14627,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "南无十三鸽",
       "matchday": 2,
       "score": 43,
+      "rawScore": 43,
+      "transferPenalty": 0,
       "overallPoints": 128,
       "captain": "H. Kane",
       "lineup": [
@@ -14662,7 +14665,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -14699,7 +14701,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "R. Zalazar",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": true,
           "position": 3
@@ -14777,6 +14778,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "摩二哥",
       "matchday": 2,
       "score": 47,
+      "rawScore": 47,
+      "transferPenalty": 0,
       "overallPoints": 148,
       "captain": "H. Kane",
       "lineup": [
@@ -14813,7 +14816,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -14927,6 +14929,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "企鹅",
       "matchday": 2,
       "score": 49,
+      "rawScore": 49,
+      "transferPenalty": 0,
       "overallPoints": 148,
       "captain": "Lautaro Martínez",
       "lineup": [
@@ -14981,7 +14985,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -15077,6 +15080,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Kevin",
       "matchday": 2,
       "score": 49,
+      "rawScore": 49,
+      "transferPenalty": 0,
       "overallPoints": 103,
       "captain": "H. Kane",
       "lineup": [
@@ -15113,7 +15118,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -15205,7 +15209,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "J. McGinn",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": false,
           "position": 3
@@ -15229,6 +15232,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Kiki",
       "matchday": 2,
       "score": 45,
+      "rawScore": 45,
+      "transferPenalty": 0,
       "overallPoints": 149,
       "captain": "H. Kane",
       "lineup": [
@@ -15274,7 +15279,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -15302,7 +15306,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Guirassy",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 4
@@ -15312,7 +15315,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "R. Zalazar",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -15381,6 +15383,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Shuo",
       "matchday": 2,
       "score": 50,
+      "rawScore": 50,
+      "transferPenalty": 0,
       "overallPoints": 136,
       "captain": "H. Kane",
       "lineup": [
@@ -15417,7 +15421,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -15500,7 +15503,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "E. Demirović",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": false,
           "position": 4
@@ -15533,6 +15535,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "stone",
       "matchday": 2,
       "score": 37,
+      "rawScore": 37,
+      "transferPenalty": 0,
       "overallPoints": 99,
       "captain": "L. Yamal",
       "lineup": [
@@ -15682,6 +15686,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Lik Kee",
       "matchday": 2,
       "score": 36,
+      "rawScore": 36,
+      "transferPenalty": 0,
       "overallPoints": 144,
       "captain": "M. Olise",
       "lineup": [
@@ -15727,7 +15733,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -15801,7 +15806,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "P. Dorgu",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 2
@@ -15834,6 +15838,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "DU",
       "matchday": 2,
       "score": 80,
+      "rawScore": 80,
+      "transferPenalty": 0,
       "overallPoints": 195,
       "captain": "M. Olise",
       "lineup": [
@@ -15888,7 +15894,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -15985,6 +15990,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Romeo Zhao",
       "matchday": 2,
       "score": 39,
+      "rawScore": 39,
+      "transferPenalty": 0,
       "overallPoints": 155,
       "captain": "M. Olise",
       "lineup": [
@@ -16039,7 +16046,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -16077,7 +16083,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "R. Zalazar",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -16137,6 +16142,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Warmer",
       "matchday": 2,
       "score": 59,
+      "rawScore": 59,
+      "transferPenalty": 0,
       "overallPoints": 161,
       "captain": "H. Kane",
       "lineup": [
@@ -16192,7 +16199,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -16211,7 +16217,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Dest",
           "points": 2,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 2
@@ -16289,6 +16294,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Hall",
       "matchday": 2,
       "score": 41,
+      "rawScore": 41,
+      "transferPenalty": 0,
       "overallPoints": 131,
       "captain": "Luis Díaz",
       "lineup": [
@@ -16388,7 +16395,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "E. Haaland",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": false,
           "position": 4
@@ -16407,7 +16413,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Guirassy",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 4
@@ -16440,6 +16445,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "junxi",
       "matchday": 2,
       "score": 24,
+      "rawScore": 24,
+      "transferPenalty": 0,
       "overallPoints": 114,
       "captain": "M. Olise",
       "lineup": [
@@ -16458,7 +16465,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -16504,7 +16510,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "E. Haaland",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": false,
           "position": 4
@@ -16514,7 +16519,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "D. Szoboszlai",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 3
@@ -16592,6 +16596,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "wengowen1985",
       "matchday": 2,
       "score": 52,
+      "rawScore": 52,
+      "transferPenalty": 0,
       "overallPoints": 154,
       "captain": "H. Kane",
       "lineup": [
@@ -16628,7 +16634,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -16647,7 +16652,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Dest",
           "points": 2,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 2
@@ -16693,7 +16697,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Baturina",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": false,
           "position": 3
@@ -16712,7 +16715,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Guirassy",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": false,
           "position": 4
@@ -16745,6 +16747,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Enzo",
       "matchday": 2,
       "score": 61,
+      "rawScore": 61,
+      "transferPenalty": 0,
       "overallPoints": 144,
       "captain": "H. Kane",
       "lineup": [
@@ -16781,7 +16785,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -16837,7 +16840,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "E. Haaland",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 4
@@ -16897,6 +16899,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "FAIAAA",
       "matchday": 2,
       "score": 70,
+      "rawScore": 70,
+      "transferPenalty": 0,
       "overallPoints": 178,
       "captain": "H. Kane",
       "lineup": [
@@ -16952,7 +16956,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Dest",
           "points": 2,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 2
@@ -17007,7 +17010,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "R. Marin",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": false,
           "position": 3
@@ -17048,7 +17050,9 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "fantasyTeam": "remember",
       "displayName": "remember",
       "matchday": 2,
-      "score": 66,
+      "score": 62,
+      "rawScore": 66,
+      "transferPenalty": -4,
       "overallPoints": 179,
       "captain": "H. Kane",
       "lineup": [
@@ -17085,7 +17089,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -17159,7 +17162,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Guirassy",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 4
@@ -17201,6 +17203,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "hu",
       "matchday": 2,
       "score": 52,
+      "rawScore": 52,
+      "transferPenalty": 0,
       "overallPoints": 131,
       "captain": "H. Kane",
       "lineup": [
@@ -17273,7 +17277,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Dest",
           "points": 2,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 2
@@ -17292,7 +17295,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "E. Haaland",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 4
@@ -17352,6 +17354,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "寂",
       "matchday": 2,
       "score": 47,
+      "rawScore": 47,
+      "transferPenalty": 0,
       "overallPoints": 143,
       "captain": "L. Yamal",
       "lineup": [
@@ -17416,7 +17420,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "F. Thauvin",
           "points": 2,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -17426,7 +17429,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Ødegaard",
           "points": 1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -17445,7 +17447,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Guirassy",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": false,
           "position": 4
@@ -17505,6 +17506,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Ethan",
       "matchday": 2,
       "score": 49,
+      "rawScore": 49,
+      "transferPenalty": 0,
       "overallPoints": 160,
       "captain": "L. Yamal",
       "lineup": [
@@ -17532,7 +17535,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -17579,7 +17581,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Ødegaard",
           "points": 1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -17616,7 +17617,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "E. Haaland",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": false,
           "position": 4
@@ -17658,6 +17658,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Levine",
       "matchday": 2,
       "score": 46,
+      "rawScore": 46,
+      "transferPenalty": 0,
       "overallPoints": 141,
       "captain": "M. Olise",
       "lineup": [
@@ -17694,7 +17696,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -17776,7 +17777,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "R. Marin",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 3
@@ -17809,6 +17809,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Conan Joe",
       "matchday": 2,
       "score": 36,
+      "rawScore": 36,
+      "transferPenalty": 0,
       "overallPoints": 116,
       "captain": "M. Olise",
       "lineup": [
@@ -17836,7 +17838,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -17855,7 +17856,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "F. Thauvin",
           "points": 2,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -17960,6 +17960,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Bill",
       "matchday": 2,
       "score": 44,
+      "rawScore": 44,
+      "transferPenalty": 0,
       "overallPoints": 116,
       "captain": "H. Kane",
       "lineup": [
@@ -18109,6 +18111,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Chen",
       "matchday": 2,
       "score": 69,
+      "rawScore": 69,
+      "transferPenalty": 0,
       "overallPoints": 175,
       "captain": "H. Kane",
       "lineup": [
@@ -18164,7 +18168,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -18220,7 +18223,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "R. Zalazar",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -18262,6 +18264,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "ZHIYU",
       "matchday": 2,
       "score": 35,
+      "rawScore": 35,
+      "transferPenalty": 0,
       "overallPoints": 127,
       "captain": "M. Olise",
       "lineup": [
@@ -18298,7 +18302,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -18412,7 +18415,9 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "fantasyTeam": "Southcote Bargain",
       "displayName": "Sadio",
       "matchday": 2,
-      "score": 47,
+      "score": 43,
+      "rawScore": 47,
+      "transferPenalty": -4,
       "overallPoints": 150,
       "captain": "H. Kane",
       "lineup": [
@@ -18440,7 +18445,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -18450,7 +18454,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "F. Thauvin",
           "points": 2,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -18505,7 +18508,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "D. Szoboszlai",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 3
@@ -18565,6 +18567,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Nedved",
       "matchday": 2,
       "score": 50,
+      "rawScore": 50,
+      "transferPenalty": 0,
       "overallPoints": 167,
       "captain": "H. Kane",
       "lineup": [
@@ -18601,7 +18605,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -18665,7 +18668,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Guirassy",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 4
@@ -18675,7 +18677,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "R. Zalazar",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": true,
           "position": 3
@@ -18717,6 +18718,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "foreveraul7",
       "matchday": 2,
       "score": 61,
+      "rawScore": 61,
+      "transferPenalty": 0,
       "overallPoints": 169,
       "captain": "L. Yamal",
       "lineup": [
@@ -18763,7 +18766,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -18828,7 +18830,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "Raphinha",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": true,
           "position": 3
@@ -18870,6 +18871,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Golden_Sheva🇨🇳",
       "matchday": 2,
       "score": 16,
+      "rawScore": 16,
+      "transferPenalty": 0,
       "overallPoints": 125,
       "captain": "K. Mbappé",
       "lineup": [
@@ -18915,7 +18918,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -18970,7 +18972,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "Raphinha",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -18980,7 +18981,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "R. Zalazar",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -19022,6 +19022,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "鬼嗨hi",
       "matchday": 2,
       "score": 40,
+      "rawScore": 40,
+      "transferPenalty": 0,
       "overallPoints": 148,
       "captain": "M. Olise",
       "lineup": [
@@ -19049,7 +19051,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -19173,6 +19174,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Danny",
       "matchday": 2,
       "score": 28,
+      "rawScore": 28,
+      "transferPenalty": 0,
       "overallPoints": 118,
       "captain": "M. Olise",
       "lineup": [
@@ -19209,7 +19212,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -19324,6 +19326,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Hua",
       "matchday": 2,
       "score": 41,
+      "rawScore": 41,
+      "transferPenalty": 0,
       "overallPoints": 119,
       "captain": "M. Olise",
       "lineup": [
@@ -19360,7 +19364,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -19389,7 +19392,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "F. Thauvin",
           "points": 2,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -19408,7 +19410,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Guirassy",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 4
@@ -19427,7 +19428,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "R. Marin",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": false,
           "position": 3
@@ -19455,7 +19455,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "J. McGinn",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 3
@@ -19479,6 +19478,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Nirvana",
       "matchday": 2,
       "score": 33,
+      "rawScore": 33,
+      "transferPenalty": 0,
       "overallPoints": 124,
       "captain": "M. Olise",
       "lineup": [
@@ -19524,7 +19525,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -19552,7 +19552,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Dest",
           "points": 2,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 2
@@ -19630,6 +19629,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "hb",
       "matchday": 2,
       "score": 63,
+      "rawScore": 63,
+      "transferPenalty": 0,
       "overallPoints": 182,
       "captain": "H. Kane",
       "lineup": [
@@ -19657,7 +19658,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -19695,7 +19695,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "F. Thauvin",
           "points": 2,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -19782,6 +19781,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Eric",
       "matchday": 2,
       "score": 48,
+      "rawScore": 48,
+      "transferPenalty": 0,
       "overallPoints": 112,
       "captain": "M. Olise",
       "lineup": [
@@ -19818,7 +19819,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -19933,6 +19933,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "nianzu",
       "matchday": 2,
       "score": 44,
+      "rawScore": 44,
+      "transferPenalty": 0,
       "overallPoints": 149,
       "captain": "M. Olise",
       "lineup": [
@@ -19969,7 +19971,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -19989,7 +19990,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "F. Thauvin",
           "points": 2,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -20062,7 +20062,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "E. Demirović",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 4
@@ -20085,7 +20084,9 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "fantasyTeam": "光之围棋俱乐部",
       "displayName": "进藤光",
       "matchday": 2,
-      "score": 56,
+      "score": 52,
+      "rawScore": 56,
+      "transferPenalty": -4,
       "overallPoints": 169,
       "captain": "H. Kane",
       "lineup": [
@@ -20122,7 +20123,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -20132,7 +20132,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "F. Thauvin",
           "points": 2,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -20237,6 +20236,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "垫底超人00",
       "matchday": 2,
       "score": 59,
+      "rawScore": 59,
+      "transferPenalty": 0,
       "overallPoints": 152,
       "captain": "H. Kane",
       "lineup": [
@@ -20273,7 +20274,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -20388,6 +20388,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Jia",
       "matchday": 2,
       "score": 49,
+      "rawScore": 49,
+      "transferPenalty": 0,
       "overallPoints": 131,
       "captain": "H. Kane",
       "lineup": [
@@ -20433,7 +20435,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -20470,7 +20471,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "R. Zalazar",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -20539,6 +20539,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Jiang",
       "matchday": 2,
       "score": 64,
+      "rawScore": 64,
+      "transferPenalty": 0,
       "overallPoints": 114,
       "captain": "Luis Díaz",
       "lineup": [
@@ -20665,7 +20667,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "E. Demirović",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 4
@@ -20689,6 +20690,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "acidboy",
       "matchday": 2,
       "score": 33,
+      "rawScore": 33,
+      "transferPenalty": 0,
       "overallPoints": 143,
       "captain": "M. Olise",
       "lineup": [
@@ -20717,7 +20720,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -20781,7 +20783,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "R. Zalazar",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": true,
           "position": 3
@@ -20840,7 +20841,9 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "fantasyTeam": "TakahashiAkira",
       "displayName": "takahashi",
       "matchday": 2,
-      "score": 33,
+      "score": 29,
+      "rawScore": 33,
+      "transferPenalty": -4,
       "overallPoints": 137,
       "captain": "M. Olise",
       "lineup": [
@@ -20868,7 +20871,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -20915,7 +20917,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "D. Szoboszlai",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 3
@@ -20993,6 +20994,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "欧洲笨",
       "matchday": 2,
       "score": 46,
+      "rawScore": 46,
+      "transferPenalty": 0,
       "overallPoints": 155,
       "captain": "M. Olise",
       "lineup": [
@@ -21029,7 +21032,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -21058,7 +21060,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Dest",
           "points": 2,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 2
@@ -21145,6 +21146,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Russ",
       "matchday": 2,
       "score": 53,
+      "rawScore": 53,
+      "transferPenalty": 0,
       "overallPoints": 172,
       "captain": "H. Kane",
       "lineup": [
@@ -21208,7 +21211,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -21245,7 +21247,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Ødegaard",
           "points": 1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -21264,7 +21265,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "S. Guirassy",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 4
@@ -21297,6 +21297,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Yan",
       "matchday": 2,
       "score": 26,
+      "rawScore": 26,
+      "transferPenalty": 0,
       "overallPoints": 113,
       "captain": "K. Mbappé",
       "lineup": [
@@ -21396,7 +21398,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "F. Valverde",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 3
@@ -21447,6 +21448,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Enzo",
       "matchday": 2,
       "score": 48,
+      "rawScore": 48,
+      "transferPenalty": 0,
       "overallPoints": 167,
       "captain": "H. Kane",
       "lineup": [
@@ -21474,7 +21477,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -21598,6 +21600,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "面条 ",
       "matchday": 2,
       "score": 49,
+      "rawScore": 49,
+      "transferPenalty": 0,
       "overallPoints": 128,
       "captain": "M. Olise",
       "lineup": [
@@ -21643,7 +21647,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -21689,7 +21692,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Baturina",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 3
@@ -22051,6 +22053,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "Levine",
       "matchday": 2,
       "score": 46,
+      "rawScore": 46,
+      "transferPenalty": 0,
       "overallPoints": 141,
       "captain": "M. Olise",
       "lineup": [
@@ -22087,7 +22091,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -2,
           "captain": true,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -22169,7 +22172,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "R. Marin",
           "points": 0,
           "captain": false,
-          "manOfMatch": true,
           "bench": true,
           "played": false,
           "position": 3
@@ -22202,6 +22204,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "displayName": "企鹅",
       "matchday": 2,
       "score": 49,
+      "rawScore": 49,
+      "transferPenalty": 0,
       "overallPoints": 148,
       "captain": "Lautaro Martínez",
       "lineup": [
@@ -22256,7 +22260,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "name": "M. Olise",
           "points": -1,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": true,
           "position": 3
@@ -23569,7 +23572,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BRU",
           "points": 17,
           "price": 7,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250101728,
@@ -23577,7 +23581,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 16,
           "price": 5.5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250188006,
@@ -23585,7 +23590,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "VIL",
           "points": 14,
           "price": 4,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250138957,
@@ -23593,7 +23599,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BRU",
           "points": 14,
           "price": 6,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250016833,
@@ -23601,7 +23608,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAY",
           "points": 13,
           "price": 11,
-          "ownership": 55
+          "ownership": 55,
+          "played": true
         },
         {
           "id": 250178786,
@@ -23609,7 +23617,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RBL",
           "points": 12,
           "price": 5,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250081185,
@@ -23617,7 +23626,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SAB",
           "points": 12,
           "price": 5.5,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250118787,
@@ -23625,7 +23635,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RBL",
           "points": 12,
           "price": 4.5,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250176450,
@@ -23633,7 +23644,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAR",
           "points": 11,
           "price": 10,
-          "ownership": 43
+          "ownership": 43,
+          "played": true
         },
         {
           "id": 250147458,
@@ -23641,7 +23653,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SPO",
           "points": 10,
           "price": 7,
-          "ownership": 8
+          "ownership": 8,
+          "played": true
         },
         {
           "id": 250118281,
@@ -23649,7 +23662,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "INT",
           "points": 10,
           "price": 9.5,
-          "ownership": 4
+          "ownership": 4,
+          "played": true
         },
         {
           "id": 250059233,
@@ -23657,7 +23671,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "NAP",
           "points": 10,
           "price": 4.5,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250208842,
@@ -23665,7 +23680,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SPO",
           "points": 10,
           "price": 4.5,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250024746,
@@ -23673,7 +23689,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAR",
           "points": 9,
           "price": 5,
-          "ownership": 6
+          "ownership": 6,
+          "played": true
         },
         {
           "id": 250106939,
@@ -23681,7 +23698,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 9,
           "price": 8.5,
-          "ownership": 4
+          "ownership": 4,
+          "played": true
         },
         {
           "id": 250144325,
@@ -23689,7 +23707,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ATM",
           "points": 9,
           "price": 5,
-          "ownership": 4
+          "ownership": 4,
+          "played": true
         },
         {
           "id": 250106963,
@@ -23697,7 +23716,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ATM",
           "points": 9,
           "price": 5.5,
-          "ownership": 3
+          "ownership": 3,
+          "played": true
         },
         {
           "id": 250051338,
@@ -23705,7 +23725,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "VFK",
           "points": 9,
           "price": 5.5,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250179137,
@@ -23713,7 +23734,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SPO",
           "points": 8,
           "price": 4,
-          "ownership": 4
+          "ownership": 4,
+          "played": true
         },
         {
           "id": 250181082,
@@ -23721,7 +23743,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 8,
           "price": 4.5,
-          "ownership": 4
+          "ownership": 4,
+          "played": true
         },
         {
           "id": 250136464,
@@ -23729,7 +23752,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SPO",
           "points": 8,
           "price": 4.5,
-          "ownership": 3
+          "ownership": 3,
+          "played": true
         },
         {
           "id": 250134376,
@@ -23737,7 +23761,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 8,
           "price": 7.5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250139036,
@@ -23745,7 +23770,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ATM",
           "points": 8,
           "price": 5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250221230,
@@ -23753,7 +23779,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SAB",
           "points": 8,
           "price": 4,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250188243,
@@ -23761,7 +23788,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SAB",
           "points": 8,
           "price": 4.5,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         }
       ],
       "ownership": [
@@ -23771,7 +23799,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RMA",
           "points": 0,
           "price": 11,
-          "ownership": 56
+          "ownership": 56,
+          "played": false
         },
         {
           "id": 250016833,
@@ -23779,7 +23808,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAY",
           "points": 13,
           "price": 11,
-          "ownership": 55
+          "ownership": 55,
+          "played": true
         },
         {
           "id": 250171184,
@@ -23787,7 +23817,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAY",
           "points": -1,
           "price": 9,
-          "ownership": 54
+          "ownership": 54,
+          "played": true
         },
         {
           "id": 250176450,
@@ -23795,7 +23826,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAR",
           "points": 11,
           "price": 10,
-          "ownership": 43
+          "ownership": 43,
+          "played": true
         },
         {
           "id": 250171278,
@@ -23803,7 +23835,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 6,
           "price": 6,
-          "ownership": 37
+          "ownership": 37,
+          "played": true
         },
         {
           "id": 250136465,
@@ -23811,7 +23844,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "PSG",
           "points": 0,
           "price": 6,
-          "ownership": 32
+          "ownership": 32,
+          "played": false
         },
         {
           "id": 250131901,
@@ -23819,7 +23853,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 7,
           "price": 6,
-          "ownership": 30
+          "ownership": 30,
+          "played": true
         },
         {
           "id": 250113392,
@@ -23827,7 +23862,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 0,
           "price": 4.5,
-          "ownership": 29
+          "ownership": 29,
+          "played": true
         },
         {
           "id": 250088061,
@@ -23835,7 +23871,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "PSG",
           "points": 0,
           "price": 6,
-          "ownership": 27
+          "ownership": 27,
+          "played": false
         },
         {
           "id": 250112880,
@@ -23843,7 +23880,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAR",
           "points": 0,
           "price": 9.5,
-          "ownership": 27
+          "ownership": 27,
+          "played": true
         },
         {
           "id": 250176453,
@@ -23851,7 +23889,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAR",
           "points": 3,
           "price": 5.5,
-          "ownership": 22
+          "ownership": 22,
+          "played": true
         },
         {
           "id": 250103758,
@@ -23859,7 +23898,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "MCI",
           "points": 0,
           "price": 11,
-          "ownership": 22
+          "ownership": 22,
+          "played": false
         },
         {
           "id": 250128377,
@@ -23867,7 +23907,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RMA",
           "points": 0,
           "price": 8.5,
-          "ownership": 21
+          "ownership": 21,
+          "played": false
         },
         {
           "id": 250101808,
@@ -23875,7 +23916,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "PSG",
           "points": 0,
           "price": 10,
-          "ownership": 21
+          "ownership": 21,
+          "played": false
         },
         {
           "id": 250011668,
@@ -23883,7 +23925,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RMA",
           "points": 0,
           "price": 6,
-          "ownership": 17
+          "ownership": 17,
+          "played": false
         },
         {
           "id": 250164780,
@@ -23891,7 +23934,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAR",
           "points": 7,
           "price": 7,
-          "ownership": 16
+          "ownership": 16,
+          "played": true
         },
         {
           "id": 250079545,
@@ -23899,7 +23943,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAY",
           "points": 3,
           "price": 5.5,
-          "ownership": 16
+          "ownership": 16,
+          "played": true
         },
         {
           "id": 250078886,
@@ -23907,7 +23952,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "MUN",
           "points": 2,
           "price": 9,
-          "ownership": 16
+          "ownership": 16,
+          "played": true
         },
         {
           "id": 50327420,
@@ -23915,7 +23961,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "LIV",
           "points": 0,
           "price": 6,
-          "ownership": 16
+          "ownership": 16,
+          "played": false
         },
         {
           "id": 250118131,
@@ -23923,7 +23970,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAR",
           "points": 2,
           "price": 5,
-          "ownership": 15
+          "ownership": 15,
+          "played": true
         },
         {
           "id": 250066886,
@@ -23931,7 +23979,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "PSG",
           "points": 0,
           "price": 10,
-          "ownership": 15
+          "ownership": 15,
+          "played": false
         },
         {
           "id": 250124063,
@@ -23939,7 +23988,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "MCI",
           "points": 0,
           "price": 7,
-          "ownership": 15
+          "ownership": 15,
+          "played": false
         },
         {
           "id": 250101444,
@@ -23947,7 +23997,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "PSG",
           "points": 0,
           "price": 7.5,
-          "ownership": 15
+          "ownership": 15,
+          "played": false
         },
         {
           "id": 250064064,
@@ -23955,7 +24006,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "PSG",
           "points": 0,
           "price": 5,
-          "ownership": 14
+          "ownership": 14,
+          "played": false
         },
         {
           "id": 250132811,
@@ -23963,7 +24015,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAY",
           "points": 7,
           "price": 8,
-          "ownership": 13
+          "ownership": 13,
+          "played": true
         }
       ],
       "lowSalaryHigh": [
@@ -23973,7 +24026,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "VIL",
           "points": 14,
           "price": 4,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250101728,
@@ -23981,7 +24035,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 16,
           "price": 5.5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250118787,
@@ -23989,7 +24044,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RBL",
           "points": 12,
           "price": 4.5,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250181849,
@@ -23997,7 +24053,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BRU",
           "points": 17,
           "price": 7,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250178786,
@@ -24005,7 +24062,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RBL",
           "points": 12,
           "price": 5,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250138957,
@@ -24013,7 +24071,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BRU",
           "points": 14,
           "price": 6,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250059233,
@@ -24021,7 +24080,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "NAP",
           "points": 10,
           "price": 4.5,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250208842,
@@ -24029,7 +24089,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SPO",
           "points": 10,
           "price": 4.5,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250081185,
@@ -24037,7 +24098,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SAB",
           "points": 12,
           "price": 5.5,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250179137,
@@ -24045,7 +24107,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SPO",
           "points": 8,
           "price": 4,
-          "ownership": 4
+          "ownership": 4,
+          "played": true
         },
         {
           "id": 250221230,
@@ -24053,7 +24116,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SAB",
           "points": 8,
           "price": 4,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250224837,
@@ -24061,7 +24125,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SPO",
           "points": 8,
           "price": 4,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250024746,
@@ -24069,7 +24134,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAR",
           "points": 9,
           "price": 5,
-          "ownership": 6
+          "ownership": 6,
+          "played": true
         },
         {
           "id": 250144325,
@@ -24077,7 +24143,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ATM",
           "points": 9,
           "price": 5,
-          "ownership": 4
+          "ownership": 4,
+          "played": true
         },
         {
           "id": 250181082,
@@ -24085,7 +24152,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 8,
           "price": 4.5,
-          "ownership": 4
+          "ownership": 4,
+          "played": true
         },
         {
           "id": 250136464,
@@ -24093,7 +24161,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SPO",
           "points": 8,
           "price": 4.5,
-          "ownership": 3
+          "ownership": 3,
+          "played": true
         },
         {
           "id": 250188243,
@@ -24101,7 +24170,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SAB",
           "points": 8,
           "price": 4.5,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250117415,
@@ -24109,7 +24179,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SPO",
           "points": 8,
           "price": 4.5,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250174059,
@@ -24117,7 +24188,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "VFK",
           "points": 8,
           "price": 4.5,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250210010,
@@ -24125,7 +24197,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "VFK",
           "points": 8,
           "price": 4.5,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250059361,
@@ -24133,7 +24206,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SAB",
           "points": 8,
           "price": 4.5,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250130006,
@@ -24141,7 +24215,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SPO",
           "points": 7,
           "price": 4,
-          "ownership": 2
+          "ownership": 2,
+          "played": true
         },
         {
           "id": 250106963,
@@ -24149,7 +24224,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ATM",
           "points": 9,
           "price": 5.5,
-          "ownership": 3
+          "ownership": 3,
+          "played": true
         },
         {
           "id": 250051338,
@@ -24157,7 +24233,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "VFK",
           "points": 9,
           "price": 5.5,
-          "ownership": 0
+          "ownership": 0,
+          "played": true
         },
         {
           "id": 250139036,
@@ -24165,89 +24242,19 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ATM",
           "points": 8,
           "price": 5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         }
       ],
       "highSalaryLow": [
-        {
-          "id": 250076574,
-          "name": "K. Mbappé",
-          "club": "RMA",
-          "points": 0,
-          "price": 11,
-          "ownership": 56
-        },
-        {
-          "id": 250103758,
-          "name": "E. Haaland",
-          "club": "MCI",
-          "points": 0,
-          "price": 11,
-          "ownership": 22
-        },
-        {
-          "id": 250101808,
-          "name": "K. Kvaratskhelia",
-          "club": "PSG",
-          "points": 0,
-          "price": 10,
-          "ownership": 21
-        },
-        {
-          "id": 250066886,
-          "name": "O. Dembélé",
-          "club": "PSG",
-          "points": 0,
-          "price": 10,
-          "ownership": 15
-        },
         {
           "id": 250112880,
           "name": "Raphinha",
           "club": "BAR",
           "points": 0,
           "price": 9.5,
-          "ownership": 27
-        },
-        {
-          "id": 250121533,
-          "name": "Vinícius Júnior",
-          "club": "RMA",
-          "points": 0,
-          "price": 9.5,
-          "ownership": 7
-        },
-        {
-          "id": 250128377,
-          "name": "Jude Bellingham",
-          "club": "RMA",
-          "points": 0,
-          "price": 8.5,
-          "ownership": 21
-        },
-        {
-          "id": 250080553,
-          "name": "S. Guirassy",
-          "club": "BVB",
-          "points": 0,
-          "price": 8.5,
-          "ownership": 11
-        },
-        {
-          "id": 250162177,
-          "name": "D. Doué",
-          "club": "PSG",
-          "points": 0,
-          "price": 8.5,
-          "ownership": 4
-        },
-        {
-          "id": 250139445,
-          "name": "F. Wirtz",
-          "club": "LIV",
-          "points": 0,
-          "price": 8.5,
-          "ownership": 2
+          "ownership": 27,
+          "played": true
         },
         {
           "id": 250124430,
@@ -24255,55 +24262,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAY",
           "points": 0,
           "price": 8,
-          "ownership": 2
-        },
-        {
-          "id": 250144643,
-          "name": "H. Ekitiké",
-          "club": "LIV",
-          "points": 0,
-          "price": 8,
-          "ownership": 1
-        },
-        {
-          "id": 250101444,
-          "name": "Vitinha",
-          "club": "PSG",
-          "points": 0,
-          "price": 7.5,
-          "ownership": 15
-        },
-        {
-          "id": 250089868,
-          "name": "A. Isak",
-          "club": "LIV",
-          "points": 0,
-          "price": 7.5,
-          "ownership": 9
-        },
-        {
-          "id": 250096849,
-          "name": "C. Gakpo",
-          "club": "LIV",
-          "points": 0,
-          "price": 7.5,
-          "ownership": 3
-        },
-        {
-          "id": 250174838,
-          "name": "E. Fernández",
-          "club": "MCI",
-          "points": 0,
-          "price": 7.5,
-          "ownership": 3
-        },
-        {
-          "id": 250116767,
-          "name": "M. Greenwood",
-          "club": "FEN",
-          "points": 0,
-          "price": 7.5,
-          "ownership": 3
+          "ownership": 2,
+          "played": true
         },
         {
           "id": 250124460,
@@ -24311,63 +24271,206 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 0,
           "price": 7.5,
-          "ownership": 2
+          "ownership": 2,
+          "played": true
         },
         {
-          "id": 250113142,
-          "name": "J. Doku",
-          "club": "MCI",
-          "points": 0,
-          "price": 7.5,
-          "ownership": 1
-        },
-        {
-          "id": 250010802,
-          "name": "R. Lukaku",
-          "club": "FEN",
-          "points": 0,
-          "price": 7.5,
-          "ownership": 1
-        },
-        {
-          "id": 250220373,
-          "name": "Y. Diomande",
-          "club": "RMA",
-          "points": 0,
-          "price": 7.5,
-          "ownership": 1
-        },
-        {
-          "id": 250124063,
-          "name": "R. Cherki",
-          "club": "MCI",
+          "id": 250022829,
+          "name": "Hakan Çalhanoğlu",
+          "club": "INT",
           "points": 0,
           "price": 7,
-          "ownership": 15
+          "ownership": 2,
+          "played": true
         },
         {
-          "id": 250104066,
-          "name": "D. Szoboszlai",
-          "club": "LIV",
+          "id": 250061361,
+          "name": "A. Sørloth",
+          "club": "ATM",
           "points": 0,
           "price": 7,
-          "ownership": 13
+          "ownership": 1,
+          "played": true
         },
         {
-          "id": 250088320,
-          "name": "Ferran Torres",
-          "club": "PSG",
+          "id": 250127111,
+          "name": "B. Šeško",
+          "club": "MUN",
           "points": 0,
-          "price": 7,
-          "ownership": 12
+          "price": 6.5,
+          "ownership": 2,
+          "played": true
         },
         {
-          "id": 250153621,
-          "name": "N. Paz",
-          "club": "COM",
+          "id": 250134320,
+          "name": "I. Saibari",
+          "club": "BAY",
           "points": 0,
-          "price": 7,
-          "ownership": 10
+          "price": 6.5,
+          "ownership": 2,
+          "played": true
+        },
+        {
+          "id": 250089289,
+          "name": "C. Baumgartner",
+          "club": "RBL",
+          "points": 0,
+          "price": 6.5,
+          "ownership": 0,
+          "played": true
+        },
+        {
+          "id": 98023,
+          "name": "H. Mkhitaryan",
+          "club": "INT",
+          "points": 0,
+          "price": 6.5,
+          "ownership": 0,
+          "played": true
+        },
+        {
+          "id": 250005335,
+          "name": "İ. Gündoğan",
+          "club": "GAL",
+          "points": 0,
+          "price": 6.5,
+          "ownership": 0,
+          "played": true
+        },
+        {
+          "id": 250064482,
+          "name": "Nuno Santos",
+          "club": "SPO",
+          "points": 0,
+          "price": 6.5,
+          "ownership": 0,
+          "played": true
+        },
+        {
+          "id": 250041770,
+          "name": "S. Gnabry",
+          "club": "BAY",
+          "points": 0,
+          "price": 6.5,
+          "ownership": 0,
+          "played": true
+        },
+        {
+          "id": 250143679,
+          "name": "M. Zubimendi",
+          "club": "ARS",
+          "points": 0,
+          "price": 6,
+          "ownership": 1,
+          "played": true
+        },
+        {
+          "id": 250187620,
+          "name": "R. Pepi",
+          "club": "PSV",
+          "points": 0,
+          "price": 6,
+          "ownership": 1,
+          "played": true
+        },
+        {
+          "id": 50327423,
+          "name": "F. de Jong",
+          "club": "BAR",
+          "points": 0,
+          "price": 6,
+          "ownership": 0,
+          "played": true
+        },
+        {
+          "id": 250221011,
+          "name": "H. Abdelkarim",
+          "club": "BAR",
+          "points": 0,
+          "price": 6,
+          "ownership": 0,
+          "played": true
+        },
+        {
+          "id": 1909917,
+          "name": "Koke",
+          "club": "ATM",
+          "points": 0,
+          "price": 6,
+          "ownership": 0,
+          "played": true
+        },
+        {
+          "id": 250106003,
+          "name": "N. Pépé",
+          "club": "VIL",
+          "points": 0,
+          "price": 6,
+          "ownership": 0,
+          "played": true
+        },
+        {
+          "id": 97923,
+          "name": "M. Neuer",
+          "club": "BAY",
+          "points": 0,
+          "price": 5.5,
+          "ownership": 9,
+          "played": true
+        },
+        {
+          "id": 250127439,
+          "name": "W. Saliba",
+          "club": "ARS",
+          "points": 0,
+          "price": 5.5,
+          "ownership": 3,
+          "played": true
+        },
+        {
+          "id": 250147342,
+          "name": "A. Sima",
+          "club": "LEN",
+          "points": 0,
+          "price": 5.5,
+          "ownership": 0,
+          "played": true
+        },
+        {
+          "id": 250211008,
+          "name": "Alisson Santos",
+          "club": "NAP",
+          "points": 0,
+          "price": 5.5,
+          "ownership": 0,
+          "played": true
+        },
+        {
+          "id": 250197651,
+          "name": "Arnau Ortiz",
+          "club": "ATM",
+          "points": 0,
+          "price": 5.5,
+          "ownership": 0,
+          "played": true
+        },
+        {
+          "id": 250106935,
+          "name": "C. Jones",
+          "club": "INT",
+          "points": 0,
+          "price": 5.5,
+          "ownership": 0,
+          "played": true
+        },
+        {
+          "id": 250189110,
+          "name": "E. Mbappé",
+          "club": "LIL",
+          "points": 0,
+          "price": 5.5,
+          "ownership": 0,
+          "played": true
         }
       ],
       "hiddenGems": [
@@ -24377,7 +24480,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BRU",
           "points": 17,
           "price": 7,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250101728,
@@ -24385,7 +24489,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 16,
           "price": 5.5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250188006,
@@ -24393,7 +24498,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "VIL",
           "points": 14,
           "price": 4,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250134376,
@@ -24401,7 +24507,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 8,
           "price": 7.5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250139036,
@@ -24409,7 +24516,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ATM",
           "points": 8,
           "price": 5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250110361,
@@ -24417,7 +24525,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RBL",
           "points": 6,
           "price": 4.5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250173062,
@@ -24425,7 +24534,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "INT",
           "points": 5,
           "price": 5.5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250155025,
@@ -24433,7 +24543,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "VIL",
           "points": 5,
           "price": 6,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250195532,
@@ -24441,7 +24552,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "VIL",
           "points": 5,
           "price": 5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250163409,
@@ -24449,7 +24561,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "INT",
           "points": 4,
           "price": 5.5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250138893,
@@ -24457,7 +24570,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 4,
           "price": 7,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250145845,
@@ -24465,7 +24579,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SPO",
           "points": 4,
           "price": 6.5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250064188,
@@ -24473,7 +24588,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BRU",
           "points": 4,
           "price": 6.5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250102035,
@@ -24481,7 +24597,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ATM",
           "points": 4,
           "price": 7.5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250117491,
@@ -24489,7 +24606,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "PSV",
           "points": 4,
           "price": 4.5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250089228,
@@ -24497,7 +24615,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "GAL",
           "points": 4,
           "price": 7,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250092668,
@@ -24505,7 +24624,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ATM",
           "points": 7,
           "price": 4.5,
-          "ownership": 2
+          "ownership": 2,
+          "played": true
         },
         {
           "id": 250012069,
@@ -24513,7 +24633,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ATM",
           "points": 7,
           "price": 5.5,
-          "ownership": 2
+          "ownership": 2,
+          "played": true
         },
         {
           "id": 250130006,
@@ -24521,7 +24642,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SPO",
           "points": 7,
           "price": 4,
-          "ownership": 2
+          "ownership": 2,
+          "played": true
         },
         {
           "id": 250106963,
@@ -24529,7 +24651,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ATM",
           "points": 9,
           "price": 5.5,
-          "ownership": 3
+          "ownership": 3,
+          "played": true
         },
         {
           "id": 250099258,
@@ -24537,7 +24660,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ATM",
           "points": 6,
           "price": 7,
-          "ownership": 2
+          "ownership": 2,
+          "played": true
         },
         {
           "id": 250188247,
@@ -24545,7 +24669,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "LIL",
           "points": 3,
           "price": 4.5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250081628,
@@ -24553,7 +24678,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "MUN",
           "points": 3,
           "price": 4.5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250103561,
@@ -24561,7 +24687,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAR",
           "points": 3,
           "price": 4.5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         },
         {
           "id": 250153634,
@@ -24569,41 +24696,19 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ATM",
           "points": 3,
           "price": 6.5,
-          "ownership": 1
+          "ownership": 1,
+          "played": true
         }
       ],
       "popularTraps": [
-        {
-          "id": 250076574,
-          "name": "K. Mbappé",
-          "club": "RMA",
-          "points": 0,
-          "price": 11,
-          "ownership": 56
-        },
-        {
-          "id": 250136465,
-          "name": "Nuno Mendes",
-          "club": "PSG",
-          "points": 0,
-          "price": 6,
-          "ownership": 32
-        },
         {
           "id": 250113392,
           "name": "R. Calafiori",
           "club": "ARS",
           "points": 0,
           "price": 4.5,
-          "ownership": 29
-        },
-        {
-          "id": 250088061,
-          "name": "A. Hakimi",
-          "club": "PSG",
-          "points": 0,
-          "price": 6,
-          "ownership": 27
+          "ownership": 29,
+          "played": true
         },
         {
           "id": 250112880,
@@ -24611,159 +24716,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAR",
           "points": 0,
           "price": 9.5,
-          "ownership": 27
-        },
-        {
-          "id": 250103758,
-          "name": "E. Haaland",
-          "club": "MCI",
-          "points": 0,
-          "price": 11,
-          "ownership": 22
-        },
-        {
-          "id": 250128377,
-          "name": "Jude Bellingham",
-          "club": "RMA",
-          "points": 0,
-          "price": 8.5,
-          "ownership": 21
-        },
-        {
-          "id": 250101808,
-          "name": "K. Kvaratskhelia",
-          "club": "PSG",
-          "points": 0,
-          "price": 10,
-          "ownership": 21
-        },
-        {
-          "id": 250011668,
-          "name": "T. Courtois",
-          "club": "RMA",
-          "points": 0,
-          "price": 6,
-          "ownership": 17
-        },
-        {
-          "id": 50327420,
-          "name": "V. van Dijk",
-          "club": "LIV",
-          "points": 0,
-          "price": 6,
-          "ownership": 16
-        },
-        {
-          "id": 250066886,
-          "name": "O. Dembélé",
-          "club": "PSG",
-          "points": 0,
-          "price": 10,
-          "ownership": 15
-        },
-        {
-          "id": 250124063,
-          "name": "R. Cherki",
-          "club": "MCI",
-          "points": 0,
-          "price": 7,
-          "ownership": 15
-        },
-        {
-          "id": 250101444,
-          "name": "Vitinha",
-          "club": "PSG",
-          "points": 0,
-          "price": 7.5,
-          "ownership": 15
-        },
-        {
-          "id": 250064064,
-          "name": "Marquinhos",
-          "club": "PSG",
-          "points": 0,
-          "price": 5,
-          "ownership": 14
-        },
-        {
-          "id": 250104066,
-          "name": "D. Szoboszlai",
-          "club": "LIV",
-          "points": 0,
-          "price": 7,
-          "ownership": 13
-        },
-        {
-          "id": 250088320,
-          "name": "Ferran Torres",
-          "club": "PSG",
-          "points": 0,
-          "price": 7,
-          "ownership": 12
-        },
-        {
-          "id": 250076168,
-          "name": "M. Cucurella",
-          "club": "RMA",
-          "points": 0,
-          "price": 6,
-          "ownership": 12
-        },
-        {
-          "id": 250218560,
-          "name": "Z. Suzuki",
-          "club": "AVL",
-          "points": 0,
-          "price": 4,
-          "ownership": 12
-        },
-        {
-          "id": 250080553,
-          "name": "S. Guirassy",
-          "club": "BVB",
-          "points": 0,
-          "price": 8.5,
-          "ownership": 11
-        },
-        {
-          "id": 250153621,
-          "name": "N. Paz",
-          "club": "COM",
-          "points": 0,
-          "price": 7,
-          "ownership": 10
-        },
-        {
-          "id": 250089868,
-          "name": "A. Isak",
-          "club": "LIV",
-          "points": 0,
-          "price": 7.5,
-          "ownership": 9
-        },
-        {
-          "id": 250127284,
-          "name": "J. Gvardiol",
-          "club": "MCI",
-          "points": 0,
-          "price": 5.5,
-          "ownership": 9
-        },
-        {
-          "id": 250164991,
-          "name": "João Neves",
-          "club": "PSG",
-          "points": 0,
-          "price": 6,
-          "ownership": 9
-        },
-        {
-          "id": 250086928,
-          "name": "M. Guéhi",
-          "club": "MCI",
-          "points": 0,
-          "price": 5,
-          "ownership": 9
+          "ownership": 27,
+          "played": true
         },
         {
           "id": 97923,
@@ -24771,7 +24725,206 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAY",
           "points": 0,
           "price": 5.5,
-          "ownership": 9
+          "ownership": 9,
+          "played": true
+        },
+        {
+          "id": 250190350,
+          "name": "N. Brown",
+          "club": "BAY",
+          "points": 0,
+          "price": 4,
+          "ownership": 9,
+          "played": true
+        },
+        {
+          "id": 250055660,
+          "name": "J. Tah",
+          "club": "BAY",
+          "points": 0,
+          "price": 5,
+          "ownership": 6,
+          "played": true
+        },
+        {
+          "id": 250188223,
+          "name": "Carlos Augusto",
+          "club": "INT",
+          "points": 0,
+          "price": 4,
+          "ownership": 4,
+          "played": true
+        },
+        {
+          "id": 250163777,
+          "name": "A. Pavlović",
+          "club": "BAY",
+          "points": 0,
+          "price": 5,
+          "ownership": 3,
+          "played": true
+        },
+        {
+          "id": 250163454,
+          "name": "P. Hincapié",
+          "club": "ARS",
+          "points": 0,
+          "price": 4.5,
+          "ownership": 3,
+          "played": true
+        },
+        {
+          "id": 250187727,
+          "name": "R. Zalazar",
+          "club": "SPO",
+          "points": 0,
+          "price": 4.5,
+          "ownership": 3,
+          "played": true
+        },
+        {
+          "id": 250127439,
+          "name": "W. Saliba",
+          "club": "ARS",
+          "points": 0,
+          "price": 5.5,
+          "ownership": 3,
+          "played": true
+        },
+        {
+          "id": 250127111,
+          "name": "B. Šeško",
+          "club": "MUN",
+          "points": 0,
+          "price": 6.5,
+          "ownership": 2,
+          "played": true
+        },
+        {
+          "id": 250124460,
+          "name": "C. Tzolis",
+          "club": "ARS",
+          "points": 0,
+          "price": 7.5,
+          "ownership": 2,
+          "played": true
+        },
+        {
+          "id": 250202036,
+          "name": "Flávio Gonçalves",
+          "club": "SPO",
+          "points": 0,
+          "price": 4.5,
+          "ownership": 2,
+          "played": true
+        },
+        {
+          "id": 250022829,
+          "name": "Hakan Çalhanoğlu",
+          "club": "INT",
+          "points": 0,
+          "price": 7,
+          "ownership": 2,
+          "played": true
+        },
+        {
+          "id": 250134320,
+          "name": "I. Saibari",
+          "club": "BAY",
+          "points": 0,
+          "price": 6.5,
+          "ownership": 2,
+          "played": true
+        },
+        {
+          "id": 250124430,
+          "name": "J. Musiala",
+          "club": "BAY",
+          "points": 0,
+          "price": 8,
+          "ownership": 2,
+          "played": true
+        },
+        {
+          "id": 250137521,
+          "name": "J. Musso",
+          "club": "ATM",
+          "points": 0,
+          "price": 4,
+          "ownership": 2,
+          "played": true
+        },
+        {
+          "id": 250042705,
+          "name": "L. Shaw",
+          "club": "MUN",
+          "points": 0,
+          "price": 4.5,
+          "ownership": 2,
+          "played": true
+        },
+        {
+          "id": 250165232,
+          "name": "L. Yoro",
+          "club": "MUN",
+          "points": 0,
+          "price": 4,
+          "ownership": 2,
+          "played": true
+        },
+        {
+          "id": 250190377,
+          "name": "Xavi Espart",
+          "club": "BAR",
+          "points": 0,
+          "price": 4.5,
+          "ownership": 2,
+          "played": true
+        },
+        {
+          "id": 250135416,
+          "name": "A. Balde",
+          "club": "BAR",
+          "points": 0,
+          "price": 4.5,
+          "ownership": 1,
+          "played": true
+        },
+        {
+          "id": 250088491,
+          "name": "A. Buongiorno",
+          "club": "NAP",
+          "points": 0,
+          "price": 4,
+          "ownership": 1,
+          "played": true
+        },
+        {
+          "id": 250177722,
+          "name": "A. Maksimović",
+          "club": "RBL",
+          "points": 0,
+          "price": 4.5,
+          "ownership": 1,
+          "played": true
+        },
+        {
+          "id": 250066753,
+          "name": "A. Meret",
+          "club": "NAP",
+          "points": 0,
+          "price": 4.5,
+          "ownership": 1,
+          "played": true
+        },
+        {
+          "id": 250061361,
+          "name": "A. Sørloth",
+          "club": "ATM",
+          "points": 0,
+          "price": 7,
+          "ownership": 1,
+          "played": true
         }
       ]
     }
