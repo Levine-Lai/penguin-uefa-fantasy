@@ -49,9 +49,15 @@ const roundAnalyticsByMatchday = window.PENGUIN_UEFA_SNAPSHOT?.roundAnalytics ||
 const dashboardParams = new URLSearchParams(window.location.search);
 const requestedRegion = dashboardParams.get("region");
 const requestedView = dashboardParams.get("view");
+const requestedRound = Number(dashboardParams.get("round"));
 let dashboardRegion = Object.hasOwn(regionLabels, requestedRegion) ? requestedRegion : "arctic";
 let activeView = ["matches", "standings", "fdr", "groups"].includes(requestedView) ? requestedView : "matches";
-let activeRound = 1;
+const snapshotRound = Number(window.PENGUIN_UEFA_SNAPSHOT?.matchday);
+let activeRound = Number.isInteger(requestedRound) && officialMatchdays.some((round) => round.number === requestedRound)
+  ? requestedRound
+  : Number.isInteger(snapshotRound) && officialMatchdays.some((round) => round.number === snapshotRound)
+    ? snapshotRound
+    : 1;
 let fdrSort = { round: null, direction: null };
 document.body.classList.toggle("is-exporting", dashboardParams.get("export") === "1");
 
@@ -369,6 +375,14 @@ function setMatchData(records) {
   renderMatches(); renderStandings();
 }
 
+function combinedMatchStatus(homeStatus, awayStatus) {
+  const statuses = [homeStatus, awayStatus];
+  if (statuses.every((status) => status === "已结束")) return "已结束";
+  if (statuses.includes("进行中")) return "进行中";
+  if (statuses.includes("统计中")) return "统计中";
+  return homeStatus === awayStatus ? homeStatus : "已同步";
+}
+
 // 按 Fantasy 队名、玩家显示名或抽签昵称导入每轮得分；最终统一映射到网站抽签昵称。
 function setManagerScores(records) {
   if (!Array.isArray(records)) return { imported: 0, unresolved: [] };
@@ -408,7 +422,7 @@ function setManagerScores(records) {
         awayLineup: away.lineup,
         homeCaptain: home.captain,
         awayCaptain: away.captain,
-        status: home.status === away.status ? home.status : "已同步",
+        status: combinedMatchStatus(home.status, away.status),
       };
     }));
   });

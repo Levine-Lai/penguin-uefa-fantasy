@@ -1,9 +1,38 @@
 import { readFile, writeFile } from "node:fs/promises";
 
 const CURRENT_USER_GUID = "7649f634-a5a9-11f1-ad1f-b33810b58db2";
-const MATCHDAY = 1;
-const PHASE_ID = 1;
-const MATCHDAY_STATUS_OVERRIDE = MATCHDAY === 1 ? "已结束" : null;
+const MATCHDAY_WINDOWS = [
+  { number: 1, start: "2026-09-08", end: "2026-09-10" },
+  { number: 2, start: "2026-10-13", end: "2026-10-14" },
+  { number: 3, start: "2026-10-20", end: "2026-10-21" },
+  { number: 4, start: "2026-11-03", end: "2026-11-04" },
+  { number: 5, start: "2026-11-24", end: "2026-11-25" },
+  { number: 6, start: "2026-12-08", end: "2026-12-09" },
+  { number: 7, start: "2027-01-19", end: "2027-01-20" },
+  { number: 8, start: "2027-01-27", end: "2027-01-27" },
+];
+
+function shanghaiDateString(date = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Shanghai",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(date);
+  const value = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${value.year}-${value.month}-${value.day}`;
+}
+
+const TODAY = process.env.UEFA_TODAY || shanghaiDateString();
+const scheduledMatchday = [...MATCHDAY_WINDOWS].reverse().find((item) => item.start <= TODAY)?.number || 1;
+const MATCHDAY = Number(process.env.UEFA_MATCHDAY || scheduledMatchday);
+const PHASE_ID = Number(process.env.UEFA_PHASE_ID || 1);
+const matchdayWindow = MATCHDAY_WINDOWS.find((item) => item.number === MATCHDAY);
+const MATCHDAY_STATUS_OVERRIDE = process.env.UEFA_MATCHDAY_STATUS || (matchdayWindow && TODAY > matchdayWindow.end ? "已结束" : null);
+
+if (!Number.isInteger(MATCHDAY) || MATCHDAY < 1 || MATCHDAY > 8) {
+  throw new Error(`Invalid UEFA_MATCHDAY: ${process.env.UEFA_MATCHDAY}`);
+}
 
 const leagueMembers = {
   arctic: [
@@ -194,4 +223,4 @@ const snapshot = {
   },
 };
 await writeFile("uefa-live-data.js", `window.PENGUIN_UEFA_SNAPSHOT = ${JSON.stringify(snapshot, null, 2)};\n`, "utf8");
-console.log(`Saved ${officialRecords.length} official records and ${snapshot.extras.length} extras.`);
+console.log(`Saved GD${MATCHDAY}: ${officialRecords.length} official records and ${snapshot.extras.length} extras (${MATCHDAY_STATUS_OVERRIDE || "live"}).`);
