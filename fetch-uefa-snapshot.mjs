@@ -12,6 +12,25 @@ const MATCHDAY_WINDOWS = [
   { number: 8, start: "2027-01-27", end: "2027-01-27" },
 ];
 
+function addCalendarDays(dateString, days) {
+  const date = new Date(`${dateString}T00:00:00Z`);
+  date.setUTCDate(date.getUTCDate() + days);
+  return date.toISOString().slice(0, 10);
+}
+
+function datesInWindow(start, end) {
+  const dates = [];
+  for (let date = start; date <= end; date = addCalendarDays(date, 1)) dates.push(date);
+  return dates;
+}
+
+// UEFA match nights finish after midnight in China. Each European fixture date
+// is therefore refreshed at 08:30 Asia/Shanghai on the following calendar day.
+const SCHEDULED_UPDATE_DATES = new Map(
+  MATCHDAY_WINDOWS.flatMap((window) => datesInWindow(window.start, window.end)
+    .map((fixtureDate) => [addCalendarDays(fixtureDate, 1), window.number]))
+);
+
 function shanghaiDateString(date = new Date()) {
   const parts = new Intl.DateTimeFormat("en-CA", {
     timeZone: "Asia/Shanghai",
@@ -24,7 +43,9 @@ function shanghaiDateString(date = new Date()) {
 }
 
 const TODAY = process.env.UEFA_TODAY || shanghaiDateString();
-const scheduledMatchday = [...MATCHDAY_WINDOWS].reverse().find((item) => item.start <= TODAY)?.number || 1;
+const scheduledMatchday = SCHEDULED_UPDATE_DATES.get(TODAY)
+  || [...MATCHDAY_WINDOWS].reverse().find((item) => item.start <= TODAY)?.number
+  || 1;
 const MATCHDAY = Number(process.env.UEFA_MATCHDAY || scheduledMatchday);
 const PHASE_ID = Number(process.env.UEFA_PHASE_ID || 1);
 const matchdayWindow = MATCHDAY_WINDOWS.find((item) => item.number === MATCHDAY);
@@ -32,6 +53,11 @@ const MATCHDAY_STATUS_OVERRIDE = process.env.UEFA_MATCHDAY_STATUS || (matchdayWi
 
 if (!Number.isInteger(MATCHDAY) || MATCHDAY < 1 || MATCHDAY > 8) {
   throw new Error(`Invalid UEFA_MATCHDAY: ${process.env.UEFA_MATCHDAY}`);
+}
+
+if (process.env.UEFA_SCHEDULED_RUN === "1" && !SCHEDULED_UPDATE_DATES.has(TODAY)) {
+  console.log(`Skipped scheduled refresh: ${TODAY} is not the morning after a UEFA fixture date.`);
+  process.exit(0);
 }
 
 const leagueMembers = {
@@ -235,8 +261,12 @@ const recordsWithTransfers = records.map((record) => {
   const previous = previousRoundByMember.get(`${record.region}|${record.guid}`);
   const previousIds = new Set((previous?.lineup || []).map((player) => Number(player.id)));
   const currentIds = new Set((record.lineup || []).map((player) => Number(player.id)));
-  const incoming = (record.lineup || []).filter((player) => !previousIds.has(Number(player.id))).map(({ id, name }) => ({ id, name }));
-  const outgoing = (previous?.lineup || []).filter((player) => !currentIds.has(Number(player.id))).map(({ id, name }) => ({ id, name }));
+  const incoming = (record.lineup || [])
+    .filter((player) => !previousIds.has(Number(player.id)))
+    .map(({ id, name, position }) => ({ id, name, position }));
+  const outgoing = (previous?.lineup || [])
+    .filter((player) => !currentIds.has(Number(player.id)))
+    .map(({ id, name, position }) => ({ id, name, position }));
   const actualTransferCount = record.chip === "LL"
     ? 0
     : previous ? Math.max(incoming.length, outgoing.length) : record.transferCount;

@@ -1,5 +1,5 @@
 window.PENGUIN_UEFA_SNAPSHOT = {
-  "generatedAt": "2026-10-14T02:22:33.128Z",
+  "generatedAt": "2026-10-14T03:01:27.666Z",
   "matchday": 2,
   "source": "UEFA UCL Fantasy opponent-team API",
   "records": [
@@ -11003,21 +11003,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250050319,
-            "name": "F. Thauvin"
+            "name": "F. Thauvin",
+            "position": 3
           },
           {
             "id": 250153621,
-            "name": "N. Paz"
+            "name": "N. Paz",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250187727,
-            "name": "R. Zalazar"
+            "name": "R. Zalazar",
+            "position": 3
           }
         ]
       }
@@ -11196,13 +11200,15 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250186227,
-            "name": "A. Diao"
+            "name": "A. Diao",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250099671,
-            "name": "G. Til"
+            "name": "G. Til",
+            "position": 3
           }
         ]
       }
@@ -11556,29 +11562,35 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250171184,
-            "name": "M. Olise"
+            "name": "M. Olise",
+            "position": 3
           },
           {
             "id": 250131901,
-            "name": "Gabriel"
+            "name": "Gabriel",
+            "position": 2
           },
           {
             "id": 250156423,
-            "name": "D. Svensson"
+            "name": "D. Svensson",
+            "position": 2
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250092517,
-            "name": "J. Ryerson"
+            "name": "J. Ryerson",
+            "position": 2
           },
           {
             "id": 250178823,
-            "name": "P. Dorgu"
+            "name": "P. Dorgu",
+            "position": 2
           }
         ]
       }
@@ -11758,29 +11770,35 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250056189,
-            "name": "F. Dimarco"
+            "name": "F. Dimarco",
+            "position": 2
           },
           {
             "id": 250101284,
-            "name": "F. Valverde"
+            "name": "F. Valverde",
+            "position": 3
           },
           {
             "id": 250153621,
-            "name": "N. Paz"
+            "name": "N. Paz",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250187727,
-            "name": "R. Zalazar"
+            "name": "R. Zalazar",
+            "position": 3
           },
           {
             "id": 250090766,
-            "name": "M. Mittelstädt"
+            "name": "M. Mittelstädt",
+            "position": 2
           }
         ]
       }
@@ -11960,21 +11978,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           },
           {
             "id": 250113392,
-            "name": "R. Calafiori"
+            "name": "R. Calafiori",
+            "position": 2
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250090766,
-            "name": "M. Mittelstädt"
+            "name": "M. Mittelstädt",
+            "position": 2
           }
         ]
       }
@@ -12153,21 +12175,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 50327420,
-            "name": "V. van Dijk"
+            "name": "V. van Dijk",
+            "position": 2
           },
           {
             "id": 250138382,
-            "name": "J. Leweling"
+            "name": "J. Leweling",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250110943,
-            "name": "Matheus Cunha"
+            "name": "Matheus Cunha",
+            "position": 3
           },
           {
             "id": 250190377,
-            "name": "Xavi Espart"
+            "name": "Xavi Espart",
+            "position": 2
           }
         ]
       }
@@ -12347,21 +12373,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           },
           {
             "id": 250130006,
-            "name": "Sergi Altimira"
+            "name": "Sergi Altimira",
+            "position": 2
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250042705,
-            "name": "L. Shaw"
+            "name": "L. Shaw",
+            "position": 2
           }
         ]
       }
@@ -12542,21 +12572,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           },
           {
             "id": 250172672,
-            "name": "A. Mac Allister"
+            "name": "A. Mac Allister",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250164780,
-            "name": "Fermín López"
+            "name": "Fermín López",
+            "position": 3
           },
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           }
         ]
       }
@@ -12736,29 +12770,35 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           },
           {
             "id": 250192993,
-            "name": "J. Manzambi"
+            "name": "J. Manzambi",
+            "position": 3
           },
           {
             "id": 250099867,
-            "name": "Alisson Becker"
+            "name": "Alisson Becker",
+            "position": 1
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250078886,
-            "name": "Bruno Fernandes"
+            "name": "Bruno Fernandes",
+            "position": 3
           },
           {
             "id": 250046901,
-            "name": "T. Strakosha"
+            "name": "T. Strakosha",
+            "position": 1
           }
         ]
       }
@@ -12937,13 +12977,15 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250188223,
-            "name": "Carlos Augusto"
+            "name": "Carlos Augusto",
+            "position": 2
           }
         ],
         "outgoing": [
           {
             "id": 250197801,
-            "name": "Gerard Martín"
+            "name": "Gerard Martín",
+            "position": 2
           }
         ]
       }
@@ -13122,21 +13164,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250118281,
-            "name": "Lautaro Martínez"
+            "name": "Lautaro Martínez",
+            "position": 4
           },
           {
             "id": 250192993,
-            "name": "J. Manzambi"
+            "name": "J. Manzambi",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250089868,
-            "name": "A. Isak"
+            "name": "A. Isak",
+            "position": 4
           }
         ]
       }
@@ -13316,13 +13362,15 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250192993,
-            "name": "J. Manzambi"
+            "name": "J. Manzambi",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250124460,
-            "name": "C. Tzolis"
+            "name": "C. Tzolis",
+            "position": 3
           }
         ]
       }
@@ -13502,21 +13550,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250096761,
-            "name": "J. Martínez"
+            "name": "J. Martínez",
+            "position": 1
           },
           {
             "id": 250124222,
-            "name": "M. Beier"
+            "name": "M. Beier",
+            "position": 4
           }
         ],
         "outgoing": [
           {
             "id": 250183450,
-            "name": "B. Varga"
+            "name": "B. Varga",
+            "position": 4
           },
           {
             "id": 250085391,
-            "name": "A. Brignoli"
+            "name": "A. Brignoli",
+            "position": 1
           }
         ]
       }
@@ -13870,21 +13922,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250128377,
-            "name": "Jude Bellingham"
+            "name": "Jude Bellingham",
+            "position": 3
           },
           {
             "id": 250124063,
-            "name": "R. Cherki"
+            "name": "R. Cherki",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250088246,
-            "name": "M. Rashford"
+            "name": "M. Rashford",
+            "position": 3
           }
         ]
       }
@@ -14063,21 +14119,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250050319,
-            "name": "F. Thauvin"
+            "name": "F. Thauvin",
+            "position": 3
           },
           {
             "id": 50327420,
-            "name": "V. van Dijk"
+            "name": "V. van Dijk",
+            "position": 2
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250212323,
-            "name": "Wesley França"
+            "name": "Wesley França",
+            "position": 2
           }
         ]
       }
@@ -14257,29 +14317,35 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250181082,
-            "name": "M. Lewis-Skelly"
+            "name": "M. Lewis-Skelly",
+            "position": 2
           },
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           },
           {
             "id": 250164780,
-            "name": "Fermín López"
+            "name": "Fermín López",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250113392,
-            "name": "R. Calafiori"
+            "name": "R. Calafiori",
+            "position": 2
           },
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250078886,
-            "name": "Bruno Fernandes"
+            "name": "Bruno Fernandes",
+            "position": 3
           }
         ]
       }
@@ -14459,21 +14525,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           },
           {
             "id": 250134170,
-            "name": "Ronald Araújo"
+            "name": "Ronald Araújo",
+            "position": 2
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250088061,
-            "name": "A. Hakimi"
+            "name": "A. Hakimi",
+            "position": 2
           }
         ]
       }
@@ -14654,21 +14724,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250122213,
-            "name": "Mauro Júnior"
+            "name": "Mauro Júnior",
+            "position": 2
           },
           {
             "id": 250186227,
-            "name": "A. Diao"
+            "name": "A. Diao",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250041741,
-            "name": "B. Cristante"
+            "name": "B. Cristante",
+            "position": 3
           },
           {
             "id": 250090766,
-            "name": "M. Mittelstädt"
+            "name": "M. Mittelstädt",
+            "position": 2
           }
         ]
       }
@@ -14849,21 +14923,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           },
           {
             "id": 250050319,
-            "name": "F. Thauvin"
+            "name": "F. Thauvin",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250164780,
-            "name": "Fermín López"
+            "name": "Fermín López",
+            "position": 3
           },
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           }
         ]
       }
@@ -15042,21 +15120,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250022829,
-            "name": "Hakan Çalhanoğlu"
+            "name": "Hakan Çalhanoğlu",
+            "position": 3
           },
           {
             "id": 250134138,
-            "name": "B. Barcola"
+            "name": "B. Barcola",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250187727,
-            "name": "R. Zalazar"
+            "name": "R. Zalazar",
+            "position": 3
           }
         ]
       }
@@ -15236,21 +15318,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           },
           {
             "id": 250163731,
-            "name": "Yan Couto"
+            "name": "Yan Couto",
+            "position": 2
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250090766,
-            "name": "M. Mittelstädt"
+            "name": "M. Mittelstädt",
+            "position": 2
           }
         ]
       }
@@ -15429,21 +15515,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250128377,
-            "name": "Jude Bellingham"
+            "name": "Jude Bellingham",
+            "position": 3
           },
           {
             "id": 250080569,
-            "name": "E. Buendía"
+            "name": "E. Buendía",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250187727,
-            "name": "R. Zalazar"
+            "name": "R. Zalazar",
+            "position": 3
           }
         ]
       }
@@ -15623,13 +15713,15 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250081341,
-            "name": "M. Ødegaard"
+            "name": "M. Ødegaard",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250104066,
-            "name": "D. Szoboszlai"
+            "name": "D. Szoboszlai",
+            "position": 3
           }
         ]
       }
@@ -15808,21 +15900,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250118281,
-            "name": "Lautaro Martínez"
+            "name": "Lautaro Martínez",
+            "position": 4
           },
           {
             "id": 250153621,
-            "name": "N. Paz"
+            "name": "N. Paz",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250089868,
-            "name": "A. Isak"
+            "name": "A. Isak",
+            "position": 4
           },
           {
             "id": 250078886,
-            "name": "Bruno Fernandes"
+            "name": "Bruno Fernandes",
+            "position": 3
           }
         ]
       }
@@ -16001,21 +16097,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250117036,
-            "name": "A. Gordon"
+            "name": "A. Gordon",
+            "position": 3
           },
           {
             "id": 250131901,
-            "name": "Gabriel"
+            "name": "Gabriel",
+            "position": 2
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250090766,
-            "name": "M. Mittelstädt"
+            "name": "M. Mittelstädt",
+            "position": 2
           }
         ]
       }
@@ -16194,21 +16294,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250118281,
-            "name": "Lautaro Martínez"
+            "name": "Lautaro Martínez",
+            "position": 4
           },
           {
             "id": 250153621,
-            "name": "N. Paz"
+            "name": "N. Paz",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250187620,
-            "name": "R. Pepi"
+            "name": "R. Pepi",
+            "position": 4
           }
         ]
       }
@@ -16388,77 +16492,95 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250171184,
-            "name": "M. Olise"
+            "name": "M. Olise",
+            "position": 3
           },
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           },
           {
             "id": 250123068,
-            "name": "E. Konsa"
+            "name": "E. Konsa",
+            "position": 2
           },
           {
             "id": 250177722,
-            "name": "A. Maksimović"
+            "name": "A. Maksimović",
+            "position": 3
           },
           {
             "id": 250088061,
-            "name": "A. Hakimi"
+            "name": "A. Hakimi",
+            "position": 2
           },
           {
             "id": 250162177,
-            "name": "D. Doué"
+            "name": "D. Doué",
+            "position": 3
           },
           {
             "id": 250188223,
-            "name": "Carlos Augusto"
+            "name": "Carlos Augusto",
+            "position": 2
           },
           {
             "id": 250058958,
-            "name": "J. McGinn"
+            "name": "J. McGinn",
+            "position": 3
           },
           {
             "id": 250109003,
-            "name": "Troy Parrott"
+            "name": "Troy Parrott",
+            "position": 4
           }
         ],
         "outgoing": [
           {
             "id": 250113392,
-            "name": "R. Calafiori"
+            "name": "R. Calafiori",
+            "position": 2
           },
           {
             "id": 250131901,
-            "name": "Gabriel"
+            "name": "Gabriel",
+            "position": 2
           },
           {
             "id": 250153634,
-            "name": "G. Simeone"
+            "name": "G. Simeone",
+            "position": 3
           },
           {
             "id": 250176453,
-            "name": "P. Cubarsí"
+            "name": "P. Cubarsí",
+            "position": 2
           },
           {
             "id": 250117036,
-            "name": "A. Gordon"
+            "name": "A. Gordon",
+            "position": 3
           },
           {
             "id": 250163404,
-            "name": "P. Esposito"
+            "name": "P. Esposito",
+            "position": 4
           },
           {
             "id": 250113001,
-            "name": "R. Gravenberch"
+            "name": "R. Gravenberch",
+            "position": 3
           },
           {
             "id": 250101808,
-            "name": "K. Kvaratskhelia"
+            "name": "K. Kvaratskhelia",
+            "position": 3
           },
           {
             "id": 250101444,
-            "name": "Vitinha"
+            "name": "Vitinha",
+            "position": 3
           }
         ]
       }
@@ -16637,21 +16759,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250080553,
-            "name": "S. Guirassy"
+            "name": "S. Guirassy",
+            "position": 4
           },
           {
             "id": 250153621,
-            "name": "N. Paz"
+            "name": "N. Paz",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250089868,
-            "name": "A. Isak"
+            "name": "A. Isak",
+            "position": 4
           }
         ]
       }
@@ -16831,21 +16957,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           },
           {
             "id": 250079383,
-            "name": "E. Demirović"
+            "name": "E. Demirović",
+            "position": 4
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250089868,
-            "name": "A. Isak"
+            "name": "A. Isak",
+            "position": 4
           }
         ]
       }
@@ -17200,21 +17330,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250158167,
-            "name": "D. Šturm"
+            "name": "D. Šturm",
+            "position": 4
           },
           {
             "id": 250171184,
-            "name": "M. Olise"
+            "name": "M. Olise",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250168144,
-            "name": "D. Pejcinovic"
+            "name": "D. Pejcinovic",
+            "position": 4
           }
         ]
       }
@@ -17394,93 +17528,115 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250132811,
-            "name": "Luis Díaz"
+            "name": "Luis Díaz",
+            "position": 3
           },
           {
             "id": 250171278,
-            "name": "D. Raya"
+            "name": "D. Raya",
+            "position": 1
           },
           {
             "id": 250118281,
-            "name": "Lautaro Martínez"
+            "name": "Lautaro Martínez",
+            "position": 4
           },
           {
             "id": 250024746,
-            "name": "João Cancelo"
+            "name": "João Cancelo",
+            "position": 2
           },
           {
             "id": 250131901,
-            "name": "Gabriel"
+            "name": "Gabriel",
+            "position": 2
           },
           {
             "id": 250042422,
-            "name": "A. Grimaldo"
+            "name": "A. Grimaldo",
+            "position": 2
           },
           {
             "id": 250164780,
-            "name": "Fermín López"
+            "name": "Fermín López",
+            "position": 3
           },
           {
             "id": 250056189,
-            "name": "F. Dimarco"
+            "name": "F. Dimarco",
+            "position": 2
           },
           {
             "id": 50327420,
-            "name": "V. van Dijk"
+            "name": "V. van Dijk",
+            "position": 2
           },
           {
             "id": 250076574,
-            "name": "K. Mbappé"
+            "name": "K. Mbappé",
+            "position": 4
           },
           {
             "id": 250153621,
-            "name": "N. Paz"
+            "name": "N. Paz",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250190350,
-            "name": "N. Brown"
+            "name": "N. Brown",
+            "position": 2
           },
           {
             "id": 250089868,
-            "name": "A. Isak"
+            "name": "A. Isak",
+            "position": 4
           },
           {
             "id": 250078886,
-            "name": "Bruno Fernandes"
+            "name": "Bruno Fernandes",
+            "position": 3
           },
           {
             "id": 250088061,
-            "name": "A. Hakimi"
+            "name": "A. Hakimi",
+            "position": 2
           },
           {
             "id": 250136465,
-            "name": "Nuno Mendes"
+            "name": "Nuno Mendes",
+            "position": 2
           },
           {
             "id": 250147458,
-            "name": "L. Suárez"
+            "name": "L. Suárez",
+            "position": 4
           },
           {
             "id": 250187727,
-            "name": "R. Zalazar"
+            "name": "R. Zalazar",
+            "position": 3
           },
           {
             "id": 250070418,
-            "name": "F. Bredlow"
+            "name": "F. Bredlow",
+            "position": 1
           },
           {
             "id": 250090766,
-            "name": "M. Mittelstädt"
+            "name": "M. Mittelstädt",
+            "position": 2
           },
           {
             "id": 250127538,
-            "name": "J. Vagnoman"
+            "name": "J. Vagnoman",
+            "position": 2
           }
         ]
       }
@@ -17660,21 +17816,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250131901,
-            "name": "Gabriel"
+            "name": "Gabriel",
+            "position": 2
           },
           {
             "id": 250153621,
-            "name": "N. Paz"
+            "name": "N. Paz",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250190377,
-            "name": "Xavi Espart"
+            "name": "Xavi Espart",
+            "position": 2
           }
         ]
       }
@@ -17854,21 +18014,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250042422,
-            "name": "A. Grimaldo"
+            "name": "A. Grimaldo",
+            "position": 2
           },
           {
             "id": 250128377,
-            "name": "Jude Bellingham"
+            "name": "Jude Bellingham",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250090766,
-            "name": "M. Mittelstädt"
+            "name": "M. Mittelstädt",
+            "position": 2
           }
         ]
       }
@@ -18047,21 +18211,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250128377,
-            "name": "Jude Bellingham"
+            "name": "Jude Bellingham",
+            "position": 3
           },
           {
             "id": 250080569,
-            "name": "E. Buendía"
+            "name": "E. Buendía",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250187458,
-            "name": "R. van Bommel"
+            "name": "R. van Bommel",
+            "position": 3
           },
           {
             "id": 250055294,
-            "name": "R. Marin"
+            "name": "R. Marin",
+            "position": 3
           }
         ]
       }
@@ -18240,13 +18408,15 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250177722,
-            "name": "A. Maksimović"
+            "name": "A. Maksimović",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250107249,
-            "name": "H. Evjen"
+            "name": "H. Evjen",
+            "position": 3
           }
         ]
       }
@@ -18425,21 +18595,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250171184,
-            "name": "M. Olise"
+            "name": "M. Olise",
+            "position": 3
           },
           {
             "id": 250140940,
-            "name": "M. Baturina"
+            "name": "M. Baturina",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250099671,
-            "name": "G. Til"
+            "name": "G. Til",
+            "position": 3
           }
         ]
       }
@@ -18619,101 +18793,125 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250171278,
-            "name": "D. Raya"
+            "name": "D. Raya",
+            "position": 1
           },
           {
             "id": 250091199,
-            "name": "A. Bastoni"
+            "name": "A. Bastoni",
+            "position": 2
           },
           {
             "id": 250171184,
-            "name": "M. Olise"
+            "name": "M. Olise",
+            "position": 3
           },
           {
             "id": 250128120,
-            "name": "A. Davies"
+            "name": "A. Davies",
+            "position": 2
           },
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           },
           {
             "id": 250022829,
-            "name": "Hakan Çalhanoğlu"
+            "name": "Hakan Çalhanoğlu",
+            "position": 3
           },
           {
             "id": 250106939,
-            "name": "B. Saka"
+            "name": "B. Saka",
+            "position": 3
           },
           {
             "id": 250103758,
-            "name": "E. Haaland"
+            "name": "E. Haaland",
+            "position": 4
           },
           {
             "id": 50327420,
-            "name": "V. van Dijk"
+            "name": "V. van Dijk",
+            "position": 2
           },
           {
             "id": 250076574,
-            "name": "K. Mbappé"
+            "name": "K. Mbappé",
+            "position": 4
           },
           {
             "id": 250139445,
-            "name": "F. Wirtz"
+            "name": "F. Wirtz",
+            "position": 3
           },
           {
             "id": 250156423,
-            "name": "D. Svensson"
+            "name": "D. Svensson",
+            "position": 2
           }
         ],
         "outgoing": [
           {
             "id": 250113392,
-            "name": "R. Calafiori"
+            "name": "R. Calafiori",
+            "position": 2
           },
           {
             "id": 250181082,
-            "name": "M. Lewis-Skelly"
+            "name": "M. Lewis-Skelly",
+            "position": 2
           },
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250190350,
-            "name": "N. Brown"
+            "name": "N. Brown",
+            "position": 2
           },
           {
             "id": 250132811,
-            "name": "Luis Díaz"
+            "name": "Luis Díaz",
+            "position": 3
           },
           {
             "id": 250080553,
-            "name": "S. Guirassy"
+            "name": "S. Guirassy",
+            "position": 4
           },
           {
             "id": 250078886,
-            "name": "Bruno Fernandes"
+            "name": "Bruno Fernandes",
+            "position": 3
           },
           {
             "id": 250118908,
-            "name": "S. Lammens"
+            "name": "S. Lammens",
+            "position": 1
           },
           {
             "id": 250101444,
-            "name": "Vitinha"
+            "name": "Vitinha",
+            "position": 3
           },
           {
             "id": 250121533,
-            "name": "Vinícius Júnior"
+            "name": "Vinícius Júnior",
+            "position": 3
           },
           {
             "id": 250168144,
-            "name": "D. Pejcinovic"
+            "name": "D. Pejcinovic",
+            "position": 4
           },
           {
             "id": 250190377,
-            "name": "Xavi Espart"
+            "name": "Xavi Espart",
+            "position": 2
           }
         ]
       }
@@ -18893,21 +19091,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250042422,
-            "name": "A. Grimaldo"
+            "name": "A. Grimaldo",
+            "position": 2
           },
           {
             "id": 250194673,
-            "name": "D. Undav"
+            "name": "D. Undav",
+            "position": 4
           }
         ],
         "outgoing": [
           {
             "id": 250127111,
-            "name": "B. Šeško"
+            "name": "B. Šeško",
+            "position": 4
           },
           {
             "id": 250064064,
-            "name": "Marquinhos"
+            "name": "Marquinhos",
+            "position": 2
           }
         ]
       }
@@ -19087,29 +19289,35 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           },
           {
             "id": 250056189,
-            "name": "F. Dimarco"
+            "name": "F. Dimarco",
+            "position": 2
           },
           {
             "id": 250164215,
-            "name": "V. Muñoz"
+            "name": "V. Muñoz",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250104066,
-            "name": "D. Szoboszlai"
+            "name": "D. Szoboszlai",
+            "position": 3
           },
           {
             "id": 250090766,
-            "name": "M. Mittelstädt"
+            "name": "M. Mittelstädt",
+            "position": 2
           }
         ]
       }
@@ -19288,13 +19496,15 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250188223,
-            "name": "Carlos Augusto"
+            "name": "Carlos Augusto",
+            "position": 2
           }
         ],
         "outgoing": [
           {
             "id": 250075007,
-            "name": "H. Maguire"
+            "name": "H. Maguire",
+            "position": 2
           }
         ]
       }
@@ -19474,21 +19684,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           },
           {
             "id": 250081341,
-            "name": "M. Ødegaard"
+            "name": "M. Ødegaard",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250104066,
-            "name": "D. Szoboszlai"
+            "name": "D. Szoboszlai",
+            "position": 3
           }
         ]
       }
@@ -19668,21 +19882,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           },
           {
             "id": 250127538,
-            "name": "J. Vagnoman"
+            "name": "J. Vagnoman",
+            "position": 2
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250090766,
-            "name": "M. Mittelstädt"
+            "name": "M. Mittelstädt",
+            "position": 2
           }
         ]
       }
@@ -19861,21 +20079,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250131901,
-            "name": "Gabriel"
+            "name": "Gabriel",
+            "position": 2
           },
           {
             "id": 250130006,
-            "name": "Sergi Altimira"
+            "name": "Sergi Altimira",
+            "position": 2
           }
         ],
         "outgoing": [
           {
             "id": 250092517,
-            "name": "J. Ryerson"
+            "name": "J. Ryerson",
+            "position": 2
           },
           {
             "id": 250090766,
-            "name": "M. Mittelstädt"
+            "name": "M. Mittelstädt",
+            "position": 2
           }
         ]
       }
@@ -20054,21 +20276,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250171184,
-            "name": "M. Olise"
+            "name": "M. Olise",
+            "position": 3
           },
           {
             "id": 250123068,
-            "name": "E. Konsa"
+            "name": "E. Konsa",
+            "position": 2
           }
         ],
         "outgoing": [
           {
             "id": 250190350,
-            "name": "N. Brown"
+            "name": "N. Brown",
+            "position": 2
           },
           {
             "id": 250101808,
-            "name": "K. Kvaratskhelia"
+            "name": "K. Kvaratskhelia",
+            "position": 3
           }
         ]
       }
@@ -20247,21 +20473,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250081555,
-            "name": "D. Malen"
+            "name": "D. Malen",
+            "position": 4
           },
           {
             "id": 250202036,
-            "name": "Flávio Gonçalves"
+            "name": "Flávio Gonçalves",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250150915,
-            "name": "J. Cardoso"
+            "name": "J. Cardoso",
+            "position": 3
           },
           {
             "id": 250127111,
-            "name": "B. Šeško"
+            "name": "B. Šeško",
+            "position": 4
           }
         ]
       }
@@ -20442,13 +20672,15 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           }
         ]
       }
@@ -20628,21 +20860,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           },
           {
             "id": 250134170,
-            "name": "Ronald Araújo"
+            "name": "Ronald Araújo",
+            "position": 2
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250088061,
-            "name": "A. Hakimi"
+            "name": "A. Hakimi",
+            "position": 2
           }
         ]
       }
@@ -20821,29 +21057,35 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250050319,
-            "name": "F. Thauvin"
+            "name": "F. Thauvin",
+            "position": 3
           },
           {
             "id": 250056189,
-            "name": "F. Dimarco"
+            "name": "F. Dimarco",
+            "position": 2
           },
           {
             "id": 250194673,
-            "name": "D. Undav"
+            "name": "D. Undav",
+            "position": 4
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250187620,
-            "name": "R. Pepi"
+            "name": "R. Pepi",
+            "position": 4
           },
           {
             "id": 250090766,
-            "name": "M. Mittelstädt"
+            "name": "M. Mittelstädt",
+            "position": 2
           }
         ]
       }
@@ -21022,13 +21264,15 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250081720,
-            "name": "D. Olmo"
+            "name": "D. Olmo",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           }
         ]
       }
@@ -21209,21 +21453,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250056189,
-            "name": "F. Dimarco"
+            "name": "F. Dimarco",
+            "position": 2
           },
           {
             "id": 250127538,
-            "name": "J. Vagnoman"
+            "name": "J. Vagnoman",
+            "position": 2
           }
         ],
         "outgoing": [
           {
             "id": 250117581,
-            "name": "I. Maatsen"
+            "name": "I. Maatsen",
+            "position": 2
           },
           {
             "id": 250090766,
-            "name": "M. Mittelstädt"
+            "name": "M. Mittelstädt",
+            "position": 2
           }
         ]
       }
@@ -21578,21 +21826,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           },
           {
             "id": 250178067,
-            "name": "G. Zechiel"
+            "name": "G. Zechiel",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250099671,
-            "name": "G. Til"
+            "name": "G. Til",
+            "position": 3
           }
         ]
       }
@@ -21772,21 +22024,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 50327420,
-            "name": "V. van Dijk"
+            "name": "V. van Dijk",
+            "position": 2
           },
           {
             "id": 250186227,
-            "name": "A. Diao"
+            "name": "A. Diao",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250092517,
-            "name": "J. Ryerson"
+            "name": "J. Ryerson",
+            "position": 2
           },
           {
             "id": 250200231,
-            "name": "M. Araújo"
+            "name": "M. Araújo",
+            "position": 3
           }
         ]
       }
@@ -21966,101 +22222,125 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250024746,
-            "name": "João Cancelo"
+            "name": "João Cancelo",
+            "position": 2
           },
           {
             "id": 250016833,
-            "name": "H. Kane"
+            "name": "H. Kane",
+            "position": 4
           },
           {
             "id": 250171184,
-            "name": "M. Olise"
+            "name": "M. Olise",
+            "position": 3
           },
           {
             "id": 250128120,
-            "name": "A. Davies"
+            "name": "A. Davies",
+            "position": 2
           },
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           },
           {
             "id": 250050319,
-            "name": "F. Thauvin"
+            "name": "F. Thauvin",
+            "position": 3
           },
           {
             "id": 50327420,
-            "name": "V. van Dijk"
+            "name": "V. van Dijk",
+            "position": 2
           },
           {
             "id": 250080553,
-            "name": "S. Guirassy"
+            "name": "S. Guirassy",
+            "position": 4
           },
           {
             "id": 250055294,
-            "name": "R. Marin"
+            "name": "R. Marin",
+            "position": 3
           },
           {
             "id": 250188223,
-            "name": "Carlos Augusto"
+            "name": "Carlos Augusto",
+            "position": 2
           },
           {
             "id": 250058958,
-            "name": "J. McGinn"
+            "name": "J. McGinn",
+            "position": 3
           },
           {
             "id": 250042625,
-            "name": "D. Livaković"
+            "name": "D. Livaković",
+            "position": 1
           }
         ],
         "outgoing": [
           {
             "id": 250163454,
-            "name": "P. Hincapié"
+            "name": "P. Hincapié",
+            "position": 2
           },
           {
             "id": 250042422,
-            "name": "A. Grimaldo"
+            "name": "A. Grimaldo",
+            "position": 2
           },
           {
             "id": 250117036,
-            "name": "A. Gordon"
+            "name": "A. Gordon",
+            "position": 3
           },
           {
             "id": 250132811,
-            "name": "Luis Díaz"
+            "name": "Luis Díaz",
+            "position": 3
           },
           {
             "id": 250055660,
-            "name": "J. Tah"
+            "name": "J. Tah",
+            "position": 2
           },
           {
             "id": 250163404,
-            "name": "P. Esposito"
+            "name": "P. Esposito",
+            "position": 4
           },
           {
             "id": 250104066,
-            "name": "D. Szoboszlai"
+            "name": "D. Szoboszlai",
+            "position": 3
           },
           {
             "id": 250124063,
-            "name": "R. Cherki"
+            "name": "R. Cherki",
+            "position": 3
           },
           {
             "id": 250078886,
-            "name": "Bruno Fernandes"
+            "name": "Bruno Fernandes",
+            "position": 3
           },
           {
             "id": 250174126,
-            "name": "W. Pacho"
+            "name": "W. Pacho",
+            "position": 2
           },
           {
             "id": 250076574,
-            "name": "K. Mbappé"
+            "name": "K. Mbappé",
+            "position": 4
           },
           {
             "id": 108923,
-            "name": "Ø. Nyland"
+            "name": "Ø. Nyland",
+            "position": 1
           }
         ]
       }
@@ -22239,21 +22519,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250145845,
-            "name": "G. Catamo"
+            "name": "G. Catamo",
+            "position": 3
           },
           {
             "id": 250153621,
-            "name": "N. Paz"
+            "name": "N. Paz",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250078886,
-            "name": "Bruno Fernandes"
+            "name": "Bruno Fernandes",
+            "position": 3
           },
           {
             "id": 250180059,
-            "name": "João Simões"
+            "name": "João Simões",
+            "position": 3
           }
         ]
       }
@@ -22433,21 +22717,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250050319,
-            "name": "F. Thauvin"
+            "name": "F. Thauvin",
+            "position": 3
           },
           {
             "id": 250153621,
-            "name": "N. Paz"
+            "name": "N. Paz",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250187727,
-            "name": "R. Zalazar"
+            "name": "R. Zalazar",
+            "position": 3
           }
         ]
       }
@@ -22627,21 +22915,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250171184,
-            "name": "M. Olise"
+            "name": "M. Olise",
+            "position": 3
           },
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250078886,
-            "name": "Bruno Fernandes"
+            "name": "Bruno Fernandes",
+            "position": 3
           },
           {
             "id": 250101808,
-            "name": "K. Kvaratskhelia"
+            "name": "K. Kvaratskhelia",
+            "position": 3
           }
         ]
       }
@@ -22821,77 +23113,95 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250190350,
-            "name": "N. Brown"
+            "name": "N. Brown",
+            "position": 2
           },
           {
             "id": 250096761,
-            "name": "J. Martínez"
+            "name": "J. Martínez",
+            "position": 1
           },
           {
             "id": 250171184,
-            "name": "M. Olise"
+            "name": "M. Olise",
+            "position": 3
           },
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           },
           {
             "id": 250056189,
-            "name": "F. Dimarco"
+            "name": "F. Dimarco",
+            "position": 2
           },
           {
             "id": 250069832,
-            "name": "G. Kobel"
+            "name": "G. Kobel",
+            "position": 1
           },
           {
             "id": 250172672,
-            "name": "A. Mac Allister"
+            "name": "A. Mac Allister",
+            "position": 3
           },
           {
             "id": 250079383,
-            "name": "E. Demirović"
+            "name": "E. Demirović",
+            "position": 4
           },
           {
             "id": 250134138,
-            "name": "B. Barcola"
+            "name": "B. Barcola",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250131901,
-            "name": "Gabriel"
+            "name": "Gabriel",
+            "position": 2
           },
           {
             "id": 250117581,
-            "name": "I. Maatsen"
+            "name": "I. Maatsen",
+            "position": 2
           },
           {
             "id": 250118131,
-            "name": "Joan García"
+            "name": "Joan García",
+            "position": 1
           },
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250089868,
-            "name": "A. Isak"
+            "name": "A. Isak",
+            "position": 4
           },
           {
             "id": 250104066,
-            "name": "D. Szoboszlai"
+            "name": "D. Szoboszlai",
+            "position": 3
           },
           {
             "id": 250078886,
-            "name": "Bruno Fernandes"
+            "name": "Bruno Fernandes",
+            "position": 3
           },
           {
             "id": 250187727,
-            "name": "R. Zalazar"
+            "name": "R. Zalazar",
+            "position": 3
           },
           {
             "id": 250218560,
-            "name": "Z. Suzuki"
+            "name": "Z. Suzuki",
+            "position": 1
           }
         ]
       }
@@ -23070,29 +23380,35 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250050319,
-            "name": "F. Thauvin"
+            "name": "F. Thauvin",
+            "position": 3
           },
           {
             "id": 250055660,
-            "name": "J. Tah"
+            "name": "J. Tah",
+            "position": 2
           },
           {
             "id": 250153621,
-            "name": "N. Paz"
+            "name": "N. Paz",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250187727,
-            "name": "R. Zalazar"
+            "name": "R. Zalazar",
+            "position": 3
           },
           {
             "id": 250090766,
-            "name": "M. Mittelstädt"
+            "name": "M. Mittelstädt",
+            "position": 2
           }
         ]
       }
@@ -23272,21 +23588,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250176450,
-            "name": "L. Yamal"
+            "name": "L. Yamal",
+            "position": 3
           },
           {
             "id": 250153621,
-            "name": "N. Paz"
+            "name": "N. Paz",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250078886,
-            "name": "Bruno Fernandes"
+            "name": "Bruno Fernandes",
+            "position": 3
           }
         ]
       }
@@ -23465,13 +23785,15 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250127347,
-            "name": "K. Adeyemi"
+            "name": "K. Adeyemi",
+            "position": 4
           }
         ],
         "outgoing": [
           {
             "id": 250089868,
-            "name": "A. Isak"
+            "name": "A. Isak",
+            "position": 4
           }
         ]
       }
@@ -23650,21 +23972,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250086928,
-            "name": "M. Guéhi"
+            "name": "M. Guéhi",
+            "position": 2
           },
           {
             "id": 250079383,
-            "name": "E. Demirović"
+            "name": "E. Demirović",
+            "position": 4
           }
         ],
         "outgoing": [
           {
             "id": 250089868,
-            "name": "A. Isak"
+            "name": "A. Isak",
+            "position": 4
           },
           {
             "id": 250090766,
-            "name": "M. Mittelstädt"
+            "name": "M. Mittelstädt",
+            "position": 2
           }
         ]
       }
@@ -23844,21 +24170,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250128377,
-            "name": "Jude Bellingham"
+            "name": "Jude Bellingham",
+            "position": 3
           },
           {
             "id": 250113392,
-            "name": "R. Calafiori"
+            "name": "R. Calafiori",
+            "position": 2
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250090766,
-            "name": "M. Mittelstädt"
+            "name": "M. Mittelstädt",
+            "position": 2
           }
         ]
       }
@@ -24038,29 +24368,35 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250171184,
-            "name": "M. Olise"
+            "name": "M. Olise",
+            "position": 3
           },
           {
             "id": 250178067,
-            "name": "G. Zechiel"
+            "name": "G. Zechiel",
+            "position": 3
           },
           {
             "id": 250156423,
-            "name": "D. Svensson"
+            "name": "D. Svensson",
+            "position": 2
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250188246,
-            "name": "Tiago Santos"
+            "name": "Tiago Santos",
+            "position": 2
           },
           {
             "id": 250187727,
-            "name": "R. Zalazar"
+            "name": "R. Zalazar",
+            "position": 3
           }
         ]
       }
@@ -24240,21 +24576,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250068805,
-            "name": "M. Thuram"
+            "name": "M. Thuram",
+            "position": 4
           },
           {
             "id": 250153621,
-            "name": "N. Paz"
+            "name": "N. Paz",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250168144,
-            "name": "D. Pejcinovic"
+            "name": "D. Pejcinovic",
+            "position": 4
           }
         ]
       }
@@ -24433,21 +24773,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250128377,
-            "name": "Jude Bellingham"
+            "name": "Jude Bellingham",
+            "position": 3
           },
           {
             "id": 250080553,
-            "name": "S. Guirassy"
+            "name": "S. Guirassy",
+            "position": 4
           }
         ],
         "outgoing": [
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250089868,
-            "name": "A. Isak"
+            "name": "A. Isak",
+            "position": 4
           }
         ]
       }
@@ -24802,21 +25146,25 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250127347,
-            "name": "K. Adeyemi"
+            "name": "K. Adeyemi",
+            "position": 4
           },
           {
             "id": 250113001,
-            "name": "R. Gravenberch"
+            "name": "R. Gravenberch",
+            "position": 3
           }
         ],
         "outgoing": [
           {
             "id": 250007655,
-            "name": "R. Barkley"
+            "name": "R. Barkley",
+            "position": 3
           },
           {
             "id": 250089868,
-            "name": "A. Isak"
+            "name": "A. Isak",
+            "position": 4
           }
         ]
       }
@@ -24995,77 +25343,95 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250118281,
-            "name": "Lautaro Martínez"
+            "name": "Lautaro Martínez",
+            "position": 4
           },
           {
             "id": 250117036,
-            "name": "A. Gordon"
+            "name": "A. Gordon",
+            "position": 3
           },
           {
             "id": 250056189,
-            "name": "F. Dimarco"
+            "name": "F. Dimarco",
+            "position": 2
           },
           {
             "id": 250123068,
-            "name": "E. Konsa"
+            "name": "E. Konsa",
+            "position": 2
           },
           {
             "id": 250106939,
-            "name": "B. Saka"
+            "name": "B. Saka",
+            "position": 3
           },
           {
             "id": 250140940,
-            "name": "M. Baturina"
+            "name": "M. Baturina",
+            "position": 3
           },
           {
             "id": 250212323,
-            "name": "Wesley França"
+            "name": "Wesley França",
+            "position": 2
           },
           {
             "id": 250134138,
-            "name": "B. Barcola"
+            "name": "B. Barcola",
+            "position": 3
           },
           {
             "id": 250177928,
-            "name": "J. Jacquet"
+            "name": "J. Jacquet",
+            "position": 2
           }
         ],
         "outgoing": [
           {
             "id": 250113392,
-            "name": "R. Calafiori"
+            "name": "R. Calafiori",
+            "position": 2
           },
           {
             "id": 250164780,
-            "name": "Fermín López"
+            "name": "Fermín López",
+            "position": 3
           },
           {
             "id": 250112880,
-            "name": "Raphinha"
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250190350,
-            "name": "N. Brown"
+            "name": "N. Brown",
+            "position": 2
           },
           {
             "id": 250156423,
-            "name": "D. Svensson"
+            "name": "D. Svensson",
+            "position": 2
           },
           {
             "id": 250110943,
-            "name": "Matheus Cunha"
+            "name": "Matheus Cunha",
+            "position": 3
           },
           {
             "id": 250101808,
-            "name": "K. Kvaratskhelia"
+            "name": "K. Kvaratskhelia",
+            "position": 3
           },
           {
             "id": 250187620,
-            "name": "R. Pepi"
+            "name": "R. Pepi",
+            "position": 4
           },
           {
             "id": 250136464,
-            "name": "Gonçalo Inácio"
+            "name": "Gonçalo Inácio",
+            "position": 2
           }
         ]
       }
@@ -25546,63 +25912,78 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250171278,
-            "name": "D. Raya"
+            "name": "D. Raya",
+            "position": 1
           },
           {
             "id": 250099671,
-            "name": "G. Til"
+            "name": "G. Til",
+            "position": 3
           },
           {
             "id": 250016833,
-            "name": "H. Kane"
+            "name": "H. Kane",
+            "position": 4
           },
           {
             "id": 250171184,
-            "name": "M. Olise"
+            "name": "M. Olise",
+            "position": 3
           },
           {
             "id": 250131901,
-            "name": "Gabriel"
+            "name": "Gabriel",
+            "position": 2
           },
           {
             "id": 250164780,
-            "name": "Fermín López"
+            "name": "Fermín López",
+            "position": 3
           },
           {
             "id": 250065413,
-            "name": "K. Laimer"
+            "name": "K. Laimer",
+            "position": 2
           },
           {
             "id": 250130006,
-            "name": "Sergi Altimira"
+            "name": "Sergi Altimira",
+            "position": 2
           },
           {
             "id": 250127538,
-            "name": "J. Vagnoman"
+            "name": "J. Vagnoman",
+            "position": 2
           },
           {
             "id": 250046901,
-            "name": "T. Strakosha"
+            "name": "T. Strakosha",
+            "position": 1
           },
           {
             "id": 250136465,
-            "name": "Nuno Mendes"
+            "name": "Nuno Mendes",
+            "position": 2
           },
           {
             "id": 250076574,
-            "name": "K. Mbappé"
+            "name": "K. Mbappé",
+            "position": 4
           },
           {
             "id": 250055294,
-            "name": "R. Marin"
+            "name": "R. Marin",
+            "position": 3
           },
           {
             "id": 250194673,
-            "name": "D. Undav"
+            "name": "D. Undav",
+            "position": 4
           },
           {
             "id": 250162177,
-            "name": "D. Doué"
+            "name": "D. Doué",
+            "position": 3
           }
         ],
         "outgoing": []
@@ -25782,63 +26163,78 @@ window.PENGUIN_UEFA_SNAPSHOT = {
         "incoming": [
           {
             "id": 250078886,
-            "name": "Bruno Fernandes"
+            "name": "Bruno Fernandes",
+            "position": 3
           },
           {
             "id": 250171278,
-            "name": "D. Raya"
+            "name": "D. Raya",
+            "position": 1
           },
           {
             "id": 250118281,
-            "name": "Lautaro Martínez"
+            "name": "Lautaro Martínez",
+            "position": 4
           },
           {
             "id": 250190350,
-            "name": "N. Brown"
+            "name": "N. Brown",
+            "position": 2
           },
           {
             "id": 250016833,
-            "name": "H. Kane"
+            "name": "H. Kane",
+            "position": 4
           },
           {
             "id": 250171184,
-            "name": "M. Olise"
+            "name": "M. Olise",
+            "position": 3
           },
           {
             "id": 250123068,
-            "name": "E. Konsa"
+            "name": "E. Konsa",
+            "position": 2
           },
           {
             "id": 250163786,
-            "name": "J. Seys"
+            "name": "J. Seys",
+            "position": 2
           },
           {
             "id": 250127538,
-            "name": "J. Vagnoman"
+            "name": "J. Vagnoman",
+            "position": 2
           },
           {
             "id": 250076574,
-            "name": "K. Mbappé"
+            "name": "K. Mbappé",
+            "position": 4
           },
           {
             "id": 250153874,
-            "name": "Gabriel Veiga"
+            "name": "Gabriel Veiga",
+            "position": 3
           },
           {
             "id": 250153621,
-            "name": "N. Paz"
+            "name": "N. Paz",
+            "position": 3
           },
           {
             "id": 250088061,
-            "name": "A. Hakimi"
+            "name": "A. Hakimi",
+            "position": 2
           },
           {
             "id": 250202036,
-            "name": "Flávio Gonçalves"
+            "name": "Flávio Gonçalves",
+            "position": 3
           },
           {
             "id": 250076007,
-            "name": "M. Svilar"
+            "name": "M. Svilar",
+            "position": 1
           }
         ],
         "outgoing": []

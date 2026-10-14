@@ -249,10 +249,16 @@ function transferSideHtml(manager, transfers) {
   if (chip === "LL") {
     return `<section class="transfer-side"><h3>${escapeHtml(manager)}</h3><p class="transfer-chip-only"><strong>LL</strong><span>已开启 LL 卡</span></p></section>`;
   }
-  const rowCount = Math.max(incoming.length, outgoing.length);
-  const rows = Array.from({ length: rowCount }, (_, index) => {
-    const playerOut = outgoing[index];
-    const playerIn = incoming[index];
+  const remainingIncoming = incoming.map((player, index) => ({ player, index }));
+  const pairedTransfers = outgoing.map((playerOut) => {
+    const position = Number(playerOut?.position);
+    const matchingIndex = remainingIncoming.findIndex(({ player }) => Number.isFinite(position)
+      && position === Number(player?.position));
+    const playerIn = matchingIndex >= 0 ? remainingIncoming.splice(matchingIndex, 1)[0].player : null;
+    return { playerOut, playerIn };
+  });
+  remainingIncoming.forEach(({ player }) => pairedTransfers.push({ playerOut: null, playerIn: player }));
+  const rows = pairedTransfers.map(({ playerOut, playerIn }) => {
     return `<li><span class="transfer-out">${playerOut ? `− ${escapeHtml(playerOut.name)}` : ""}</span><i>→</i><span class="transfer-in">${playerIn ? `+ ${escapeHtml(playerIn.name)}` : ""}</span></li>`;
   }).join("");
   return `<section class="transfer-side"><h3>${escapeHtml(manager)}${chip === "WC" ? '<b class="transfer-chip">WC</b>' : ""}</h3><div class="transfer-summary"><span>转会 <strong>${count}</strong></span><span class="${penalty < 0 ? "has-penalty" : ""}">扣分 <strong>${penalty}</strong></span></div>${rows ? `<ol class="transfer-list">${rows}</ol>` : '<p class="transfer-empty">无转会</p>'}</section>`;
