@@ -110,6 +110,24 @@ function getMatchData(matchday, home, away, region = dashboardRegion) {
     homeScore: null, awayScore: null, homeLineup: [], awayLineup: [], homeCaptain: null, awayCaptain: null, differentials: [], status: "待同步",
   };
 }
+function getModalMatchData(matchday, home, away, region = dashboardRegion) {
+  const matchData = getMatchData(matchday, home, away, region);
+  if (!Number.isInteger(snapshotRound) || matchday <= snapshotRound) {
+    return { ...matchData, lineupSourceRound: matchday };
+  }
+  const homeCurrent = managerScoresByRegion[region][`${snapshotRound}|${home}`];
+  const awayCurrent = managerScoresByRegion[region][`${snapshotRound}|${away}`];
+  return {
+    ...matchData,
+    homeLineup: Array.isArray(homeCurrent?.lineup) ? homeCurrent.lineup : [],
+    awayLineup: Array.isArray(awayCurrent?.lineup) ? awayCurrent.lineup : [],
+    homeTransfers: homeCurrent?.transfers,
+    awayTransfers: awayCurrent?.transfers,
+    homeCaptain: homeCurrent?.captain ?? null,
+    awayCaptain: awayCurrent?.captain ?? null,
+    lineupSourceRound: snapshotRound,
+  };
+}
 function scoreBoardHtml(data, variant = "") {
   const hasScore = Number.isFinite(data.homeScore) && Number.isFinite(data.awayScore);
   const homeScore = hasScore ? data.homeScore : "—";
@@ -268,9 +286,12 @@ function openMatchModal(matchIndex) {
   const round = officialMatchdays.find((item) => item.number === activeRound);
   const [, homeName, awayName] = round.matches[matchIndex];
   const home = teamsByName.get(homeName), away = teamsByName.get(awayName);
-  const data = getMatchData(activeRound, homeName, awayName);
+  const data = getModalMatchData(activeRound, homeName, awayName);
   const homeLineup = Array.isArray(data.homeLineup) ? data.homeLineup : [];
   const awayLineup = Array.isArray(data.awayLineup) ? data.awayLineup : [];
+  const usesCurrentLineup = data.lineupSourceRound !== activeRound;
+  const lineupSourceLabel = usesCurrentLineup ? `<span>展示当前比赛日 GD${data.lineupSourceRound} 阵容</span>` : "";
+  const transferSourceLabel = usesCurrentLineup ? ` <span>· GD${data.lineupSourceRound}</span>` : "";
   dashboardEls.matchModal.classList.remove("is-analytics");
   dashboardEls.modalContent.innerHTML = `<div class="modal-match-head">
       <p id="modalMatchTitle">${escapeHtml(regionLabels[dashboardRegion])} · 第 ${activeRound} 轮</p>
@@ -279,10 +300,10 @@ function openMatchModal(matchIndex) {
         <div class="modal-score">${scoreBoardHtml(data, "modal")}</div>
         <div class="modal-team"><img src="${logoUrl(away)}" alt="" /><strong>${escapeHtml(managerFor(awayName))}</strong><span>${escapeHtml(away.zh)}</span></div>
       </div></div>
-    <div class="modal-detail-body"><div class="lineup-heading"><strong>双方阵容</strong></div><div class="lineup-columns">
+    <div class="modal-detail-body"><div class="lineup-heading"><strong>双方阵容</strong>${lineupSourceLabel}</div><div class="lineup-columns">
       <section class="lineup-side"><h3><img src="${logoUrl(home)}" alt="" /><span>${escapeHtml(managerFor(homeName))}</span></h3>${fullLineupHtml(homeLineup)}</section>
       <section class="lineup-side"><h3><img src="${logoUrl(away)}" alt="" /><span>${escapeHtml(managerFor(awayName))}</span></h3>${fullLineupHtml(awayLineup)}</section>
-    </div><div class="transfer-heading"><strong>转会详情</strong></div><div class="transfer-columns">${transferSideHtml(managerFor(homeName), data.homeTransfers)}${transferSideHtml(managerFor(awayName), data.awayTransfers)}</div></div>`;
+    </div><div class="transfer-heading"><strong>转会详情</strong>${transferSourceLabel}</div><div class="transfer-columns">${transferSideHtml(managerFor(homeName), data.homeTransfers)}${transferSideHtml(managerFor(awayName), data.awayTransfers)}</div></div>`;
   dashboardEls.matchModal.hidden = false; document.body.style.overflow = "hidden"; dashboardEls.modalClose.focus();
 }
 function closeMatchModal() { dashboardEls.matchModal.hidden = true; document.body.style.overflow = ""; }
