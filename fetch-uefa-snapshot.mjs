@@ -60,6 +60,19 @@ if (process.env.UEFA_SCHEDULED_RUN === "1" && !SCHEDULED_UPDATE_DATES.has(TODAY)
   process.exit(0);
 }
 
+let previousSnapshot = {};
+try {
+  const previousSource = await readFile("uefa-live-data.js", "utf8");
+  previousSnapshot = JSON.parse(previousSource.replace(/^window\.PENGUIN_UEFA_SNAPSHOT\s*=\s*/, "").replace(/;\s*$/, ""));
+} catch {
+  previousSnapshot = {};
+}
+
+if (process.env.UEFA_SCHEDULED_RUN === "1" && previousSnapshot.scheduledRefreshDate === TODAY) {
+  console.log(`Skipped scheduled refresh: UEFA data was already refreshed on ${TODAY}.`);
+  process.exit(0);
+}
+
 const leagueMembers = {
   arctic: [
     ["AVG", "407d94d0-ab3e-11f1-9162-332b48cb9677"],
@@ -245,13 +258,6 @@ for (let index = 0; index < all.length; index += 6) {
   records.push(...await Promise.all(batch.map(({ region, teamName, guid }) => fetchMember(region, teamName, guid))));
 }
 
-let previousSnapshot = {};
-try {
-  const previousSource = await readFile("uefa-live-data.js", "utf8");
-  previousSnapshot = JSON.parse(previousSource.replace(/^window\.PENGUIN_UEFA_SNAPSHOT\s*=\s*/, "").replace(/;\s*$/, ""));
-} catch {
-  previousSnapshot = {};
-}
 const previousRoundByMember = new Map(
   (Array.isArray(previousSnapshot.records) ? previousSnapshot.records : [])
     .filter((record) => Number(record.matchday) === MATCHDAY - 1)
@@ -290,6 +296,9 @@ const previousExtras = Array.isArray(previousSnapshot.extras)
   : [];
 const snapshot = {
   generatedAt: new Date().toISOString(),
+  scheduledRefreshDate: process.env.UEFA_SCHEDULED_RUN === "1"
+    ? TODAY
+    : previousSnapshot.scheduledRefreshDate || null,
   matchday: MATCHDAY,
   source: "UEFA UCL Fantasy opponent-team API",
   records: [...previousRecords, ...officialRecords],
