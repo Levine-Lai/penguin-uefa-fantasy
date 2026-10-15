@@ -193,16 +193,35 @@ const currentManOfMatchIds = new Set(
     .map((player) => Number(player.id))
 );
 
+const storedPreviousMinutes = previousSnapshot.playerMinutesByMatchday?.[String(MATCHDAY - 1)] || {};
+const previousMinutesById = new Map(Object.entries(storedPreviousMinutes).map(([id, minutes]) => [Number(id), Number(minutes) || 0]));
+if (MATCHDAY > 1 && previousMinutesById.size === 0) {
+  Object.values(previousSnapshot.roundAnalytics?.[String(MATCHDAY - 1)] || {}).flat().forEach((player) => {
+    if (Number.isFinite(Number(player?.id)) && Number.isFinite(Number(player?.minutes))) previousMinutesById.set(Number(player.id), Number(player.minutes));
+  });
+}
+
 const analyticsPlayers = playerFeed.data.value.playerList
   .filter((player) => Number(player.isActive) === 1 && Number(player.value) > 0)
-  .map((player) => ({
-    id: Number(player.id),
-    name: player.pDName || player.pFName || String(player.id),
-    club: player.cCode || player.tName || "",
-    points: Number(player.curGDPts ?? player.lastGdPoints ?? 0),
-    price: Number(player.value || 0),
-    ownership: Number(player.selPer || 0),
-  }));
+  .map((player) => {
+    const id = Number(player.id);
+    const cumulativeMinutes = Number(player.minsPlyd) || 0;
+    const hasPreviousMinutes = MATCHDAY === 1 || previousMinutesById.has(id);
+    const minutes = hasPreviousMinutes
+      ? Math.max(0, cumulativeMinutes - (previousMinutesById.get(id) || 0))
+      : null;
+    const points = Number(player.curGDPts ?? player.lastGdPoints ?? 0);
+    return {
+      id,
+      name: player.pDName || player.pFName || String(player.id),
+      club: player.cCode || player.tName || "",
+      points,
+      price: Number(player.value || 0),
+      ownership: Number(player.selPer || 0),
+      played: points !== 0 || Number(minutes) > 0,
+      minutes,
+    };
+  });
 
 const takeTop = (items, compare) => [...items].sort(compare).slice(0, 25);
 const byPoints = (a, b) => b.points - a.points || b.ownership - a.ownership || a.name.localeCompare(b.name);
@@ -214,9 +233,9 @@ function buildRoundAnalytics(players) {
     score: takeTop(players, byPoints),
     ownership: takeTop(players, byOwnership),
     lowSalaryHigh: takeTop(players.filter((player) => player.points > 0), (a, b) => valueRatio(b) - valueRatio(a) || byPoints(a, b)),
-    highSalaryLow: takeTop(players.filter((player) => player.points !== 0), (a, b) => valueRatio(a) - valueRatio(b) || b.price - a.price || byOwnership(a, b)),
+    highSalaryLow: takeTop(players.filter((player) => player.played), (a, b) => valueRatio(a) - valueRatio(b) || b.price - a.price || byOwnership(a, b)),
     hiddenGems: takeTop(players.filter((player) => player.points > 0 && player.ownership > 0), (a, b) => ownershipRatio(b) - ownershipRatio(a) || byPoints(a, b)),
-    popularTraps: takeTop(players.filter((player) => player.points !== 0 && player.ownership > 0), (a, b) => ownershipRatio(a) - ownershipRatio(b) || b.ownership - a.ownership || a.name.localeCompare(b.name)),
+    popularTraps: takeTop(players.filter((player) => player.played && player.ownership > 0), (a, b) => ownershipRatio(a) - ownershipRatio(b) || b.ownership - a.ownership || a.name.localeCompare(b.name)),
   };
 }
 
@@ -333,6 +352,10 @@ const snapshot = {
   matchday: MATCHDAY,
   source: "UEFA UCL Fantasy opponent-team API",
   teamFixtures,
+  playerMinutesByMatchday: {
+    ...(previousSnapshot.playerMinutesByMatchday || {}),
+    [MATCHDAY]: Object.fromEntries(playerFeed.data.value.playerList.map((player) => [String(player.id), Number(player.minsPlyd) || 0])),
+  },
   records: [...previousRecords, ...officialRecords],
   extras: [...previousExtras, ...recordsWithTransfers.filter((record) => extras[record.region].has(record.guid))],
   roundAnalytics: {
