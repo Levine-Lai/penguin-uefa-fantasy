@@ -60,6 +60,7 @@ let activeRound = Number.isInteger(requestedRound) && officialMatchdays.some((ro
     ? snapshotRound
     : 1;
 let fdrSort = { round: null, direction: null };
+let standingsSort = { key: "points", direction: "desc" };
 document.body.classList.toggle("is-exporting", dashboardParams.get("export") === "1");
 
 const dashboardEls = {
@@ -68,7 +69,7 @@ const dashboardEls = {
   viewPanels: [...document.querySelectorAll("[data-view-panel]")],
   roundTabs: document.querySelector("#roundTabs"), matchGrid: document.querySelector("#matchGrid"),
   analyticsPanel: document.querySelector("#analyticsPanel"), analyticsGrid: document.querySelector("#analyticsGrid"),
-  standingsBody: document.querySelector("#standingsBody"), potGrid: document.querySelector("#potGrid"),
+  standingsHead: document.querySelector("#standingsHead"), standingsBody: document.querySelector("#standingsBody"), potGrid: document.querySelector("#potGrid"),
   fdrHead: document.querySelector("#fdrHead"), fdrBody: document.querySelector("#fdrBody"),
   matchesRegionLabel: document.querySelector("#matchesRegionLabel"), standingsRegionLabel: document.querySelector("#standingsRegionLabel"),
   groupsRegionLabel: document.querySelector("#groupsRegionLabel"), fdrRegionLabel: document.querySelector("#fdrRegionLabel"), matchModal: document.querySelector("#matchModal"),
@@ -133,12 +134,13 @@ function getModalMatchData(matchday, home, away, region = dashboardRegion) {
 }
 function scoreBoardHtml(data, variant = "") {
   const hasScore = Number.isFinite(data.homeScore) && Number.isFinite(data.awayScore);
-  const homeScore = hasScore ? data.homeScore : "—";
-  const awayScore = hasScore ? data.awayScore : "—";
-  const label = hasScore ? `比分 ${homeScore} 比 ${awayScore}` : "比赛尚未产生比分";
-  const homeState = !hasScore ? " is-empty" : homeScore > awayScore ? " is-leading" : homeScore < awayScore ? " is-trailing" : " is-level";
-  const awayState = !hasScore ? " is-empty" : awayScore > homeScore ? " is-leading" : awayScore < homeScore ? " is-trailing" : " is-level";
   const variantClass = variant ? ` scoreboard--${variant}` : "";
+  if (!hasScore) return `<span class="scoreboard scoreboard--empty${variantClass}" aria-label="比赛尚未产生比分"><span class="score-empty-mark">—</span></span>`;
+  const homeScore = data.homeScore;
+  const awayScore = data.awayScore;
+  const label = hasScore ? `比分 ${homeScore} 比 ${awayScore}` : "比赛尚未产生比分";
+  const homeState = homeScore > awayScore ? " is-leading" : homeScore < awayScore ? " is-trailing" : " is-level";
+  const awayState = awayScore > homeScore ? " is-leading" : awayScore < homeScore ? " is-trailing" : " is-level";
   return `<span class="scoreboard${variantClass}" aria-label="${label}"><span class="score-value${homeState}">${homeScore}</span><span class="score-divider">:</span><span class="score-value${awayState}">${awayScore}</span></span>`;
 }
 
@@ -334,7 +336,7 @@ function openMatchModal(matchIndex) {
 function closeMatchModal() { dashboardEls.matchModal.hidden = true; document.body.style.overflow = ""; }
 
 function calculateStandings(region = dashboardRegion) {
-  const rows = allTeams.map((team) => ({ team, played:0, won:0, drawn:0, lost:0, scored:0, conceded:0, difference:0, points:0 }));
+  const rows = allTeams.map((team) => ({ team, played:0, won:0, drawn:0, lost:0, scored:0, conceded:0, difference:0, points:0, overallPoints:0 }));
   const byName = new Map(rows.map((row) => [row.team.name, row]));
   officialMatchdays.forEach((round) => round.matches.forEach(([, homeName, awayName]) => {
     const data = getMatchData(round.number, homeName, awayName, region);
@@ -345,14 +347,44 @@ function calculateStandings(region = dashboardRegion) {
     else if (data.homeScore < data.awayScore) { away.won += 1; away.points += 3; home.lost += 1; }
     else { home.drawn += 1; away.drawn += 1; home.points += 1; away.points += 1; }
   }));
-  rows.forEach((row) => { row.difference = row.scored - row.conceded; });
-  return rows.sort((a,b) => b.points-a.points || b.difference-a.difference || b.scored-a.scored || a.team.pot-b.team.pot || a.team.potPosition-b.team.potPosition);
+  rows.forEach((row) => {
+    row.difference = row.scored - row.conceded;
+    const available = officialMatchdays.map((round) => managerScoresByRegion[region][`${round.number}|${row.team.name}`]).filter(Boolean);
+    const latest = available.at(-1);
+    row.overallPoints = Number.isFinite(latest?.overallPoints)
+      ? latest.overallPoints
+      : available.reduce((sum, item) => sum + (Number(item.score) || 0), 0);
+  });
+  const leagueOrder = (a, b) => b.points-a.points || b.difference-a.difference || b.scored-a.scored || a.team.pot-b.team.pot || a.team.potPosition-b.team.potPosition;
+  return rows.sort((a, b) => {
+    const difference = a[standingsSort.key] - b[standingsSort.key];
+    if (difference) return standingsSort.direction === "asc" ? difference : -difference;
+    return leagueOrder(a, b);
+  });
+}
+
+function renderStandingsHeader() {
+  const sortableHeading = (key, label) => {
+    const active = standingsSort.key === key;
+    const arrow = active ? (standingsSort.direction === "asc" ? "↑" : "↓") : "↕";
+    const ariaSort = active ? (standingsSort.direction === "asc" ? "ascending" : "descending") : "none";
+    return `<th aria-sort="${ariaSort}"><button class="standings-sort${active ? " is-active" : ""}" type="button" data-standings-sort="${key}" aria-label="${label}，点击切换升降序"><span>${label}</span><small aria-hidden="true">${arrow}</small></button></th>`;
+  };
+  dashboardEls.standingsHead.innerHTML = `<tr><th>排名</th><th>玩家</th><th>胜</th><th>平</th><th>负</th><th>净胜</th>${sortableHeading("points", "积分")}${sortableHeading("overallPoints", "总分")}</tr>`;
 }
 
 function renderStandings() {
+  renderStandingsHeader();
   dashboardEls.standingsBody.innerHTML = calculateStandings().map((row,index) => `<tr data-zone="${index < 8 ? "direct" : index < 24 ? "playoff" : "out"}">
     <td class="rank-cell"><strong>${index+1}</strong></td><td><div class="standing-club"><img src="${logoUrl(row.team)}" alt="" /><strong>${escapeHtml(managerFor(row.team.name))}</strong></div></td>
-    <td>${row.won}</td><td>${row.drawn}</td><td>${row.lost}</td><td>${row.difference>0?"+":""}${row.difference}</td><td class="points-cell">${row.points}</td></tr>`).join("");
+    <td>${row.won}</td><td>${row.drawn}</td><td>${row.lost}</td><td>${row.difference>0?"+":""}${row.difference}</td><td class="points-cell">${row.points}</td><td class="overall-points-cell">${row.overallPoints}</td></tr>`).join("");
+}
+
+function toggleStandingsSort(key) {
+  standingsSort = standingsSort.key === key
+    ? { key, direction: standingsSort.direction === "desc" ? "asc" : "desc" }
+    : { key, direction: "desc" };
+  renderStandings();
 }
 
 function renderGroups() {
@@ -511,6 +543,7 @@ function setManagerScores(records) {
 
 dashboardEls.regionButtons.forEach((button) => button.addEventListener("click",()=>setRegion(button.dataset.region)));
 dashboardEls.navButtons.forEach((button) => button.addEventListener("click",()=>switchView(button.dataset.view)));
+dashboardEls.standingsHead.addEventListener("click",(event)=>{const button=event.target.closest("[data-standings-sort]");if(button)toggleStandingsSort(button.dataset.standingsSort)});
 dashboardEls.fdrHead.addEventListener("click",(event)=>{const button=event.target.closest("[data-fdr-sort]");if(button)cycleFdrSort(Number(button.dataset.fdrSort))});
 dashboardEls.roundTabs.addEventListener("click",(event)=>{const button=event.target.closest("[data-round]");if(!button)return;activeRound=Number(button.dataset.round);renderRoundTabs();renderMatches()});
 dashboardEls.matchGrid.addEventListener("click",(event)=>{const card=event.target.closest("[data-match-index]");if(card)openMatchModal(Number(card.dataset.matchIndex))});
