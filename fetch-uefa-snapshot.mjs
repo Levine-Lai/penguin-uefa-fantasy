@@ -202,8 +202,6 @@ const analyticsPlayers = playerFeed.data.value.playerList
     points: Number(player.curGDPts ?? player.lastGdPoints ?? 0),
     price: Number(player.value || 0),
     ownership: Number(player.selPer || 0),
-    played: Number(player.teamPlayed) === 1,
-    minutes: Number(player.minsPlyd) || 0,
   }));
 
 const takeTop = (items, compare) => [...items].sort(compare).slice(0, 25);
@@ -211,14 +209,16 @@ const byPoints = (a, b) => b.points - a.points || b.ownership - a.ownership || a
 const byOwnership = (a, b) => b.ownership - a.ownership || b.points - a.points || a.name.localeCompare(b.name);
 const valueRatio = (player) => player.price > 0 ? Math.abs(player.points) / player.price : 0;
 const ownershipRatio = (player) => player.ownership > 0 ? Math.abs(player.points) / player.ownership : 0;
-const roundAnalytics = {
-  score: takeTop(analyticsPlayers, byPoints),
-  ownership: takeTop(analyticsPlayers, byOwnership),
-  lowSalaryHigh: takeTop(analyticsPlayers.filter((player) => player.points > 0), (a, b) => valueRatio(b) - valueRatio(a) || byPoints(a, b)),
-  highSalaryLow: takeTop(analyticsPlayers.filter((player) => player.played && player.minutes > 0), (a, b) => valueRatio(a) - valueRatio(b) || b.price - a.price || byOwnership(a, b)),
-  hiddenGems: takeTop(analyticsPlayers.filter((player) => player.points > 0 && player.ownership > 0), (a, b) => ownershipRatio(b) - ownershipRatio(a) || byPoints(a, b)),
-  popularTraps: takeTop(analyticsPlayers.filter((player) => player.played && player.minutes > 0 && player.ownership > 0), (a, b) => ownershipRatio(a) - ownershipRatio(b) || b.ownership - a.ownership || a.name.localeCompare(b.name)),
-};
+function buildRoundAnalytics(players) {
+  return {
+    score: takeTop(players, byPoints),
+    ownership: takeTop(players, byOwnership),
+    lowSalaryHigh: takeTop(players.filter((player) => player.points > 0), (a, b) => valueRatio(b) - valueRatio(a) || byPoints(a, b)),
+    highSalaryLow: takeTop(players.filter((player) => player.points !== 0), (a, b) => valueRatio(a) - valueRatio(b) || b.price - a.price || byOwnership(a, b)),
+    hiddenGems: takeTop(players.filter((player) => player.points > 0 && player.ownership > 0), (a, b) => ownershipRatio(b) - ownershipRatio(a) || byPoints(a, b)),
+    popularTraps: takeTop(players.filter((player) => player.points !== 0 && player.ownership > 0), (a, b) => ownershipRatio(a) - ownershipRatio(b) || b.ownership - a.ownership || a.name.localeCompare(b.name)),
+  };
+}
 
 async function fetchMember(region, expectedTeamName, guid) {
   const endpoint = new URL(`https://gaming.uefa.com/en/uclfantasy/services/api/Gameplay/user/${CURRENT_USER_GUID}/opponent-team`);
@@ -318,6 +318,7 @@ const recordsWithTransfers = records.map((record) => {
   };
 });
 const officialRecords = recordsWithTransfers.filter((record) => !extras[record.region].has(record.guid));
+const roundAnalytics = buildRoundAnalytics(analyticsPlayers);
 const previousRecords = Array.isArray(previousSnapshot.records)
   ? previousSnapshot.records.filter((record) => Number(record.matchday) !== MATCHDAY)
   : [];

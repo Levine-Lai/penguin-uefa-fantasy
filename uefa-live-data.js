@@ -1,5 +1,5 @@
 window.PENGUIN_UEFA_SNAPSHOT = {
-  "generatedAt": "2026-10-15T02:24:22.048Z",
+  "generatedAt": "2026-10-15T05:24:01.299Z",
   "scheduledRefreshDate": "2026-10-15",
   "matchday": 2,
   "source": "UEFA UCL Fantasy opponent-team API",
@@ -42448,9 +42448,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "LIV",
           "points": 20,
           "price": 7,
-          "ownership": 5,
-          "played": true,
-          "minutes": 133
+          "ownership": 5
         },
         {
           "id": 250007655,
@@ -42458,9 +42456,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "AVL",
           "points": 18,
           "price": 5.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 106
+          "ownership": 0
         },
         {
           "id": 250173424,
@@ -42468,9 +42464,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BOD",
           "points": 17,
           "price": 4.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 180
+          "ownership": 1
         },
         {
           "id": 250181849,
@@ -42478,9 +42472,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BRU",
           "points": 17,
           "price": 7,
-          "ownership": 1,
-          "played": true,
-          "minutes": 173
+          "ownership": 1
         },
         {
           "id": 250101728,
@@ -42488,9 +42480,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 16,
           "price": 5.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 78
+          "ownership": 1
         },
         {
           "id": 250113276,
@@ -42498,9 +42488,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "LIV",
           "points": 14,
           "price": 5,
-          "ownership": 2,
-          "played": true,
-          "minutes": 120
+          "ownership": 2
         },
         {
           "id": 250188006,
@@ -42508,9 +42496,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "VIL",
           "points": 14,
           "price": 4,
-          "ownership": 1,
-          "played": true,
-          "minutes": 180
+          "ownership": 1
         },
         {
           "id": 250138957,
@@ -42518,9 +42504,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BRU",
           "points": 14,
           "price": 6,
-          "ownership": 0,
-          "played": true,
-          "minutes": 180
+          "ownership": 0
         },
         {
           "id": 250016833,
@@ -42528,9 +42512,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAY",
           "points": 13,
           "price": 11,
-          "ownership": 55,
-          "played": true,
-          "minutes": 180
+          "ownership": 55
         },
         {
           "id": 250134170,
@@ -42538,9 +42520,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "LIV",
           "points": 13,
           "price": 4.5,
-          "ownership": 5,
-          "played": true,
-          "minutes": 152
+          "ownership": 5
         },
         {
           "id": 250198119,
@@ -42548,9 +42528,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "FEY",
           "points": 13,
           "price": 6.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 160
+          "ownership": 0
         },
         {
           "id": 250192993,
@@ -42558,9 +42536,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "AVL",
           "points": 13,
           "price": 6.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 73
+          "ownership": 0
         },
         {
           "id": 250101444,
@@ -42568,9 +42544,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "PSG",
           "points": 12,
           "price": 7.5,
-          "ownership": 15,
-          "played": true,
-          "minutes": 180
+          "ownership": 15
         },
         {
           "id": 250162177,
@@ -42578,9 +42552,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "PSG",
           "points": 12,
           "price": 8.5,
-          "ownership": 4,
-          "played": true,
-          "minutes": 66
+          "ownership": 4
         },
         {
           "id": 250127538,
@@ -42588,9 +42560,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "STU",
           "points": 12,
           "price": 4,
-          "ownership": 3,
-          "played": true,
-          "minutes": 114
+          "ownership": 3
         },
         {
           "id": 250163689,
@@ -42598,9 +42568,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "AVL",
           "points": 12,
           "price": 7,
-          "ownership": 1,
-          "played": true,
-          "minutes": 160
+          "ownership": 1
         },
         {
           "id": 250178786,
@@ -42608,9 +42576,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RBL",
           "points": 12,
           "price": 5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 96
+          "ownership": 0
         },
         {
           "id": 250159904,
@@ -42618,9 +42584,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "LASK",
           "points": 12,
           "price": 4.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 71
+          "ownership": 0
         },
         {
           "id": 250081185,
@@ -42628,9 +42592,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SAB",
           "points": 12,
           "price": 5.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 180
+          "ownership": 0
         },
         {
           "id": 250118787,
@@ -42638,9 +42600,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RBL",
           "points": 12,
           "price": 4.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 180
+          "ownership": 0
         },
         {
           "id": 250176450,
@@ -42648,9 +42608,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAR",
           "points": 11,
           "price": 10,
-          "ownership": 43,
-          "played": true,
-          "minutes": 180
+          "ownership": 43
         },
         {
           "id": 250194573,
@@ -42658,9 +42616,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RMA",
           "points": 11,
           "price": 6.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 32
+          "ownership": 1
         },
         {
           "id": 250103758,
@@ -42668,9 +42624,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "MCI",
           "points": 10,
           "price": 11,
-          "ownership": 22,
-          "played": true,
-          "minutes": 180
+          "ownership": 22
         },
         {
           "id": 250147458,
@@ -42678,9 +42632,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SPO",
           "points": 10,
           "price": 7,
-          "ownership": 8,
-          "played": true,
-          "minutes": 159
+          "ownership": 8
         },
         {
           "id": 250081555,
@@ -42688,9 +42640,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ROM",
           "points": 10,
           "price": 6.5,
-          "ownership": 6,
-          "played": true,
-          "minutes": 177
+          "ownership": 6
         }
       ],
       "ownership": [
@@ -42700,9 +42650,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RMA",
           "points": 8,
           "price": 11,
-          "ownership": 56,
-          "played": true,
-          "minutes": 179
+          "ownership": 56
         },
         {
           "id": 250016833,
@@ -42710,9 +42658,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAY",
           "points": 13,
           "price": 11,
-          "ownership": 55,
-          "played": true,
-          "minutes": 180
+          "ownership": 55
         },
         {
           "id": 250171184,
@@ -42720,9 +42666,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAY",
           "points": -1,
           "price": 9,
-          "ownership": 54,
-          "played": true,
-          "minutes": 164
+          "ownership": 54
         },
         {
           "id": 250176450,
@@ -42730,9 +42674,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAR",
           "points": 11,
           "price": 10,
-          "ownership": 43,
-          "played": true,
-          "minutes": 180
+          "ownership": 43
         },
         {
           "id": 250171278,
@@ -42740,9 +42682,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 6,
           "price": 6,
-          "ownership": 37,
-          "played": true,
-          "minutes": 180
+          "ownership": 37
         },
         {
           "id": 250136465,
@@ -42750,9 +42690,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "PSG",
           "points": 5,
           "price": 6,
-          "ownership": 32,
-          "played": true,
-          "minutes": 154
+          "ownership": 32
         },
         {
           "id": 250131901,
@@ -42760,9 +42698,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 7,
           "price": 6,
-          "ownership": 30,
-          "played": true,
-          "minutes": 180
+          "ownership": 30
         },
         {
           "id": 250113392,
@@ -42770,9 +42706,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 0,
           "price": 4.5,
-          "ownership": 29,
-          "played": true,
-          "minutes": 0
+          "ownership": 29
         },
         {
           "id": 250088061,
@@ -42780,9 +42714,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "PSG",
           "points": 2,
           "price": 6,
-          "ownership": 27,
-          "played": true,
-          "minutes": 154
+          "ownership": 27
         },
         {
           "id": 250112880,
@@ -42790,9 +42722,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAR",
           "points": 0,
           "price": 9.5,
-          "ownership": 27,
-          "played": true,
-          "minutes": 71
+          "ownership": 27
         },
         {
           "id": 250103758,
@@ -42800,9 +42730,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "MCI",
           "points": 10,
           "price": 11,
-          "ownership": 22,
-          "played": true,
-          "minutes": 180
+          "ownership": 22
         },
         {
           "id": 250176453,
@@ -42810,9 +42738,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAR",
           "points": 3,
           "price": 5.5,
-          "ownership": 22,
-          "played": true,
-          "minutes": 180
+          "ownership": 22
         },
         {
           "id": 250101808,
@@ -42820,9 +42746,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "PSG",
           "points": 1,
           "price": 10,
-          "ownership": 22,
-          "played": true,
-          "minutes": 24
+          "ownership": 22
         },
         {
           "id": 250128377,
@@ -42830,9 +42754,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RMA",
           "points": 2,
           "price": 8.5,
-          "ownership": 21,
-          "played": true,
-          "minutes": 180
+          "ownership": 21
         },
         {
           "id": 250011668,
@@ -42840,9 +42762,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RMA",
           "points": 2,
           "price": 6,
-          "ownership": 17,
-          "played": true,
-          "minutes": 180
+          "ownership": 17
         },
         {
           "id": 250164780,
@@ -42850,9 +42770,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAR",
           "points": 7,
           "price": 7,
-          "ownership": 16,
-          "played": true,
-          "minutes": 102
+          "ownership": 16
         },
         {
           "id": 250079545,
@@ -42860,9 +42778,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAY",
           "points": 3,
           "price": 5.5,
-          "ownership": 16,
-          "played": true,
-          "minutes": 135
+          "ownership": 16
         },
         {
           "id": 50327420,
@@ -42870,9 +42786,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "LIV",
           "points": 0,
           "price": 6,
-          "ownership": 16,
-          "played": true,
-          "minutes": 118
+          "ownership": 16
         },
         {
           "id": 250101444,
@@ -42880,9 +42794,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "PSG",
           "points": 12,
           "price": 7.5,
-          "ownership": 15,
-          "played": true,
-          "minutes": 180
+          "ownership": 15
         },
         {
           "id": 250066886,
@@ -42890,9 +42802,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "PSG",
           "points": 9,
           "price": 10,
-          "ownership": 15,
-          "played": true,
-          "minutes": 140
+          "ownership": 15
         },
         {
           "id": 250078886,
@@ -42900,9 +42810,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "MUN",
           "points": 2,
           "price": 9,
-          "ownership": 15,
-          "played": true,
-          "minutes": 170
+          "ownership": 15
         },
         {
           "id": 250118131,
@@ -42910,9 +42818,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAR",
           "points": 2,
           "price": 5,
-          "ownership": 15,
-          "played": true,
-          "minutes": 180
+          "ownership": 15
         },
         {
           "id": 250124063,
@@ -42920,9 +42826,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "MCI",
           "points": 1,
           "price": 7,
-          "ownership": 15,
-          "played": true,
-          "minutes": 107
+          "ownership": 15
         },
         {
           "id": 250064064,
@@ -42930,9 +42834,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "PSG",
           "points": 3,
           "price": 5,
-          "ownership": 14,
-          "played": true,
-          "minutes": 90
+          "ownership": 14
         },
         {
           "id": 250132811,
@@ -42940,9 +42842,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BAY",
           "points": 7,
           "price": 8,
-          "ownership": 13,
-          "played": true,
-          "minutes": 157
+          "ownership": 13
         }
       ],
       "lowSalaryHigh": [
@@ -42952,9 +42852,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BOD",
           "points": 17,
           "price": 4.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 180
+          "ownership": 1
         },
         {
           "id": 250188006,
@@ -42962,9 +42860,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "VIL",
           "points": 14,
           "price": 4,
-          "ownership": 1,
-          "played": true,
-          "minutes": 180
+          "ownership": 1
         },
         {
           "id": 250007655,
@@ -42972,9 +42868,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "AVL",
           "points": 18,
           "price": 5.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 106
+          "ownership": 0
         },
         {
           "id": 250127538,
@@ -42982,9 +42876,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "STU",
           "points": 12,
           "price": 4,
-          "ownership": 3,
-          "played": true,
-          "minutes": 114
+          "ownership": 3
         },
         {
           "id": 250101728,
@@ -42992,9 +42884,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 16,
           "price": 5.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 78
+          "ownership": 1
         },
         {
           "id": 250134170,
@@ -43002,9 +42892,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "LIV",
           "points": 13,
           "price": 4.5,
-          "ownership": 5,
-          "played": true,
-          "minutes": 152
+          "ownership": 5
         },
         {
           "id": 250134138,
@@ -43012,9 +42900,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "LIV",
           "points": 20,
           "price": 7,
-          "ownership": 5,
-          "played": true,
-          "minutes": 133
+          "ownership": 5
         },
         {
           "id": 250113276,
@@ -43022,9 +42908,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "LIV",
           "points": 14,
           "price": 5,
-          "ownership": 2,
-          "played": true,
-          "minutes": 120
+          "ownership": 2
         },
         {
           "id": 250159904,
@@ -43032,9 +42916,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "LASK",
           "points": 12,
           "price": 4.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 71
+          "ownership": 0
         },
         {
           "id": 250118787,
@@ -43042,9 +42924,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RBL",
           "points": 12,
           "price": 4.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 180
+          "ownership": 0
         },
         {
           "id": 250181849,
@@ -43052,9 +42932,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BRU",
           "points": 17,
           "price": 7,
-          "ownership": 1,
-          "played": true,
-          "minutes": 173
+          "ownership": 1
         },
         {
           "id": 250178786,
@@ -43062,9 +42940,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RBL",
           "points": 12,
           "price": 5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 96
+          "ownership": 0
         },
         {
           "id": 250138957,
@@ -43072,9 +42948,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BRU",
           "points": 14,
           "price": 6,
-          "ownership": 0,
-          "played": true,
-          "minutes": 180
+          "ownership": 0
         },
         {
           "id": 250109274,
@@ -43082,9 +42956,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BOD",
           "points": 9,
           "price": 4,
-          "ownership": 0,
-          "played": true,
-          "minutes": 90
+          "ownership": 0
         },
         {
           "id": 250076631,
@@ -43092,9 +42964,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "LIV",
           "points": 9,
           "price": 4,
-          "ownership": 0,
-          "played": true,
-          "minutes": 92
+          "ownership": 0
         },
         {
           "id": 250059233,
@@ -43102,9 +42972,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "NAP",
           "points": 10,
           "price": 4.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 180
+          "ownership": 0
         },
         {
           "id": 250209228,
@@ -43112,9 +42980,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SHK",
           "points": 10,
           "price": 4.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 177
+          "ownership": 0
         },
         {
           "id": 250208842,
@@ -43122,9 +42988,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SPO",
           "points": 10,
           "price": 4.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 159
+          "ownership": 0
         },
         {
           "id": 250164834,
@@ -43132,9 +42996,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "LIV",
           "points": 10,
           "price": 4.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 90
+          "ownership": 0
         },
         {
           "id": 250081185,
@@ -43142,9 +43004,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SAB",
           "points": 12,
           "price": 5.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 180
+          "ownership": 0
         },
         {
           "id": 250198119,
@@ -43152,9 +43012,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "FEY",
           "points": 13,
           "price": 6.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 160
+          "ownership": 0
         },
         {
           "id": 250192993,
@@ -43162,9 +43020,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "AVL",
           "points": 13,
           "price": 6.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 73
+          "ownership": 0
         },
         {
           "id": 250178067,
@@ -43172,9 +43028,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "FEY",
           "points": 9,
           "price": 4.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 180
+          "ownership": 0
         },
         {
           "id": 250218560,
@@ -43182,9 +43036,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "AVL",
           "points": 8,
           "price": 4,
-          "ownership": 12,
-          "played": true,
-          "minutes": 180
+          "ownership": 12
         },
         {
           "id": 250179137,
@@ -43192,261 +43044,209 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "SPO",
           "points": 8,
           "price": 4,
-          "ownership": 4,
-          "played": true,
-          "minutes": 96
+          "ownership": 4
         }
       ],
       "highSalaryLow": [
         {
-          "id": 250112880,
-          "name": "Raphinha",
-          "club": "BAR",
-          "points": 0,
-          "price": 9.5,
-          "ownership": 27,
-          "played": true,
-          "minutes": 71
-        },
-        {
-          "id": 250124430,
-          "name": "J. Musiala",
-          "club": "BAY",
-          "points": 0,
-          "price": 8,
-          "ownership": 2,
-          "played": true,
-          "minutes": 65
-        },
-        {
-          "id": 250089868,
-          "name": "A. Isak",
-          "club": "LIV",
-          "points": 0,
-          "price": 7.5,
-          "ownership": 9,
-          "played": true,
-          "minutes": 88
-        },
-        {
-          "id": 250124460,
-          "name": "C. Tzolis",
-          "club": "ARS",
-          "points": 0,
-          "price": 7.5,
-          "ownership": 2,
-          "played": true,
-          "minutes": 25
-        },
-        {
-          "id": 250104066,
-          "name": "D. Szoboszlai",
-          "club": "LIV",
-          "points": 0,
-          "price": 7,
-          "ownership": 13,
-          "played": true,
-          "minutes": 90
-        },
-        {
-          "id": 250022829,
-          "name": "Hakan Çalhanoğlu",
-          "club": "INT",
-          "points": 0,
-          "price": 7,
-          "ownership": 2,
-          "played": true,
-          "minutes": 127
-        },
-        {
-          "id": 250101534,
-          "name": "P. Foden",
-          "club": "MCI",
-          "points": 0,
-          "price": 7,
-          "ownership": 1,
-          "played": true,
-          "minutes": 75
-        },
-        {
-          "id": 250127111,
-          "name": "B. Šeško",
-          "club": "MUN",
-          "points": 0,
-          "price": 6.5,
-          "ownership": 2,
-          "played": true,
-          "minutes": 64
-        },
-        {
-          "id": 250134320,
-          "name": "I. Saibari",
-          "club": "BAY",
-          "points": 0,
-          "price": 6.5,
-          "ownership": 2,
-          "played": true,
-          "minutes": 63
-        },
-        {
-          "id": 250088039,
-          "name": "Brahim Díaz",
-          "club": "RMA",
-          "points": 0,
-          "price": 6.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 79
-        },
-        {
-          "id": 250183450,
-          "name": "B. Varga",
-          "club": "AEK",
-          "points": 0,
-          "price": 6.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 102
-        },
-        {
-          "id": 98023,
-          "name": "H. Mkhitaryan",
-          "club": "INT",
-          "points": 0,
-          "price": 6.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 7
-        },
-        {
-          "id": 250005335,
-          "name": "İ. Gündoğan",
-          "club": "GAL",
-          "points": 0,
-          "price": 6.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 6
-        },
-        {
-          "id": 250087919,
-          "name": "M. Kean",
-          "club": "COM",
-          "points": 0,
-          "price": 6.5,
-          "ownership": 0,
-          "played": true,
-          "minutes": 25
-        },
-        {
-          "id": 50327420,
-          "name": "V. van Dijk",
-          "club": "LIV",
-          "points": 0,
-          "price": 6,
-          "ownership": 16,
-          "played": true,
-          "minutes": 118
-        },
-        {
-          "id": 250080569,
-          "name": "E. Buendía",
-          "club": "AVL",
-          "points": 0,
-          "price": 6,
-          "ownership": 2,
-          "played": true,
-          "minutes": 68
-        },
-        {
-          "id": 250024349,
-          "name": "M. Sabitzer",
-          "club": "BVB",
-          "points": 0,
-          "price": 6,
-          "ownership": 1,
-          "played": true,
-          "minutes": 75
-        },
-        {
-          "id": 250143679,
-          "name": "M. Zubimendi",
-          "club": "ARS",
-          "points": 0,
-          "price": 6,
-          "ownership": 1,
-          "played": true,
-          "minutes": 9
-        },
-        {
-          "id": 250187620,
-          "name": "R. Pepi",
-          "club": "PSV",
-          "points": 0,
-          "price": 6,
-          "ownership": 1,
-          "played": true,
-          "minutes": 83
-        },
-        {
-          "id": 250042521,
-          "name": "André Silva",
-          "club": "POR",
-          "points": 0,
-          "price": 6,
-          "ownership": 0,
-          "played": true,
-          "minutes": 132
-        },
-        {
-          "id": 250146674,
-          "name": "Kerem Aktürkoğlu",
-          "club": "FEN",
-          "points": 0,
-          "price": 6,
-          "ownership": 0,
-          "played": true,
-          "minutes": 72
-        },
-        {
-          "id": 1909917,
-          "name": "Koke",
-          "club": "ATM",
-          "points": 0,
-          "price": 6,
-          "ownership": 0,
-          "played": true,
-          "minutes": 59
-        },
-        {
-          "id": 250154132,
-          "name": "M. Godts",
+          "id": 250101808,
+          "name": "K. Kvaratskhelia",
           "club": "PSG",
-          "points": 0,
-          "price": 6,
-          "ownership": 0,
-          "played": true,
-          "minutes": 26
+          "points": 1,
+          "price": 10,
+          "ownership": 22
         },
         {
-          "id": 250174644,
-          "name": "M. Usor",
-          "club": "LASK",
-          "points": 0,
-          "price": 6,
-          "ownership": 0,
-          "played": true,
-          "minutes": 90
+          "id": 250121533,
+          "name": "Vinícius Júnior",
+          "club": "RMA",
+          "points": 1,
+          "price": 9.5,
+          "ownership": 7
         },
         {
-          "id": 250106003,
-          "name": "N. Pépé",
-          "club": "VIL",
-          "points": 0,
+          "id": 250171184,
+          "name": "M. Olise",
+          "club": "BAY",
+          "points": -1,
+          "price": 9,
+          "ownership": 54
+        },
+        {
+          "id": 250080553,
+          "name": "S. Guirassy",
+          "club": "BVB",
+          "points": 1,
+          "price": 8.5,
+          "ownership": 11
+        },
+        {
+          "id": 250113142,
+          "name": "J. Doku",
+          "club": "MCI",
+          "points": 1,
+          "price": 7.5,
+          "ownership": 1
+        },
+        {
+          "id": 250010802,
+          "name": "R. Lukaku",
+          "club": "FEN",
+          "points": 1,
+          "price": 7.5,
+          "ownership": 1
+        },
+        {
+          "id": 250124063,
+          "name": "R. Cherki",
+          "club": "MCI",
+          "points": 1,
+          "price": 7,
+          "ownership": 15
+        },
+        {
+          "id": 250088320,
+          "name": "Ferran Torres",
+          "club": "PSG",
+          "points": -1,
+          "price": 7,
+          "ownership": 12
+        },
+        {
+          "id": 250081341,
+          "name": "M. Ødegaard",
+          "club": "ARS",
+          "points": 1,
+          "price": 7,
+          "ownership": 9
+        },
+        {
+          "id": 250110943,
+          "name": "Matheus Cunha",
+          "club": "MUN",
+          "points": 1,
+          "price": 7,
+          "ownership": 3
+        },
+        {
+          "id": 250181717,
+          "name": "A. Semenyo",
+          "club": "MCI",
+          "points": 1,
+          "price": 7,
+          "ownership": 2
+        },
+        {
+          "id": 250008901,
+          "name": "K. De Bruyne",
+          "club": "NAP",
+          "points": 1,
+          "price": 7,
+          "ownership": 2
+        },
+        {
+          "id": 250086333,
+          "name": "P. Dybala",
+          "club": "ROM",
+          "points": 1,
+          "price": 7,
+          "ownership": 2
+        },
+        {
+          "id": 250088246,
+          "name": "M. Rashford",
+          "club": "MUN",
+          "points": 1,
+          "price": 7,
+          "ownership": 1
+        },
+        {
+          "id": 250059115,
+          "name": "Bernardo Silva",
+          "club": "RMA",
+          "points": 1,
+          "price": 7,
+          "ownership": 0
+        },
+        {
+          "id": 250172672,
+          "name": "A. Mac Allister",
+          "club": "LIV",
+          "points": 1,
+          "price": 6.5,
+          "ownership": 3
+        },
+        {
+          "id": 250112224,
+          "name": "F. Nmecha",
+          "club": "BVB",
+          "points": 1,
+          "price": 6.5,
+          "ownership": 2
+        },
+        {
+          "id": 103310,
+          "name": "I. Perišić",
+          "club": "PSV",
+          "points": 1,
+          "price": 6.5,
+          "ownership": 1
+        },
+        {
+          "id": 250063984,
+          "name": "L. Sané",
+          "club": "GAL",
+          "points": 1,
+          "price": 6.5,
+          "ownership": 1
+        },
+        {
+          "id": 250020851,
+          "name": "O. Giroud",
+          "club": "LIL",
+          "points": 1,
+          "price": 6.5,
+          "ownership": 1
+        },
+        {
+          "id": 250135496,
+          "name": "A. Garnacho",
+          "club": "AVL",
+          "points": 1,
+          "price": 6.5,
+          "ownership": 0
+        },
+        {
+          "id": 250106648,
+          "name": "D. Neres",
+          "club": "NAP",
+          "points": 1,
+          "price": 6.5,
+          "ownership": 0
+        },
+        {
+          "id": 250091165,
+          "name": "N. Lang",
+          "club": "NAP",
+          "points": 1,
+          "price": 6.5,
+          "ownership": 0
+        },
+        {
+          "id": 250076641,
+          "name": "O. Édouard",
+          "club": "LEN",
+          "points": 1,
+          "price": 6.5,
+          "ownership": 0
+        },
+        {
+          "id": 250164991,
+          "name": "João Neves",
+          "club": "PSG",
+          "points": 1,
           "price": 6,
-          "ownership": 0,
-          "played": true,
-          "minutes": 31
+          "ownership": 9
         }
       ],
       "hiddenGems": [
@@ -43456,9 +43256,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BOD",
           "points": 17,
           "price": 4.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 180
+          "ownership": 1
         },
         {
           "id": 250181849,
@@ -43466,9 +43264,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BRU",
           "points": 17,
           "price": 7,
-          "ownership": 1,
-          "played": true,
-          "minutes": 173
+          "ownership": 1
         },
         {
           "id": 250101728,
@@ -43476,9 +43272,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 16,
           "price": 5.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 78
+          "ownership": 1
         },
         {
           "id": 250188006,
@@ -43486,9 +43280,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "VIL",
           "points": 14,
           "price": 4,
-          "ownership": 1,
-          "played": true,
-          "minutes": 180
+          "ownership": 1
         },
         {
           "id": 250163689,
@@ -43496,9 +43288,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "AVL",
           "points": 12,
           "price": 7,
-          "ownership": 1,
-          "played": true,
-          "minutes": 160
+          "ownership": 1
         },
         {
           "id": 250194573,
@@ -43506,9 +43296,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RMA",
           "points": 11,
           "price": 6.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 32
+          "ownership": 1
         },
         {
           "id": 150711837,
@@ -43516,9 +43304,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BET",
           "points": 10,
           "price": 6.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 148
+          "ownership": 1
         },
         {
           "id": 250160436,
@@ -43526,9 +43312,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "PSG",
           "points": 9,
           "price": 7,
-          "ownership": 1,
-          "played": true,
-          "minutes": 166
+          "ownership": 1
         },
         {
           "id": 250028211,
@@ -43536,9 +43320,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RMA",
           "points": 8,
           "price": 5.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 90
+          "ownership": 1
         },
         {
           "id": 250134376,
@@ -43546,9 +43328,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ARS",
           "points": 8,
           "price": 7.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 151
+          "ownership": 1
         },
         {
           "id": 250139036,
@@ -43556,9 +43336,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "ATM",
           "points": 8,
           "price": 5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 138
+          "ownership": 1
         },
         {
           "id": 250113276,
@@ -43566,9 +43344,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "LIV",
           "points": 14,
           "price": 5,
-          "ownership": 2,
-          "played": true,
-          "minutes": 120
+          "ownership": 2
         },
         {
           "id": 250112217,
@@ -43576,9 +43352,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "STU",
           "points": 7,
           "price": 5.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 170
+          "ownership": 1
         },
         {
           "id": 250190117,
@@ -43586,9 +43360,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "AVL",
           "points": 7,
           "price": 4.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 79
+          "ownership": 1
         },
         {
           "id": 250141864,
@@ -43596,9 +43368,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BOD",
           "points": 7,
           "price": 4.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 135
+          "ownership": 1
         },
         {
           "id": 250055905,
@@ -43606,9 +43376,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "AVL",
           "points": 7,
           "price": 4.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 180
+          "ownership": 1
         },
         {
           "id": 250191448,
@@ -43616,9 +43384,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "MCI",
           "points": 6,
           "price": 5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 120
+          "ownership": 1
         },
         {
           "id": 250186227,
@@ -43626,9 +43392,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "COM",
           "points": 6,
           "price": 5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 109
+          "ownership": 1
         },
         {
           "id": 250144211,
@@ -43636,9 +43400,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "BET",
           "points": 6,
           "price": 7,
-          "ownership": 1,
-          "played": true,
-          "minutes": 179
+          "ownership": 1
         },
         {
           "id": 250110361,
@@ -43646,9 +43408,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RBL",
           "points": 6,
           "price": 4.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 180
+          "ownership": 1
         },
         {
           "id": 250176488,
@@ -43656,9 +43416,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "COM",
           "points": 6,
           "price": 4,
-          "ownership": 1,
-          "played": true,
-          "minutes": 180
+          "ownership": 1
         },
         {
           "id": 250088461,
@@ -43666,9 +43424,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "AVL",
           "points": 6,
           "price": 4.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 180
+          "ownership": 1
         },
         {
           "id": 250220373,
@@ -43676,9 +43432,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "RMA",
           "points": 6,
           "price": 7.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 89
+          "ownership": 1
         },
         {
           "id": 250173062,
@@ -43686,9 +43440,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "INT",
           "points": 5,
           "price": 5.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 42
+          "ownership": 1
         },
         {
           "id": 250117617,
@@ -43696,261 +43448,209 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "club": "MCI",
           "points": 5,
           "price": 7,
-          "ownership": 1,
-          "played": true,
-          "minutes": 118
+          "ownership": 1
         }
       ],
       "popularTraps": [
         {
-          "id": 250112880,
-          "name": "Raphinha",
+          "id": 250171184,
+          "name": "M. Olise",
+          "club": "BAY",
+          "points": -1,
+          "price": 9,
+          "ownership": 54
+        },
+        {
+          "id": 250101808,
+          "name": "K. Kvaratskhelia",
+          "club": "PSG",
+          "points": 1,
+          "price": 10,
+          "ownership": 22
+        },
+        {
+          "id": 250124063,
+          "name": "R. Cherki",
+          "club": "MCI",
+          "points": 1,
+          "price": 7,
+          "ownership": 15
+        },
+        {
+          "id": 250088061,
+          "name": "A. Hakimi",
+          "club": "PSG",
+          "points": 2,
+          "price": 6,
+          "ownership": 27
+        },
+        {
+          "id": 250088320,
+          "name": "Ferran Torres",
+          "club": "PSG",
+          "points": -1,
+          "price": 7,
+          "ownership": 12
+        },
+        {
+          "id": 250080553,
+          "name": "S. Guirassy",
+          "club": "BVB",
+          "points": 1,
+          "price": 8.5,
+          "ownership": 11
+        },
+        {
+          "id": 250065792,
+          "name": "V. Milinković-Savić",
+          "club": "NAP",
+          "points": 1,
+          "price": 4,
+          "ownership": 11
+        },
+        {
+          "id": 250128377,
+          "name": "Jude Bellingham",
+          "club": "RMA",
+          "points": 2,
+          "price": 8.5,
+          "ownership": 21
+        },
+        {
+          "id": 250164991,
+          "name": "João Neves",
+          "club": "PSG",
+          "points": 1,
+          "price": 6,
+          "ownership": 9
+        },
+        {
+          "id": 250086928,
+          "name": "M. Guéhi",
+          "club": "MCI",
+          "points": 1,
+          "price": 5,
+          "ownership": 9
+        },
+        {
+          "id": 250081341,
+          "name": "M. Ødegaard",
+          "club": "ARS",
+          "points": 1,
+          "price": 7,
+          "ownership": 9
+        },
+        {
+          "id": 250011668,
+          "name": "T. Courtois",
+          "club": "RMA",
+          "points": 2,
+          "price": 6,
+          "ownership": 17
+        },
+        {
+          "id": 250078886,
+          "name": "Bruno Fernandes",
+          "club": "MUN",
+          "points": 2,
+          "price": 9,
+          "ownership": 15
+        },
+        {
+          "id": 250118131,
+          "name": "Joan García",
           "club": "BAR",
-          "points": 0,
+          "points": 2,
+          "price": 5,
+          "ownership": 15
+        },
+        {
+          "id": 250176453,
+          "name": "P. Cubarsí",
+          "club": "BAR",
+          "points": 3,
+          "price": 5.5,
+          "ownership": 22
+        },
+        {
+          "id": 250076574,
+          "name": "K. Mbappé",
+          "club": "RMA",
+          "points": 8,
+          "price": 11,
+          "ownership": 56
+        },
+        {
+          "id": 250091199,
+          "name": "A. Bastoni",
+          "club": "INT",
+          "points": 1,
+          "price": 5,
+          "ownership": 7
+        },
+        {
+          "id": 250121533,
+          "name": "Vinícius Júnior",
+          "club": "RMA",
+          "points": 1,
           "price": 9.5,
-          "ownership": 27,
-          "played": true,
-          "minutes": 71
+          "ownership": 7
         },
         {
-          "id": 50327420,
-          "name": "V. van Dijk",
-          "club": "LIV",
-          "points": 0,
+          "id": 250136465,
+          "name": "Nuno Mendes",
+          "club": "PSG",
+          "points": 5,
           "price": 6,
-          "ownership": 16,
-          "played": true,
-          "minutes": 118
+          "ownership": 32
         },
         {
-          "id": 250104066,
-          "name": "D. Szoboszlai",
-          "club": "LIV",
-          "points": 0,
-          "price": 7,
-          "ownership": 13,
-          "played": true,
-          "minutes": 90
-        },
-        {
-          "id": 250089868,
-          "name": "A. Isak",
-          "club": "LIV",
-          "points": 0,
-          "price": 7.5,
-          "ownership": 9,
-          "played": true,
-          "minutes": 88
-        },
-        {
-          "id": 97923,
-          "name": "M. Neuer",
-          "club": "BAY",
-          "points": 0,
-          "price": 5.5,
-          "ownership": 9,
-          "played": true,
-          "minutes": 90
-        },
-        {
-          "id": 250190350,
-          "name": "N. Brown",
-          "club": "BAY",
-          "points": 0,
-          "price": 4,
-          "ownership": 9,
-          "played": true,
-          "minutes": 45
-        },
-        {
-          "id": 250194474,
-          "name": "D. Huijsen",
-          "club": "RMA",
-          "points": 0,
-          "price": 4.5,
-          "ownership": 7,
-          "played": true,
-          "minutes": 90
-        },
-        {
-          "id": 250055660,
-          "name": "J. Tah",
-          "club": "BAY",
-          "points": 0,
-          "price": 5,
-          "ownership": 6,
-          "played": true,
-          "minutes": 135
-        },
-        {
-          "id": 250188223,
-          "name": "Carlos Augusto",
-          "club": "INT",
-          "points": 0,
-          "price": 4,
-          "ownership": 4,
-          "played": true,
-          "minutes": 83
-        },
-        {
-          "id": 250112690,
-          "name": "D. Dumfries",
-          "club": "RMA",
-          "points": 0,
-          "price": 5.5,
-          "ownership": 4,
-          "played": true,
-          "minutes": 149
-        },
-        {
-          "id": 250163777,
-          "name": "A. Pavlović",
-          "club": "BAY",
-          "points": 0,
-          "price": 5,
-          "ownership": 3,
-          "played": true,
-          "minutes": 90
-        },
-        {
-          "id": 250090766,
-          "name": "M. Mittelstädt",
-          "club": "STU",
-          "points": 0,
-          "price": 4.5,
-          "ownership": 3,
-          "played": true,
-          "minutes": 86
-        },
-        {
-          "id": 250163454,
-          "name": "P. Hincapié",
+          "id": 250171278,
+          "name": "D. Raya",
           "club": "ARS",
-          "points": 0,
-          "price": 4.5,
-          "ownership": 3,
-          "played": true,
-          "minutes": 90
-        },
-        {
-          "id": 250187727,
-          "name": "R. Zalazar",
-          "club": "SPO",
-          "points": 0,
-          "price": 4.5,
-          "ownership": 3,
-          "played": true,
-          "minutes": 66
-        },
-        {
-          "id": 250127111,
-          "name": "B. Šeško",
-          "club": "MUN",
-          "points": 0,
-          "price": 6.5,
-          "ownership": 2,
-          "played": true,
-          "minutes": 64
-        },
-        {
-          "id": 250124460,
-          "name": "C. Tzolis",
-          "club": "ARS",
-          "points": 0,
-          "price": 7.5,
-          "ownership": 2,
-          "played": true,
-          "minutes": 25
-        },
-        {
-          "id": 250080569,
-          "name": "E. Buendía",
-          "club": "AVL",
-          "points": 0,
+          "points": 6,
           "price": 6,
-          "ownership": 2,
-          "played": true,
-          "minutes": 68
+          "ownership": 37
         },
         {
-          "id": 250202036,
-          "name": "Flávio Gonçalves",
-          "club": "SPO",
-          "points": 0,
-          "price": 4.5,
-          "ownership": 2,
-          "played": true,
-          "minutes": 24
-        },
-        {
-          "id": 250022829,
-          "name": "Hakan Çalhanoğlu",
-          "club": "INT",
-          "points": 0,
-          "price": 7,
-          "ownership": 2,
-          "played": true,
-          "minutes": 127
-        },
-        {
-          "id": 250134320,
-          "name": "I. Saibari",
-          "club": "BAY",
-          "points": 0,
-          "price": 6.5,
-          "ownership": 2,
-          "played": true,
-          "minutes": 63
-        },
-        {
-          "id": 250124430,
-          "name": "J. Musiala",
-          "club": "BAY",
-          "points": 0,
-          "price": 8,
-          "ownership": 2,
-          "played": true,
-          "minutes": 65
-        },
-        {
-          "id": 250165232,
-          "name": "L. Yoro",
-          "club": "MUN",
-          "points": 0,
-          "price": 4,
-          "ownership": 2,
-          "played": true,
-          "minutes": 164
-        },
-        {
-          "id": 250187215,
-          "name": "O. Bjørtuft",
-          "club": "BOD",
-          "points": 0,
-          "price": 4,
-          "ownership": 2,
-          "played": true,
-          "minutes": 87
-        },
-        {
-          "id": 250076357,
-          "name": "T. Alexander-Arnold",
+          "id": 250076168,
+          "name": "M. Cucurella",
           "club": "RMA",
-          "points": 0,
-          "price": 5.5,
-          "ownership": 2,
-          "played": true,
-          "minutes": 79
+          "points": 2,
+          "price": 6,
+          "ownership": 12
         },
         {
-          "id": 250135831,
-          "name": "A. Brown",
-          "club": "FEN",
-          "points": 0,
+          "id": 250163404,
+          "name": "P. Esposito",
+          "club": "INT",
+          "points": 1,
+          "price": 5,
+          "ownership": 6
+        },
+        {
+          "id": 250118908,
+          "name": "S. Lammens",
+          "club": "MUN",
+          "points": 2,
           "price": 4.5,
-          "ownership": 1,
-          "played": true,
-          "minutes": 180
+          "ownership": 11
+        },
+        {
+          "id": 250079545,
+          "name": "D. Upamecano",
+          "club": "BAY",
+          "points": 3,
+          "price": 5.5,
+          "ownership": 16
+        },
+        {
+          "id": 250153621,
+          "name": "N. Paz",
+          "club": "COM",
+          "points": 2,
+          "price": 7,
+          "ownership": 10
         }
       ]
     }

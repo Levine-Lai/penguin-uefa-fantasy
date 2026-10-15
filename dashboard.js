@@ -135,7 +135,7 @@ function getModalMatchData(matchday, home, away, region = dashboardRegion) {
 function scoreBoardHtml(data, variant = "") {
   const hasScore = Number.isFinite(data.homeScore) && Number.isFinite(data.awayScore);
   const variantClass = variant ? ` scoreboard--${variant}` : "";
-  if (!hasScore) return `<span class="scoreboard scoreboard--empty${variantClass}" aria-label="比赛尚未产生比分"><span class="score-empty-mark">—</span></span>`;
+  if (!hasScore) return `<span class="scoreboard${variantClass}" aria-label="比赛尚未产生比分"><span class="score-value is-empty"></span><span class="score-divider">:</span><span class="score-value is-empty"></span></span>`;
   const homeScore = data.homeScore;
   const awayScore = data.awayScore;
   const label = hasScore ? `比分 ${homeScore} 比 ${awayScore}` : "比赛尚未产生比分";
@@ -370,14 +370,14 @@ function renderStandingsHeader() {
     const ariaSort = active ? (standingsSort.direction === "asc" ? "ascending" : "descending") : "none";
     return `<th aria-sort="${ariaSort}"><button class="standings-sort${active ? " is-active" : ""}" type="button" data-standings-sort="${key}" aria-label="${label}，点击切换升降序"><span>${label}</span><small aria-hidden="true">${arrow}</small></button></th>`;
   };
-  dashboardEls.standingsHead.innerHTML = `<tr><th>排名</th><th>玩家</th><th>胜</th><th>平</th><th>负</th><th>净胜</th>${sortableHeading("points", "积分")}${sortableHeading("overallPoints", "总分")}</tr>`;
+  dashboardEls.standingsHead.innerHTML = `<tr><th>排名</th><th>玩家</th><th>胜</th><th>平</th><th>负</th><th>净胜</th>${sortableHeading("overallPoints", "总分")}${sortableHeading("points", "积分")}</tr>`;
 }
 
 function renderStandings() {
   renderStandingsHeader();
   dashboardEls.standingsBody.innerHTML = calculateStandings().map((row,index) => `<tr data-zone="${index < 8 ? "direct" : index < 24 ? "playoff" : "out"}">
     <td class="rank-cell"><strong>${index+1}</strong></td><td><div class="standing-club"><img src="${logoUrl(row.team)}" alt="" /><strong>${escapeHtml(managerFor(row.team.name))}</strong></div></td>
-    <td>${row.won}</td><td>${row.drawn}</td><td>${row.lost}</td><td>${row.difference>0?"+":""}${row.difference}</td><td class="points-cell">${row.points}</td><td class="overall-points-cell">${row.overallPoints}</td></tr>`).join("");
+    <td>${row.won}</td><td>${row.drawn}</td><td>${row.lost}</td><td>${row.difference>0?"+":""}${row.difference}</td><td class="overall-points-cell">${row.overallPoints}</td><td class="points-cell">${row.points}</td></tr>`).join("");
 }
 
 function toggleStandingsSort(key) {
