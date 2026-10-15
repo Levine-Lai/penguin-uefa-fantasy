@@ -166,6 +166,22 @@ const playerFeed = await fetch(playerFeedUrl, { headers }).then((response) => {
   return response.json();
 });
 const playerInfoById = new Map(playerFeed.data.value.playerList.map((player) => [Number(player.id), player]));
+const fixtureFeedUrl = "https://gaming.uefa.com/en/uclfantasy/services/feeds/fixtures/fixtures_90_en.json";
+const fixtureFeed = await fetch(fixtureFeedUrl, { headers }).then((response) => {
+  if (!response.ok) throw new Error(`Fixture feed HTTP ${response.status}`);
+  return response.json();
+});
+const teamFixtures = {};
+(Array.isArray(fixtureFeed?.data?.value) ? fixtureFeed.data.value : []).forEach((round) => {
+  const matchday = Number(round.mdId);
+  if (!Number.isInteger(matchday)) return;
+  const fixtures = {};
+  (Array.isArray(round.match) ? round.match : []).forEach((match) => {
+    fixtures[String(match.htId)] = { opponent: match.atCCode || "", venue: "H" };
+    fixtures[String(match.atId)] = { opponent: match.htCCode || "", venue: "A" };
+  });
+  teamFixtures[String(matchday)] = fixtures;
+});
 const playerOfMatchFeedUrl = `https://gaming.uefa.com/en/uclfantasy/services/feeds/playerofmatch/stats_90_en_${MATCHDAY}.json`;
 const playerOfMatchFeed = await fetch(playerOfMatchFeedUrl, { headers }).then((response) => {
   if (!response.ok) throw new Error(`Player of the match feed HTTP ${response.status}`);
@@ -187,6 +203,7 @@ const analyticsPlayers = playerFeed.data.value.playerList
     price: Number(player.value || 0),
     ownership: Number(player.selPer || 0),
     played: Number(player.teamPlayed) === 1,
+    minutes: Number(player.minsPlyd) || 0,
   }));
 
 const takeTop = (items, compare) => [...items].sort(compare).slice(0, 25);
@@ -198,9 +215,9 @@ const roundAnalytics = {
   score: takeTop(analyticsPlayers, byPoints),
   ownership: takeTop(analyticsPlayers, byOwnership),
   lowSalaryHigh: takeTop(analyticsPlayers.filter((player) => player.points > 0), (a, b) => valueRatio(b) - valueRatio(a) || byPoints(a, b)),
-  highSalaryLow: takeTop(analyticsPlayers.filter((player) => player.played), (a, b) => valueRatio(a) - valueRatio(b) || b.price - a.price || byOwnership(a, b)),
+  highSalaryLow: takeTop(analyticsPlayers.filter((player) => player.played && player.minutes > 0), (a, b) => valueRatio(a) - valueRatio(b) || b.price - a.price || byOwnership(a, b)),
   hiddenGems: takeTop(analyticsPlayers.filter((player) => player.points > 0 && player.ownership > 0), (a, b) => ownershipRatio(b) - ownershipRatio(a) || byPoints(a, b)),
-  popularTraps: takeTop(analyticsPlayers.filter((player) => player.played && player.ownership > 0), (a, b) => ownershipRatio(a) - ownershipRatio(b) || b.ownership - a.ownership || a.name.localeCompare(b.name)),
+  popularTraps: takeTop(analyticsPlayers.filter((player) => player.played && player.minutes > 0 && player.ownership > 0), (a, b) => ownershipRatio(a) - ownershipRatio(b) || b.ownership - a.ownership || a.name.localeCompare(b.name)),
 };
 
 async function fetchMember(region, expectedTeamName, guid) {
@@ -223,6 +240,8 @@ async function fetchMember(region, expectedTeamName, guid) {
       bench: Number(player.benchposition) > 0,
       played: Number(player.isplayed) === 1,
       teamPlayed: Number(playerInfo?.teamPlayed) === 1,
+      teamId: Number(playerInfo?.tId) || null,
+      club: playerInfo?.cCode || "",
       position: Number(player.skill),
     };
   });
@@ -233,6 +252,16 @@ async function fetchMember(region, expectedTeamName, guid) {
     : Number(value.isWildCardTaken) === 1 && Number(value.userWildCardMatchday) === MATCHDAY
       ? "WC"
       : null;
+  const cards = {
+    WC: {
+      used: Number(value.isWildCardTaken) === 1,
+      matchday: Number(value.userWildCardMatchday) || null,
+    },
+    LL: {
+      used: Number(value.isBoosterOneTaken) === 1,
+      matchday: Number(value.boosterOneMdID) || null,
+    },
+  };
   return {
     region,
     guid,
@@ -244,6 +273,7 @@ async function fetchMember(region, expectedTeamName, guid) {
     transferPenalty,
     transferCount: Number(value.userSubstitutions) || 0,
     chip,
+    cards,
     overallPoints: Number(value.ovPoints ?? 0),
     captain: captain?.name || null,
     lineup,
@@ -301,6 +331,7 @@ const snapshot = {
     : previousSnapshot.scheduledRefreshDate || null,
   matchday: MATCHDAY,
   source: "UEFA UCL Fantasy opponent-team API",
+  teamFixtures,
   records: [...previousRecords, ...officialRecords],
   extras: [...previousExtras, ...recordsWithTransfers.filter((record) => extras[record.region].has(record.guid))],
   roundAnalytics: {
