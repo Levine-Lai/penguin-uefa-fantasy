@@ -45,7 +45,6 @@ const allTeams = teamPots.flatMap((pot) => pot.teams.map((team, index) => ({ ...
 const teamsByName = new Map(allTeams.map((team) => [team.name, team]));
 const resultsByRegion = { arctic: {}, antarctic: {} };
 const managerScoresByRegion = { arctic: {}, antarctic: {} };
-const roundAnalyticsByMatchday = window.PENGUIN_UEFA_SNAPSHOT?.roundAnalytics || {};
 const teamFixturesByMatchday = window.PENGUIN_UEFA_SNAPSHOT?.teamFixtures || {};
 const dashboardParams = new URLSearchParams(window.location.search);
 const requestedRegion = dashboardParams.get("region");
@@ -68,7 +67,6 @@ const dashboardEls = {
   navButtons: [...document.querySelectorAll(".nav-button")],
   viewPanels: [...document.querySelectorAll("[data-view-panel]")],
   roundTabs: document.querySelector("#roundTabs"), matchGrid: document.querySelector("#matchGrid"),
-  analyticsPanel: document.querySelector("#analyticsPanel"), analyticsGrid: document.querySelector("#analyticsGrid"),
   standingsHead: document.querySelector("#standingsHead"), standingsBody: document.querySelector("#standingsBody"), potGrid: document.querySelector("#potGrid"),
   fdrHead: document.querySelector("#fdrHead"), fdrBody: document.querySelector("#fdrBody"),
   matchesRegionLabel: document.querySelector("#matchesRegionLabel"), standingsRegionLabel: document.querySelector("#standingsRegionLabel"),
@@ -119,18 +117,30 @@ function getModalMatchData(matchday, home, away, region = dashboardRegion) {
   }
   const homeCurrent = managerScoresByRegion[region][`${snapshotRound}|${home}`];
   const awayCurrent = managerScoresByRegion[region][`${snapshotRound}|${away}`];
+  const homeExpected = expectedSquad(home, region);
+  const awayExpected = expectedSquad(away, region);
   return {
     ...matchData,
-    homeLineup: Array.isArray(homeCurrent?.lineup) ? homeCurrent.lineup : [],
-    awayLineup: Array.isArray(awayCurrent?.lineup) ? awayCurrent.lineup : [],
+    homeLineup: homeExpected?.lineup || [],
+    awayLineup: awayExpected?.lineup || [],
     homeTransfers: homeCurrent?.transfers,
     awayTransfers: awayCurrent?.transfers,
     homeCards: homeCurrent?.cards,
     awayCards: awayCurrent?.cards,
-    homeCaptain: homeCurrent?.captain ?? null,
-    awayCaptain: awayCurrent?.captain ?? null,
+    homeCaptain: homeExpected?.captain ?? null,
+    awayCaptain: awayExpected?.captain ?? null,
     lineupSourceRound: snapshotRound,
   };
+}
+function expectedSquad(teamName, region = dashboardRegion) {
+  for (let round = snapshotRound; round >= 1; round -= 1) {
+    const record = managerScoresByRegion[region][`${round}|${teamName}`];
+    if (!record) return null;
+    const limitless = record.transfers?.chip === "LL"
+      || (record.cards?.LL?.used && Number(record.cards.LL.matchday) === round);
+    if (!limitless) return record;
+  }
+  return null;
 }
 function scoreBoardHtml(data, variant = "") {
   const hasScore = Number.isFinite(data.homeScore) && Number.isFinite(data.awayScore);
@@ -168,7 +178,7 @@ function matchCardHtml(roundNumber, match, index) {
   const data = getMatchData(roundNumber, homeName, awayName);
   const hasScore = Number.isFinite(data.homeScore) && Number.isFinite(data.awayScore);
   return `<button class="match-card" type="button" data-match-index="${index}" aria-label="查看${escapeHtml(home.zh)}对阵${escapeHtml(away.zh)}详情">
-    <span class="match-meta"><span>第 ${roundNumber} 轮</span><span>${hasScore ? escapeHtml(data.status || "已结束") : "未开始"}</span></span>
+    <span class="match-meta"><span>第 ${roundNumber} 轮</span><span>${hasScore ? data.status === "已结束" ? "已结束" : "比赛中" : "未开始"}</span></span>
     <span class="match-sides">
       <span class="match-team"><img src="${logoUrl(home)}" alt="" /><strong>${escapeHtml(managerFor(homeName))}</strong><small>${escapeHtml(home.zh)}</small></span>
       <span class="match-score">${scoreBoardHtml(data)}</span>
@@ -179,58 +189,6 @@ function matchCardHtml(roundNumber, match, index) {
 function renderMatches() {
   const round = officialMatchdays.find((item) => item.number === activeRound);
   dashboardEls.matchGrid.innerHTML = round.matches.map((match, index) => matchCardHtml(round.number, match, index)).join("");
-  renderAnalytics();
-}
-
-const analyticsCards = [
-  { key: "score", title: "分数排行", area: "score" },
-  { key: "ownership", title: "持有率排行", area: "ownership" },
-  { key: "lowSalaryHigh", title: "低薪高能", area: "value" },
-  { key: "highSalaryLow", title: "高薪低能", area: "low" },
-  { key: "hiddenGems", title: "隐藏宝石", area: "gem" },
-  { key: "popularTraps", title: "热门陷阱", area: "trap" },
-];
-
-function analyticsMetricHtml(player, key) {
-  const points = Number(player.points) || 0;
-  const price = Number(player.price) || 0;
-  const ownership = Number(player.ownership) || 0;
-  if (key === "score") return `<strong>${points}</strong><small>分</small>`;
-  if (key === "ownership") return `<strong>${ownership.toFixed(1).replace(/\.0$/, "")}</strong><small>%</small>`;
-  if (key === "lowSalaryHigh" || key === "highSalaryLow") {
-    const ratio = price > 0 ? Math.abs(points) / price : 0;
-    return `<strong>${ratio.toFixed(2)}</strong><small>${points}分 · €${price.toFixed(1)}</small>`;
-  }
-  const ratio = ownership > 0 ? Math.abs(points) / ownership : 0;
-  return `<strong>${ratio.toFixed(2)}</strong><small>${points}分 · ${ownership.toFixed(1).replace(/\.0$/, "")}%</small>`;
-}
-
-function renderAnalytics() {
-  if (!dashboardEls.analyticsPanel || !dashboardEls.analyticsGrid) return;
-  const data = roundAnalyticsByMatchday[activeRound] || roundAnalyticsByMatchday[String(activeRound)];
-  dashboardEls.analyticsPanel.hidden = !data;
-  if (!data) {
-    dashboardEls.analyticsGrid.innerHTML = "";
-    return;
-  }
-  dashboardEls.analyticsGrid.innerHTML = analyticsCards.map(({ key, title, area }) => {
-    const players = Array.isArray(data[key]) ? data[key] : [];
-    return `<section class="analytics-card" style="--analytics-area:${area}" data-analytics-key="${key}" role="button" tabindex="0" aria-label="查看${title}完整前25名"><h3>${title}</h3><ol>${players.slice(0, 10).map((player, index) => `
-      <li><span class="analytics-rank">${index + 1}</span><span class="analytics-player"><strong>${escapeHtml(player.name)}</strong><small>${escapeHtml(player.club)}</small></span><span class="analytics-metric">${analyticsMetricHtml(player, key)}</span></li>`).join("")}</ol></section>`;
-  }).join("");
-}
-
-function openAnalyticsModal(key) {
-  const config = analyticsCards.find((item) => item.key === key);
-  const data = roundAnalyticsByMatchday[activeRound] || roundAnalyticsByMatchday[String(activeRound)];
-  const players = config && Array.isArray(data?.[key]) ? data[key] : [];
-  if (!config || !players.length) return;
-  dashboardEls.matchModal.classList.add("is-analytics");
-  dashboardEls.modalContent.innerHTML = `<div class="analytics-modal-content"><header><p>GD${activeRound}</p><h2 id="modalMatchTitle">${config.title}</h2></header><ol class="analytics-full-list">${players.slice(0, 25).map((player, index) => `
-    <li><span class="analytics-rank">${index + 1}</span><span class="analytics-player"><strong>${escapeHtml(player.name)}</strong><small>${escapeHtml(player.club)}</small></span><span class="analytics-metric">${analyticsMetricHtml(player, key)}</span></li>`).join("")}</ol></div>`;
-  dashboardEls.matchModal.hidden = false;
-  document.body.style.overflow = "hidden";
-  dashboardEls.modalClose.focus();
 }
 
 function positionLabel(position) {
@@ -301,7 +259,7 @@ function cardStatusSideHtml(manager, cards) {
   const cardHtml = (key) => {
     const used = Boolean(data[key]?.used);
     const detail = used && Number(data[key]?.matchday) ? `<small>GD${Number(data[key].matchday)}</small>` : "";
-    return `<span class="card-status ${used ? "is-used" : "is-available"}"><strong>${key}</strong><b aria-label="${used ? "已使用" : "未使用"}">${used ? "×" : "✓"}</b>${detail}</span>`;
+    return `<span class="card-status ${used ? "is-used" : "is-available"}" aria-label="${key} ${used ? "已使用" : "未使用"}"><strong>${key}</strong>${detail}</span>`;
   };
   return `<section class="card-status-side"><h3>${escapeHtml(manager)}</h3><div class="card-status-list">${cardHtml("WC")}${cardHtml("LL")}</div></section>`;
 }
@@ -314,12 +272,11 @@ function openMatchModal(matchIndex) {
   const homeLineup = Array.isArray(data.homeLineup) ? data.homeLineup : [];
   const awayLineup = Array.isArray(data.awayLineup) ? data.awayLineup : [];
   const usesCurrentLineup = data.lineupSourceRound !== activeRound;
-  const lineupSourceLabel = usesCurrentLineup ? `<span>GD${data.lineupSourceRound} 阵容 · GD${activeRound} 赛程</span>` : "";
+  const lineupSourceLabel = usesCurrentLineup ? `<span>GD${activeRound} 赛程</span>` : "";
   const detailHeading = usesCurrentLineup ? "开卡情况" : "转会详情";
   const detailColumns = usesCurrentLineup
     ? `${cardStatusSideHtml(managerFor(homeName), data.homeCards)}${cardStatusSideHtml(managerFor(awayName), data.awayCards)}`
     : `${transferSideHtml(managerFor(homeName), data.homeTransfers)}${transferSideHtml(managerFor(awayName), data.awayTransfers)}`;
-  dashboardEls.matchModal.classList.remove("is-analytics");
   dashboardEls.modalContent.innerHTML = `<div class="modal-match-head">
       <p id="modalMatchTitle">${escapeHtml(regionLabels[dashboardRegion])} · 第 ${activeRound} 轮</p>
       <div class="modal-scoreline">
@@ -327,7 +284,7 @@ function openMatchModal(matchIndex) {
         <div class="modal-score">${scoreBoardHtml(data, "modal")}</div>
         <div class="modal-team"><img src="${logoUrl(away)}" alt="" /><strong>${escapeHtml(managerFor(awayName))}</strong><span>${escapeHtml(away.zh)}</span></div>
       </div></div>
-    <div class="modal-detail-body"><div class="lineup-heading"><strong>双方阵容</strong>${lineupSourceLabel}</div><div class="lineup-columns">
+    <div class="modal-detail-body"><div class="lineup-heading"><strong>${usesCurrentLineup ? "预期阵容" : "双方阵容"}</strong>${lineupSourceLabel}</div><div class="lineup-columns">
       <section class="lineup-side"><h3><img src="${logoUrl(home)}" alt="" /><span>${escapeHtml(managerFor(homeName))}</span></h3>${fullLineupHtml(homeLineup, usesCurrentLineup)}</section>
       <section class="lineup-side"><h3><img src="${logoUrl(away)}" alt="" /><span>${escapeHtml(managerFor(awayName))}</span></h3>${fullLineupHtml(awayLineup, usesCurrentLineup)}</section>
     </div><div class="transfer-heading"><strong>${detailHeading}</strong></div><div class="transfer-columns${usesCurrentLineup ? " card-status-columns" : ""}">${detailColumns}</div></div>`;
@@ -547,8 +504,6 @@ dashboardEls.standingsHead.addEventListener("click",(event)=>{const button=event
 dashboardEls.fdrHead.addEventListener("click",(event)=>{const button=event.target.closest("[data-fdr-sort]");if(button)cycleFdrSort(Number(button.dataset.fdrSort))});
 dashboardEls.roundTabs.addEventListener("click",(event)=>{const button=event.target.closest("[data-round]");if(!button)return;activeRound=Number(button.dataset.round);renderRoundTabs();renderMatches()});
 dashboardEls.matchGrid.addEventListener("click",(event)=>{const card=event.target.closest("[data-match-index]");if(card)openMatchModal(Number(card.dataset.matchIndex))});
-dashboardEls.analyticsGrid.addEventListener("click",(event)=>{const card=event.target.closest("[data-analytics-key]");if(card)openAnalyticsModal(card.dataset.analyticsKey)});
-dashboardEls.analyticsGrid.addEventListener("keydown",(event)=>{if(event.key!=="Enter"&&event.key!==" ")return;const card=event.target.closest("[data-analytics-key]");if(!card)return;event.preventDefault();openAnalyticsModal(card.dataset.analyticsKey)});
 dashboardEls.modalClose.addEventListener("click",closeMatchModal);
 dashboardEls.matchModal.addEventListener("click",(event)=>{if(event.target===dashboardEls.matchModal)closeMatchModal()});
 window.addEventListener("keydown",(event)=>{if(event.key==="Escape")closeMatchModal()});
