@@ -1,5 +1,5 @@
 window.PENGUIN_UEFA_SNAPSHOT = {
-  "generatedAt": "2026-10-21T00:56:58.165Z",
+  "generatedAt": "2026-10-21T05:08:35.251Z",
   "scheduledRefreshDate": "2026-10-21",
   "matchday": 3,
   "source": "UEFA UCL Fantasy opponent-team API",
@@ -50273,7 +50273,7 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "region": "arctic",
       "guid": "1e2a95e8-aa0f-11f1-90b3-fdbab094db3a",
       "fantasyTeam": "JZhuoyan",
-      "displayName": "DU",
+      "displayName": "JZhuoyan",
       "matchday": 3,
       "score": 30,
       "rawScore": 30,
