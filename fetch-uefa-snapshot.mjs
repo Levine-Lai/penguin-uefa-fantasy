@@ -1,5 +1,6 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { refreshMatchday, sameSnapshotData } from "./uefa-refresh-policy.mjs";
+import { buildTransfers } from "./uefa-transfers.mjs";
 
 const CURRENT_USER_GUID = "7649f634-a5a9-11f1-ad1f-b33810b58db2";
 const MATCHDAY_WINDOWS = [
@@ -292,35 +293,11 @@ for (let index = 0; index < all.length; index += 6) {
   records.push(...await Promise.all(batch.map(({ region, teamName, guid }) => fetchMember(region, teamName, guid))));
 }
 
-const previousRoundByMember = new Map(
-  (Array.isArray(previousSnapshot.records) ? previousSnapshot.records : [])
-    .filter((record) => Number(record.matchday) === MATCHDAY - 1)
-    .map((record) => [`${record.region}|${record.guid}`, record])
-);
-const recordsWithTransfers = records.map((record) => {
-  const previous = previousRoundByMember.get(`${record.region}|${record.guid}`);
-  const previousIds = new Set((previous?.lineup || []).map((player) => Number(player.id)));
-  const currentIds = new Set((record.lineup || []).map((player) => Number(player.id)));
-  const incoming = (record.lineup || [])
-    .filter((player) => !previousIds.has(Number(player.id)))
-    .map(({ id, name, position }) => ({ id, name, position }));
-  const outgoing = (previous?.lineup || [])
-    .filter((player) => !currentIds.has(Number(player.id)))
-    .map(({ id, name, position }) => ({ id, name, position }));
-  const actualTransferCount = record.chip === "LL"
-    ? 0
-    : previous ? Math.max(incoming.length, outgoing.length) : record.transferCount;
-  return {
-    ...record,
-    transfers: {
-      count: actualTransferCount,
-      penalty: record.transferPenalty,
-      chip: record.chip,
-      incoming,
-      outgoing,
-    },
-  };
-});
+const history = [...(previousSnapshot.records || []), ...(previousSnapshot.extras || [])];
+const recordsWithTransfers = records.map((record) => ({
+  ...record,
+  transfers: buildTransfers(record, history),
+}));
 const officialRecords = recordsWithTransfers.filter((record) => !extras[record.region].has(record.guid));
 for (const region of ["arctic", "antarctic"]) {
   const members = officialRecords.filter((record) => record.region === region);
