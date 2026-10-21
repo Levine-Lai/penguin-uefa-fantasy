@@ -3,10 +3,9 @@ name: Update UEFA Fantasy Data
 on:
   schedule:
     # 00:30 UTC = 08:30 Asia/Shanghai. GitHub schedules always use UTC.
-    # The later entries are fallbacks for occasional delayed/missed GitHub cron runs.
-    # The fetcher records the refresh date, so at most one run changes data each day.
+    # Recheck through the morning and afternoon; data changes are deduplicated.
     - cron: "30,45 0 * * *"
-    - cron: "0 1 * * *"
+    - cron: "17 1-7 * * *"
   workflow_dispatch:
 
 permissions:
@@ -19,9 +18,13 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -40,7 +43,7 @@ jobs:
 
       - name: Commit updated snapshot
         run: |
-          git add uefa-live-data.js
+          git add uefa-live-data.js index.html
           if git diff --cached --quiet; then
             echo "No UEFA data update was needed."
             exit 0
@@ -48,4 +51,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Update UEFA Fantasy data"
+          git pull --rebase origin main
           git push
+
+      - name: Report refresh result
+        if: always()
+        run: |
+          echo "### UEFA refresh" >> "$GITHUB_STEP_SUMMARY"
+          echo "Result: ${{ job.status }}. Scheduled times use UTC; 00:30 UTC is 08:30 Beijing." >> "$GITHUB_STEP_SUMMARY"
+          node -e 'const fs=require("fs");const s=JSON.parse(fs.readFileSync("uefa-live-data.js","utf8").replace(/^window\.PENGUIN_UEFA_SNAPSHOT\s*=\s*/,"").replace(/;\s*$/,""));fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,`\nPublished snapshot: GD${s.matchday}, fetched ${s.generatedAt}\n`);'

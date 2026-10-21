@@ -1,4 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { refreshMatchday, sameSnapshotData } from "./uefa-refresh-policy.mjs";
 
 const CURRENT_USER_GUID = "7649f634-a5a9-11f1-ad1f-b33810b58db2";
 const MATCHDAY_WINDOWS = [
@@ -12,25 +13,6 @@ const MATCHDAY_WINDOWS = [
   { number: 8, start: "2027-01-27", end: "2027-01-27" },
 ];
 
-function addCalendarDays(dateString, days) {
-  const date = new Date(`${dateString}T00:00:00Z`);
-  date.setUTCDate(date.getUTCDate() + days);
-  return date.toISOString().slice(0, 10);
-}
-
-function datesInWindow(start, end) {
-  const dates = [];
-  for (let date = start; date <= end; date = addCalendarDays(date, 1)) dates.push(date);
-  return dates;
-}
-
-// UEFA match nights finish after midnight in China. Each European fixture date
-// is therefore refreshed at 08:30 Asia/Shanghai on the following calendar day.
-const SCHEDULED_UPDATE_DATES = new Map(
-  MATCHDAY_WINDOWS.flatMap((window) => datesInWindow(window.start, window.end)
-    .map((fixtureDate) => [addCalendarDays(fixtureDate, 1), window.number]))
-);
-
 function shanghaiDateString(date = new Date()) {
   const parts = new Intl.DateTimeFormat("en-CA", {
     timeZone: "Asia/Shanghai",
@@ -43,7 +25,8 @@ function shanghaiDateString(date = new Date()) {
 }
 
 const TODAY = process.env.UEFA_TODAY || shanghaiDateString();
-const scheduledMatchday = SCHEDULED_UPDATE_DATES.get(TODAY)
+const dueMatchday = refreshMatchday(MATCHDAY_WINDOWS, TODAY);
+const scheduledMatchday = dueMatchday
   || [...MATCHDAY_WINDOWS].reverse().find((item) => item.start <= TODAY)?.number
   || 1;
 const MATCHDAY = Number(process.env.UEFA_MATCHDAY || scheduledMatchday);
@@ -55,7 +38,7 @@ if (!Number.isInteger(MATCHDAY) || MATCHDAY < 1 || MATCHDAY > 8) {
   throw new Error(`Invalid UEFA_MATCHDAY: ${process.env.UEFA_MATCHDAY}`);
 }
 
-if (process.env.UEFA_SCHEDULED_RUN === "1" && !SCHEDULED_UPDATE_DATES.has(TODAY)) {
+if (process.env.UEFA_SCHEDULED_RUN === "1" && !dueMatchday) {
   console.log(`Skipped scheduled refresh: ${TODAY} is not the morning after a UEFA fixture date.`);
   process.exit(0);
 }
@@ -68,9 +51,22 @@ try {
   previousSnapshot = {};
 }
 
-if (process.env.UEFA_SCHEDULED_RUN === "1" && previousSnapshot.scheduledRefreshDate === TODAY) {
-  console.log(`Skipped scheduled refresh: UEFA data was already refreshed on ${TODAY}.`);
-  process.exit(0);
+// Every fallback may recheck UEFA; a previous success must not freeze partial data.
+
+async function fetchJson(url, options) {
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      const response = await fetch(url, { ...options, signal: AbortSignal.timeout(30000) });
+      if (!response.ok) throw new Error(`HTTP ${response.status}: ${new URL(url).pathname}`);
+      const payload = await response.json();
+      if (payload?.meta?.success === false) throw new Error(`UEFA feed rejected: ${payload.meta.message}`);
+      return payload;
+    } catch (error) {
+      if (attempt === 3) throw error;
+      console.warn(`UEFA request retry ${attempt}/3: ${error.message}`);
+      await new Promise((resolve) => setTimeout(resolve, attempt * 1500));
+    }
+  }
 }
 
 const leagueMembers = {
@@ -161,16 +157,11 @@ const extras = {
 
 const headers = { Accept: "application/json", entity: "ed0t4n$3!" };
 const playerFeedUrl = `https://gaming.uefa.com/en/uclfantasy/services/feeds/players/players_90_en_${MATCHDAY}.json`;
-const playerFeed = await fetch(playerFeedUrl, { headers }).then((response) => {
-  if (!response.ok) throw new Error(`Player feed HTTP ${response.status}`);
-  return response.json();
-});
+const playerFeed = await fetchJson(playerFeedUrl, { headers });
+if (!Array.isArray(playerFeed?.data?.value?.playerList) || !playerFeed.data.value.playerList.length) throw new Error("Empty UEFA player feed");
 const playerInfoById = new Map(playerFeed.data.value.playerList.map((player) => [Number(player.id), player]));
 const fixtureFeedUrl = "https://gaming.uefa.com/en/uclfantasy/services/feeds/fixtures/fixtures_90_en.json";
-const fixtureFeed = await fetch(fixtureFeedUrl, { headers }).then((response) => {
-  if (!response.ok) throw new Error(`Fixture feed HTTP ${response.status}`);
-  return response.json();
-});
+const fixtureFeed = await fetchJson(fixtureFeedUrl, { headers });
 const teamFixtures = {};
 (Array.isArray(fixtureFeed?.data?.value) ? fixtureFeed.data.value : []).forEach((round) => {
   const matchday = Number(round.mdId);
@@ -183,10 +174,7 @@ const teamFixtures = {};
   teamFixtures[String(matchday)] = fixtures;
 });
 const playerOfMatchFeedUrl = `https://gaming.uefa.com/en/uclfantasy/services/feeds/playerofmatch/stats_90_en_${MATCHDAY}.json`;
-const playerOfMatchFeed = await fetch(playerOfMatchFeedUrl, { headers }).then((response) => {
-  if (!response.ok) throw new Error(`Player of the match feed HTTP ${response.status}`);
-  return response.json();
-});
+const playerOfMatchFeed = await fetchJson(playerOfMatchFeedUrl, { headers });
 const currentManOfMatchIds = new Set(
   (Array.isArray(playerOfMatchFeed?.data?.value) ? playerOfMatchFeed.data.value : [])
     .filter((player) => Number(player.gdId) === MATCHDAY && Number(player.mOMSts) === 1 && Number(player.mOMPt) === 3)
@@ -242,10 +230,7 @@ function buildRoundAnalytics(players) {
 async function fetchMember(region, expectedTeamName, guid) {
   const endpoint = new URL(`https://gaming.uefa.com/en/uclfantasy/services/api/Gameplay/user/${CURRENT_USER_GUID}/opponent-team`);
   endpoint.search = new URLSearchParams({ matchdayId: String(MATCHDAY), phaseId: String(PHASE_ID), opponentguid: guid }).toString();
-  const payload = await fetch(endpoint, { headers }).then((response) => {
-    if (!response.ok) throw new Error(`${expectedTeamName}: HTTP ${response.status}`);
-    return response.json();
-  });
+  const payload = await fetchJson(endpoint, { headers });
   const value = payload?.data?.value;
   if (!value || Number(value.retval) !== 1) throw new Error(`${expectedTeamName}: invalid UEFA response`);
   const lineup = value.playerid.map((player) => {
@@ -337,6 +322,13 @@ const recordsWithTransfers = records.map((record) => {
   };
 });
 const officialRecords = recordsWithTransfers.filter((record) => !extras[record.region].has(record.guid));
+for (const region of ["arctic", "antarctic"]) {
+  const members = officialRecords.filter((record) => record.region === region);
+  if (members.length !== 36 || new Set(members.map((record) => record.guid)).size !== 36
+      || members.some((record) => !Number.isFinite(record.score) || record.lineup.length !== 15)) {
+    throw new Error(`Incomplete ${region} snapshot; preserving previous data`);
+  }
+}
 const roundAnalytics = buildRoundAnalytics(analyticsPlayers);
 const previousRecords = Array.isArray(previousSnapshot.records)
   ? previousSnapshot.records.filter((record) => Number(record.matchday) !== MATCHDAY)
@@ -363,5 +355,11 @@ const snapshot = {
     [MATCHDAY]: roundAnalytics,
   },
 };
+if (sameSnapshotData(previousSnapshot, snapshot)) {
+  console.log(`Checked GD${MATCHDAY}: UEFA data unchanged; no new commit required.`);
+  process.exit(0);
+}
 await writeFile("uefa-live-data.js", `window.PENGUIN_UEFA_SNAPSHOT = ${JSON.stringify(snapshot, null, 2)};\n`, "utf8");
+const indexSource = await readFile("index.html", "utf8");
+await writeFile("index.html", indexSource.replace(/uefa-live-data\.js\?v=[^"']+/, `uefa-live-data.js?v=${Date.now()}`), "utf8");
 console.log(`Saved GD${MATCHDAY}: ${officialRecords.length} official records and ${snapshot.extras.length} extras (${MATCHDAY_STATUS_OVERRIDE || "live"}).`);
