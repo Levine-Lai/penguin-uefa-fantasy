@@ -4,10 +4,10 @@ export function addCalendarDays(dateString, days) {
   return date.toISOString().slice(0, 10);
 }
 
-// Allow catch-up runs for two days after the last fixture night.
+// Daily checks keep the latest round that has actually started overnight in China.
 export function refreshMatchday(windows, today) {
   return [...windows].reverse().find((window) =>
-    today >= addCalendarDays(window.start, 1) && today <= addCalendarDays(window.end, 3)
+    today >= addCalendarDays(window.start, 1)
   )?.number ?? null;
 }
 

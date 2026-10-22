@@ -31,7 +31,7 @@ jobs:
         with:
           node-version: 24
 
-      - name: Refresh after a scheduled UEFA fixture night
+      - name: Refresh latest round every day
         if: github.event_name == 'schedule'
         env:
           UEFA_SCHEDULED_RUN: "1"
@@ -43,7 +43,7 @@ jobs:
 
       - name: Commit updated snapshot
         run: |
-          git add uefa-live-data.js index.html
+          git add uefa-live-data.js index.html commentary.html
           if git diff --cached --quiet; then
             echo "No UEFA data update was needed."
             exit 0

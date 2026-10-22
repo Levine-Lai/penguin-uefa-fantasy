@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#020b2d" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>对阵点评 · 企鹅欧冠</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="stylesheet" href="./dashboard.css?v=20261021-1" />
+  <link rel="stylesheet" href="./refinements.css?v=20261015-1" />
+  <link rel="stylesheet" href="./commentary.css?v=20261022-1" />
+</head>
+<body class="commentary-page">
+  <main class="league-shell">
+    <header class="site-header">
+      <div class="header-copy"><h1>对阵点评</h1></div>
+      <div class="writer-actions">
+        <div class="region-switch" role="group" aria-label="赛区切换">
+          <button class="region-button" type="button" data-region="arctic">Shuo🐧北极赛区</button>
+          <button class="region-button" type="button" data-region="antarctic">小红书关注Acidboy🐧南极赛区</button>
+        </div>
+        <div class="export-controls">
+          <button id="exportButton" class="export-button" type="button" aria-expanded="false" aria-controls="exportMenu">导出长图 ↓</button>
+          <div id="exportMenu" class="export-menu" hidden>
+            <button type="button" data-export="current">当前赛区长图</button>
+            <button type="button" data-export="both">两个赛区长图</button>
+            <button type="button" id="backupButton">备份点评文字</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="page-view is-active" id="matchesView" data-view-panel="matches">
+      <div class="section-heading"><div><p class="section-kicker" id="matchesRegionLabel"></p><h2 id="writerRoundTitle">对阵详情</h2></div><span id="draftCount" class="draft-count" aria-live="polite"></span></div>
+      <div class="round-tabs" id="roundTabs" role="tablist" aria-label="比赛轮次"></div>
+      <div class="match-grid" id="matchGrid"></div>
+    </section>
+    <div hidden aria-hidden="true">
+      <span id="standingsRegionLabel"></span><span id="groupsRegionLabel"></span><span id="fdrRegionLabel"></span>
+      <table><thead id="standingsHead"></thead><tbody id="standingsBody"></tbody></table>
+      <table><thead id="fdrHead"></thead><tbody id="fdrBody"></tbody></table><div id="potGrid"></div>
+    </div>
+  </main>
+  <div class="modal-backdrop" id="matchModal" hidden>
+    <section class="match-modal writer-modal" role="dialog" aria-modal="true" aria-labelledby="modalMatchTitle">
+      <button class="modal-close" id="modalClose" type="button" aria-label="关闭">×</button>
+      <div id="modalContent"></div>
+      <aside class="comment-editor">
+        <div class="editor-heading"><label for="commentText">对阵点评</label><span id="saveStatus" role="status"></span></div>
+        <p id="editorFixture" class="editor-fixture"></p>
+        <textarea id="commentText" placeholder="写下这场对阵的点评……" spellcheck="false"></textarea>
+        <div class="editor-footer"><span id="characterCount">0 字</span><button id="nextMatch" type="button">下一场 →</button></div>
+        <p class="draft-help">草稿保存在当前浏览器，可从右上角备份文字。</p>
+      </aside>
+    </section>
+  </div>
+  <div id="exportDialog" class="export-dialog" hidden role="dialog" aria-modal="true" aria-labelledby="exportTitle">
+    <section class="export-dialog-card"><header><h2 id="exportTitle">长图预览</h2><button id="closeExport" type="button" aria-label="关闭长图预览">×</button></header>
+      <div id="exportImages"></div>
+    </section>
+  </div>
+  <p id="writerNotice" class="writer-notice" role="status" hidden></p>
+  <script src="./ucl-app.js?v=20260907-data"></script>
+  <script src="./league-data.js?v=20260909-2"></script>
+  <script src="./uefa-live-data.js?v=1792652209987"></script>
+  <script src="./dashboard.js?v=20261022-1"></script>
+  <script src="./commentary.js?v=20261022-1"></script>
+</body>
+</html>

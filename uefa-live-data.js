@@ -1,5 +1,5 @@
 window.PENGUIN_UEFA_SNAPSHOT = {
-  "generatedAt": "2026-10-22T05:11:50.431Z",
+  "generatedAt": "2026-10-22T06:56:49.948Z",
   "scheduledRefreshDate": "2026-10-22",
   "matchday": 3,
   "source": "UEFA UCL Fantasy opponent-team API",

@@ -289,6 +289,7 @@ function openMatchModal(matchIndex) {
       <section class="lineup-side"><h3><img src="${logoUrl(away)}" alt="" /><span>${escapeHtml(managerFor(awayName))}</span></h3>${fullLineupHtml(awayLineup, usesCurrentLineup)}</section>
     </div><div class="transfer-heading"><strong>${detailHeading}</strong></div><div class="transfer-columns${usesCurrentLineup ? " card-status-columns" : ""}">${detailColumns}</div></div>`;
   dashboardEls.matchModal.hidden = false; document.body.style.overflow = "hidden"; dashboardEls.modalClose.focus();
+  document.dispatchEvent(new CustomEvent("penguin:match-opened", { detail: { region: dashboardRegion, round: activeRound, index: matchIndex } }));
 }
 function closeMatchModal() { dashboardEls.matchModal.hidden = true; document.body.style.overflow = ""; }
 
@@ -517,6 +518,16 @@ window.__penguinCupDashboard = {
   getLeagueRosters: () => leagueRosterData,
   getStandings:(region=dashboardRegion)=>calculateStandings(region),
   getState:()=>({region:dashboardRegion,view:activeView,round:activeRound}),
+  getRoundMatches: (roundNumber=activeRound,region=dashboardRegion) => {
+    const round = officialMatchdays.find((item) => item.number === Number(roundNumber));
+    if (!round || !regionLabels[region]) return [];
+    return round.matches.map(([, home, away], index) => ({
+      index, round: round.number, region, home, away,
+      homeManager: managerFor(home, region), awayManager: managerFor(away, region),
+      homeClub: teamsByName.get(home)?.zh, awayClub: teamsByName.get(away)?.zh,
+      ...getMatchData(round.number, home, away, region),
+    }));
+  },
 };
 renderRegionState(); renderRoundTabs(); renderMatches(); renderStandings(); renderGroups(); renderFdr();
 if (window.PENGUIN_UEFA_SNAPSHOT?.records) {

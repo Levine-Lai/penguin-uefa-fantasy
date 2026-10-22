@@ -40,7 +40,7 @@ if (!Number.isInteger(MATCHDAY) || MATCHDAY < 1 || MATCHDAY > 8) {
 }
 
 if (process.env.UEFA_SCHEDULED_RUN === "1" && !dueMatchday) {
-  console.log(`Skipped scheduled refresh: ${TODAY} is not the morning after a UEFA fixture date.`);
+  console.log(`Skipped scheduled refresh: no UEFA round has started before ${TODAY}.`);
   process.exit(0);
 }
 
@@ -338,5 +338,8 @@ if (sameSnapshotData(previousSnapshot, snapshot)) {
 }
 await writeFile("uefa-live-data.js", `window.PENGUIN_UEFA_SNAPSHOT = ${JSON.stringify(snapshot, null, 2)};\n`, "utf8");
 const indexSource = await readFile("index.html", "utf8");
-await writeFile("index.html", indexSource.replace(/uefa-live-data\.js\?v=[^"']+/, `uefa-live-data.js?v=${Date.now()}`), "utf8");
+const assetVersion = Date.now();
+await writeFile("index.html", indexSource.replace(/uefa-live-data\.js\?v=[^"']+/, `uefa-live-data.js?v=${assetVersion}`), "utf8");
+const commentarySource = await readFile("commentary.html", "utf8");
+await writeFile("commentary.html", commentarySource.replace(/uefa-live-data\.js\?v=[^"']+/, `uefa-live-data.js?v=${assetVersion}`), "utf8");
 console.log(`Saved GD${MATCHDAY}: ${officialRecords.length} official records and ${snapshot.extras.length} extras (${MATCHDAY_STATUS_OVERRIDE || "live"}).`);
