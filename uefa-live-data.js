@@ -1,5 +1,5 @@
 window.PENGUIN_UEFA_SNAPSHOT = {
-  "generatedAt": "2026-10-22T00:49:07.909Z",
+  "generatedAt": "2026-10-22T05:11:50.431Z",
   "scheduledRefreshDate": "2026-10-22",
   "matchday": 3,
   "source": "UEFA UCL Fantasy opponent-team API",
@@ -48451,8 +48451,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
       "chip": "LL",
       "cards": {
         "WC": {
-          "used": false,
-          "matchday": null
+          "used": true,
+          "matchday": 4
         },
         "LL": {
           "used": true,
