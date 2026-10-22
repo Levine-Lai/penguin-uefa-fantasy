@@ -1,5 +1,5 @@
 window.PENGUIN_UEFA_SNAPSHOT = {
-  "generatedAt": "2026-10-22T06:59:50.340Z",
+  "generatedAt": "2026-10-22T11:46:10.194Z",
   "scheduledRefreshDate": "2026-10-22",
   "matchday": 3,
   "source": "UEFA UCL Fantasy opponent-team API",
@@ -42405,30 +42405,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 2
         },
         {
-          "id": 250101808,
-          "name": "K. Kvaratskhelia",
-          "points": 1,
-          "captain": false,
-          "bench": true,
-          "played": true,
-          "teamPlayed": true,
-          "teamId": 52747,
-          "club": "PSG",
-          "position": 3
-        },
-        {
-          "id": 250070418,
-          "name": "F. Bredlow",
-          "points": 0,
-          "captain": false,
-          "bench": true,
-          "played": true,
-          "teamPlayed": true,
-          "teamId": 50107,
-          "club": "STU",
-          "position": 1
-        },
-        {
           "id": 250081555,
           "name": "D. Malen",
           "points": 22,
@@ -42450,18 +42426,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "teamPlayed": true,
           "teamId": 50064,
           "club": "POR",
-          "position": 3
-        },
-        {
-          "id": 250055294,
-          "name": "R. Marin",
-          "points": 1,
-          "captain": false,
-          "bench": true,
-          "played": true,
-          "teamPlayed": true,
-          "teamId": 50129,
-          "club": "AEK",
           "position": 3
         },
         {
@@ -42489,18 +42453,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 2
         },
         {
-          "id": 250171184,
-          "name": "M. Olise",
-          "points": 0,
-          "captain": false,
-          "bench": true,
-          "played": true,
-          "teamPlayed": true,
-          "teamId": 50037,
-          "club": "BAY",
-          "position": 3
-        },
-        {
           "id": 250079545,
           "name": "D. Upamecano",
           "points": 1,
@@ -42523,6 +42475,54 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "teamId": 50043,
           "club": "BRU",
           "position": 1
+        },
+        {
+          "id": 250101808,
+          "name": "K. Kvaratskhelia",
+          "points": 1,
+          "captain": false,
+          "bench": true,
+          "played": true,
+          "teamPlayed": true,
+          "teamId": 52747,
+          "club": "PSG",
+          "position": 3
+        },
+        {
+          "id": 250070418,
+          "name": "F. Bredlow",
+          "points": 0,
+          "captain": false,
+          "bench": true,
+          "played": true,
+          "teamPlayed": true,
+          "teamId": 50107,
+          "club": "STU",
+          "position": 1
+        },
+        {
+          "id": 250055294,
+          "name": "R. Marin",
+          "points": 1,
+          "captain": false,
+          "bench": true,
+          "played": true,
+          "teamPlayed": true,
+          "teamId": 50129,
+          "club": "AEK",
+          "position": 3
+        },
+        {
+          "id": 250171184,
+          "name": "M. Olise",
+          "points": 0,
+          "captain": false,
+          "bench": true,
+          "played": true,
+          "teamPlayed": true,
+          "teamId": 50037,
+          "club": "BAY",
+          "position": 3
         }
       ],
       "status": "已结束",
@@ -44849,18 +44849,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 4
         },
         {
-          "id": 250103758,
-          "name": "E. Haaland",
-          "points": 0,
-          "captain": false,
-          "bench": true,
-          "played": true,
-          "teamPlayed": true,
-          "teamId": 52919,
-          "club": "MCI",
-          "position": 4
-        },
-        {
           "id": 250076574,
           "name": "K. Mbappé",
           "points": 24,
@@ -44959,16 +44947,16 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 2
         },
         {
-          "id": 250065792,
-          "name": "V. Milinković-Savić",
-          "points": 0,
+          "id": 250113392,
+          "name": "R. Calafiori",
+          "points": 3,
           "captain": false,
-          "bench": true,
+          "bench": false,
           "played": true,
           "teamPlayed": true,
-          "teamId": 50136,
-          "club": "NAP",
-          "position": 1
+          "teamId": 52280,
+          "club": "ARS",
+          "position": 2
         },
         {
           "id": 250171278,
@@ -44983,16 +44971,28 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 1
         },
         {
-          "id": 250113392,
-          "name": "R. Calafiori",
-          "points": 3,
+          "id": 250065792,
+          "name": "V. Milinković-Savić",
+          "points": 0,
           "captain": false,
-          "bench": false,
+          "bench": true,
           "played": true,
           "teamPlayed": true,
-          "teamId": 52280,
-          "club": "ARS",
-          "position": 2
+          "teamId": 50136,
+          "club": "NAP",
+          "position": 1
+        },
+        {
+          "id": 250103758,
+          "name": "E. Haaland",
+          "points": 0,
+          "captain": false,
+          "bench": true,
+          "played": true,
+          "teamPlayed": true,
+          "teamId": 52919,
+          "club": "MCI",
+          "position": 4
         },
         {
           "id": 250190350,
