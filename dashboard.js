@@ -525,6 +525,7 @@ window.__penguinCupDashboard = {
       index, round: round.number, region, home, away,
       homeManager: managerFor(home, region), awayManager: managerFor(away, region),
       homeClub: teamsByName.get(home)?.zh, awayClub: teamsByName.get(away)?.zh,
+      homeLogo: logoUrl(teamsByName.get(home)), awayLogo: logoUrl(teamsByName.get(away)),
       ...getMatchData(round.number, home, away, region),
     }));
   },

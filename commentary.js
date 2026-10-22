@@ -118,40 +118,70 @@
     ctx.fillStyle = color; ctx.textAlign = align; ctx.textBaseline = "top";
     ctx.fillText(String(value), x, y);
   }
+  const logoCache = new Map();
+  function loadLogo(url) {
+    if (!logoCache.has(url)) {
+      logoCache.set(url, new Promise((resolve, reject) => {
+        const img = new Image();
+        img.crossOrigin = "anonymous";
+        const timeout = setTimeout(() => { logoCache.delete(url); reject(new Error("队徽加载超时，请检查网络后重新导出。")); }, 15000);
+        img.onload = () => { clearTimeout(timeout); resolve(img); };
+        img.onerror = () => { clearTimeout(timeout); logoCache.delete(url); reject(new Error("队徽加载失败，请检查网络后重新导出。")); };
+        img.src = url;
+      }));
+    }
+    return logoCache.get(url);
+  }
   function drawMatch(ctx, item, top) {
-    const { match, lines, height } = item;
-    rounded(ctx, 28, top, 1024, height, 20);
-    ctx.fillStyle = "#0c2449"; ctx.fill(); ctx.strokeStyle = "#2a4773"; ctx.lineWidth = 1.5; ctx.stroke();
+    const { match, lines, height, headerHeight, homeNames, awayNames, homeLogo, awayLogo } = item;
+    ctx.save();
+    rounded(ctx, 28, top, 1024, height, 22); ctx.clip();
+    ctx.fillStyle = "#0a1d40"; ctx.fillRect(28, top, 1024, height);
+    const gradient = ctx.createLinearGradient(28, top, 1052, top + headerHeight);
+    gradient.addColorStop(0, "#0c2252"); gradient.addColorStop(1, "#091a41");
+    ctx.fillStyle = gradient; ctx.fillRect(28, top, 1024, headerHeight);
+    ctx.fillStyle = "rgba(1,9,30,.23)"; ctx.fillRect(28, top, 1024, 74);
+    text(ctx, `第 ${match.round} 轮`, 60, top + 24, 24, "#90a6cd", "left", 500);
     const scored = Number.isFinite(match.homeScore) && Number.isFinite(match.awayScore);
-    text(ctx, String(match.index + 1).padStart(2, "0"), 64, top + 28, 24, "#8cabc9");
-    if (scored) text(ctx, `分差 ${Math.abs(match.homeScore - match.awayScore)}`, 1016, top + 28, 24, "#8cabc9", "right");
-    const homeColor = scored && match.homeScore > match.awayScore ? "#6cddb1" : "#eff7ff";
-    const awayColor = scored && match.awayScore > match.homeScore ? "#6cddb1" : "#eff7ff";
-    ctx.font = `600 38px ${FONT}`;
-    const homeNames = linesFor(ctx, match.homeManager, 290);
-    const awayNames = linesFor(ctx, match.awayManager, 290);
-    homeNames.forEach((line, i) => text(ctx, line, 202, top + 76 + i * 46, 38, homeColor, "center", 600));
-    awayNames.forEach((line, i) => text(ctx, line, 878, top + 76 + i * 46, 38, awayColor, "center", 600));
-    text(ctx, scored ? match.homeScore : "—", 482, top + 75, 70, homeColor, "right", 700);
-    text(ctx, ":", 540, top + 94, 32, "#79b3ce", "center");
-    text(ctx, scored ? match.awayScore : "—", 598, top + 75, 70, awayColor, "left", 700);
-    const dividerY = top + 112 + Math.max(2, homeNames.length, awayNames.length) * 46;
-    text(ctx, match.homeClub, 202, dividerY - 31, 22, "#7eaccd", "center");
-    text(ctx, match.awayClub, 878, dividerY - 31, 22, "#7eaccd", "center");
-    ctx.beginPath(); ctx.moveTo(64, dividerY + 12); ctx.lineTo(1016, dividerY + 12); ctx.strokeStyle = "#29466d"; ctx.stroke();
-    let y = dividerY + 44;
+    const scoreColor = (score, opponent) => !scored || score === opponent ? "#f7f9ff" : score > opponent ? "#4ed28b" : "#ff6374";
+    function team(image, names, club, x) {
+      ctx.drawImage(image, x - 51, top + 112, 102, 102);
+      names.forEach((line, i) => text(ctx, line, x, top + 240 + i * 48, 38, "#ffffff", "center", 600));
+      text(ctx, club, x, top + 250 + names.length * 48, 24, "#92adc9", "center", 500);
+    }
+    team(homeLogo, homeNames, match.homeClub, 260);
+    team(awayLogo, awayNames, match.awayClub, 820);
+    const boardTop = top + 157;
+    const boardFill = ctx.createLinearGradient(0, boardTop, 0, boardTop + 126);
+    boardFill.addColorStop(0, "#061942"); boardFill.addColorStop(1, "#041238");
+    rounded(ctx, 423, boardTop, 234, 126, 22); ctx.fillStyle = boardFill; ctx.fill();
+    ctx.strokeStyle = "rgba(0,201,255,.2)"; ctx.lineWidth = 2; ctx.stroke();
+    for (const x of [436, 560]) {
+      rounded(ctx, x, boardTop + 14, 84, 96, 13); ctx.fillStyle = "rgba(255,255,255,.025)"; ctx.fill();
+    }
+    text(ctx, ":", 540, boardTop + 40, 40, "#75b7d1", "center", 700);
+    ctx.textBaseline = "middle"; ctx.textAlign = "center"; ctx.font = 'italic 700 54px "Times New Roman", Georgia, serif';
+    ctx.fillStyle = scoreColor(match.homeScore, match.awayScore); ctx.fillText(scored ? match.homeScore : "—", 478, boardTop + 63);
+    ctx.fillStyle = scoreColor(match.awayScore, match.homeScore); ctx.fillText(scored ? match.awayScore : "—", 602, boardTop + 63);
+    ctx.beginPath(); ctx.moveTo(28, top + headerHeight); ctx.lineTo(1052, top + headerHeight); ctx.strokeStyle = "#29466d"; ctx.lineWidth = 1.5; ctx.stroke();
+    let y = top + headerHeight + 36;
     for (const line of lines) { text(ctx, line, 64, y, 38, "#dce8f7"); y += 64; }
+    ctx.restore();
+    rounded(ctx, 28, top, 1024, height, 22); ctx.strokeStyle = "#2a4773"; ctx.lineWidth = 1.5; ctx.stroke();
   }
   async function renderImages(matches, region, round) {
     const measure = document.createElement("canvas").getContext("2d");
     measure.font = `500 38px ${FONT}`;
-    const cards = matches.map((match) => {
+    const cards = await Promise.all(matches.map(async (match) => {
+      const [homeLogo, awayLogo] = await Promise.all([loadLogo(match.homeLogo), loadLogo(match.awayLogo)]);
       const lines = linesFor(measure, readDraft(match).trim(), 952);
       measure.font = `600 38px ${FONT}`;
-      const nameLines = Math.max(2, linesFor(measure, match.homeManager, 290).length, linesFor(measure, match.awayManager, 290).length);
+      const homeNames = linesFor(measure, match.homeManager, 320);
+      const awayNames = linesFor(measure, match.awayManager, 320);
+      const headerHeight = 364 + (Math.max(homeNames.length, awayNames.length) - 1) * 48;
       measure.font = `500 38px ${FONT}`;
-      return { match, lines, height: 196 + nameLines * 46 + lines.length * 64 };
-    });
+      return { match, lines, homeNames, awayNames, homeLogo, awayLogo, headerHeight, height: headerHeight + 72 + lines.length * 64 };
+    }));
     // Keep each PNG within browser canvas limits, even with very long commentary.
     const pages = [[]];
     let height = 140;
