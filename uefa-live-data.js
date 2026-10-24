@@ -1,5 +1,5 @@
 window.PENGUIN_UEFA_SNAPSHOT = {
-  "generatedAt": "2026-10-24T04:54:16.567Z",
+  "generatedAt": "2026-10-24T05:48:04.732Z",
   "scheduledRefreshDate": "2026-10-24",
   "matchday": 3,
   "source": "UEFA UCL Fantasy opponent-team API",
@@ -44501,30 +44501,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 4
         },
         {
-          "id": 250066886,
-          "name": "O. Dembélé",
-          "points": 1,
-          "captain": false,
-          "bench": true,
-          "played": true,
-          "teamPlayed": true,
-          "teamId": 52747,
-          "club": "PSG",
-          "position": 4
-        },
-        {
-          "id": 250089868,
-          "name": "A. Isak",
-          "points": 1,
-          "captain": false,
-          "bench": true,
-          "played": true,
-          "teamPlayed": true,
-          "teamId": 7889,
-          "club": "LIV",
-          "position": 4
-        },
-        {
           "id": 250176450,
           "name": "L. Yamal",
           "points": 7,
@@ -44574,6 +44550,18 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 3
         },
         {
+          "id": 250138957,
+          "name": "Carlos Forbs",
+          "points": 8,
+          "captain": false,
+          "bench": false,
+          "played": true,
+          "teamPlayed": true,
+          "teamId": 50043,
+          "club": "BRU",
+          "position": 3
+        },
+        {
           "id": 250105681,
           "name": "J. Kiwior",
           "points": 3,
@@ -44586,18 +44574,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 2
         },
         {
-          "id": 250173424,
-          "name": "F. Sjøvold",
-          "points": 1,
-          "captain": false,
-          "bench": true,
-          "played": true,
-          "teamPlayed": true,
-          "teamId": 59333,
-          "club": "BOD",
-          "position": 2
-        },
-        {
           "id": 250179137,
           "name": "I. Fresneda",
           "points": 2,
@@ -44607,6 +44583,30 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "teamPlayed": true,
           "teamId": 50149,
           "club": "SPO",
+          "position": 2
+        },
+        {
+          "id": 250131901,
+          "name": "Gabriel",
+          "points": 1,
+          "captain": false,
+          "bench": false,
+          "played": true,
+          "teamPlayed": true,
+          "teamId": 52280,
+          "club": "ARS",
+          "position": 2
+        },
+        {
+          "id": 250101728,
+          "name": "J. Timber",
+          "points": 2,
+          "captain": false,
+          "bench": false,
+          "played": true,
+          "teamPlayed": true,
+          "teamId": 52280,
+          "club": "ARS",
           "position": 2
         },
         {
@@ -44634,40 +44634,40 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 1
         },
         {
-          "id": 250131901,
-          "name": "Gabriel",
+          "id": 250066886,
+          "name": "O. Dembélé",
           "points": 1,
           "captain": false,
-          "bench": false,
+          "bench": true,
           "played": true,
           "teamPlayed": true,
-          "teamId": 52280,
-          "club": "ARS",
-          "position": 2
+          "teamId": 52747,
+          "club": "PSG",
+          "position": 4
         },
         {
-          "id": 250101728,
-          "name": "J. Timber",
-          "points": 2,
+          "id": 250089868,
+          "name": "A. Isak",
+          "points": 1,
           "captain": false,
-          "bench": false,
+          "bench": true,
           "played": true,
           "teamPlayed": true,
-          "teamId": 52280,
-          "club": "ARS",
-          "position": 2
+          "teamId": 7889,
+          "club": "LIV",
+          "position": 4
         },
         {
-          "id": 250138957,
-          "name": "Carlos Forbs",
-          "points": 8,
+          "id": 250173424,
+          "name": "F. Sjøvold",
+          "points": 1,
           "captain": false,
-          "bench": false,
+          "bench": true,
           "played": true,
           "teamPlayed": true,
-          "teamId": 50043,
-          "club": "BRU",
-          "position": 3
+          "teamId": 59333,
+          "club": "BOD",
+          "position": 2
         }
       ],
       "status": "已结束",
@@ -44679,16 +44679,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           {
             "id": 250076574,
             "name": "K. Mbappé",
-            "position": 4
-          },
-          {
-            "id": 250066886,
-            "name": "O. Dembélé",
-            "position": 4
-          },
-          {
-            "id": 250089868,
-            "name": "A. Isak",
             "position": 4
           },
           {
@@ -44707,18 +44697,23 @@ window.PENGUIN_UEFA_SNAPSHOT = {
             "position": 3
           },
           {
+            "id": 250138957,
+            "name": "Carlos Forbs",
+            "position": 3
+          },
+          {
             "id": 250105681,
             "name": "J. Kiwior",
             "position": 2
           },
           {
-            "id": 250173424,
-            "name": "F. Sjøvold",
+            "id": 250179137,
+            "name": "I. Fresneda",
             "position": 2
           },
           {
-            "id": 250179137,
-            "name": "I. Fresneda",
+            "id": 250101728,
+            "name": "J. Timber",
             "position": 2
           },
           {
@@ -44732,14 +44727,19 @@ window.PENGUIN_UEFA_SNAPSHOT = {
             "position": 1
           },
           {
-            "id": 250101728,
-            "name": "J. Timber",
-            "position": 2
+            "id": 250066886,
+            "name": "O. Dembélé",
+            "position": 4
           },
           {
-            "id": 250138957,
-            "name": "Carlos Forbs",
-            "position": 3
+            "id": 250089868,
+            "name": "A. Isak",
+            "position": 4
+          },
+          {
+            "id": 250173424,
+            "name": "F. Sjøvold",
+            "position": 2
           }
         ],
         "outgoing": [
