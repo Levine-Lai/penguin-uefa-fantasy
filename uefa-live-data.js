@@ -1,5 +1,5 @@
 window.PENGUIN_UEFA_SNAPSHOT = {
-  "generatedAt": "2026-10-26T06:08:49.790Z",
+  "generatedAt": "2026-10-26T12:54:08.233Z",
   "scheduledRefreshDate": "2026-10-26",
   "matchday": 3,
   "source": "UEFA UCL Fantasy opponent-team API",
@@ -43392,6 +43392,18 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 1
         },
         {
+          "id": 250075982,
+          "name": "G. Mancini",
+          "points": 1,
+          "captain": false,
+          "bench": false,
+          "played": false,
+          "teamPlayed": true,
+          "teamId": 50137,
+          "club": "ROM",
+          "position": 2
+        },
+        {
           "id": 250156423,
           "name": "D. Svensson",
           "points": 2,
@@ -43401,18 +43413,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "teamPlayed": true,
           "teamId": 52758,
           "club": "BVB",
-          "position": 2
-        },
-        {
-          "id": 250058220,
-          "name": "Rúben Dias",
-          "points": 2,
-          "captain": false,
-          "bench": false,
-          "played": false,
-          "teamPlayed": true,
-          "teamId": 52919,
-          "club": "MCI",
           "position": 2
         },
         {
@@ -43428,16 +43428,40 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 2
         },
         {
-          "id": 250075982,
-          "name": "G. Mancini",
-          "points": 1,
+          "id": 250058220,
+          "name": "Rúben Dias",
+          "points": 2,
           "captain": false,
           "bench": false,
           "played": false,
           "teamPlayed": true,
-          "teamId": 50137,
-          "club": "ROM",
+          "teamId": 52919,
+          "club": "MCI",
           "position": 2
+        },
+        {
+          "id": 250128377,
+          "name": "Jude Bellingham",
+          "points": 2,
+          "captain": false,
+          "bench": false,
+          "played": false,
+          "teamPlayed": true,
+          "teamId": 50051,
+          "club": "RMA",
+          "position": 3
+        },
+        {
+          "id": 250176450,
+          "name": "L. Yamal",
+          "points": 7,
+          "captain": false,
+          "bench": false,
+          "played": false,
+          "teamPlayed": true,
+          "teamId": 50080,
+          "club": "BAR",
+          "position": 3
         },
         {
           "id": 250008901,
@@ -43461,30 +43485,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "teamPlayed": true,
           "teamId": 52919,
           "club": "MCI",
-          "position": 3
-        },
-        {
-          "id": 250176450,
-          "name": "L. Yamal",
-          "points": 7,
-          "captain": false,
-          "bench": false,
-          "played": false,
-          "teamPlayed": true,
-          "teamId": 50080,
-          "club": "BAR",
-          "position": 3
-        },
-        {
-          "id": 250128377,
-          "name": "Jude Bellingham",
-          "points": 2,
-          "captain": false,
-          "bench": false,
-          "played": false,
-          "teamPlayed": true,
-          "teamId": 50051,
-          "club": "RMA",
           "position": 3
         },
         {
@@ -58822,6 +58822,18 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 1
         },
         {
+          "id": 250171293,
+          "name": "D. Spence",
+          "points": 1,
+          "captain": false,
+          "bench": false,
+          "played": false,
+          "teamPlayed": true,
+          "teamId": 50138,
+          "club": "INT",
+          "position": 2
+        },
+        {
           "id": 250128120,
           "name": "A. Davies",
           "points": 9,
@@ -58846,16 +58858,16 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 2
         },
         {
-          "id": 250171293,
-          "name": "D. Spence",
-          "points": 1,
+          "id": 250143693,
+          "name": "Pedri",
+          "points": 3,
           "captain": false,
           "bench": false,
           "played": false,
           "teamPlayed": true,
-          "teamId": 50138,
-          "club": "INT",
-          "position": 2
+          "teamId": 50080,
+          "club": "BAR",
+          "position": 3
         },
         {
           "id": 250083732,
@@ -58867,18 +58879,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "teamPlayed": true,
           "teamId": 52280,
           "club": "ARS",
-          "position": 3
-        },
-        {
-          "id": 250176450,
-          "name": "L. Yamal",
-          "points": 7,
-          "captain": false,
-          "bench": false,
-          "played": false,
-          "teamPlayed": true,
-          "teamId": 50080,
-          "club": "BAR",
           "position": 3
         },
         {
@@ -58894,9 +58894,9 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 3
         },
         {
-          "id": 250143693,
-          "name": "Pedri",
-          "points": 3,
+          "id": 250176450,
+          "name": "L. Yamal",
+          "points": 7,
           "captain": false,
           "bench": false,
           "played": false,
