@@ -1,6 +1,6 @@
 window.PENGUIN_UEFA_SNAPSHOT = {
-  "generatedAt": "2026-10-28T13:59:33.343Z",
-  "scheduledRefreshDate": "2026-10-28",
+  "generatedAt": "2026-10-29T06:14:10.795Z",
+  "scheduledRefreshDate": "2026-10-29",
   "matchday": 3,
   "source": "UEFA UCL Fantasy opponent-team API",
   "teamFixtures": {
@@ -45097,35 +45097,11 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 4
         },
         {
-          "id": 250089868,
-          "name": "A. Isak",
-          "points": 1,
-          "captain": false,
-          "bench": true,
-          "played": true,
-          "teamPlayed": true,
-          "teamId": 7889,
-          "club": "LIV",
-          "position": 4
-        },
-        {
           "id": 250176450,
           "name": "L. Yamal",
           "points": 7,
           "captain": false,
           "bench": false,
-          "played": true,
-          "teamPlayed": true,
-          "teamId": 50080,
-          "club": "BAR",
-          "position": 3
-        },
-        {
-          "id": 250112880,
-          "name": "Raphinha",
-          "points": 2,
-          "captain": false,
-          "bench": true,
           "played": true,
           "teamPlayed": true,
           "teamId": 50080,
@@ -45230,18 +45206,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 4
         },
         {
-          "id": 250192993,
-          "name": "J. Manzambi",
-          "points": 0,
-          "captain": false,
-          "bench": true,
-          "played": true,
-          "teamPlayed": true,
-          "teamId": 52683,
-          "club": "AVL",
-          "position": 3
-        },
-        {
           "id": 250055905,
           "name": "V. Lindelöf",
           "points": 5,
@@ -45252,6 +45216,42 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "teamId": 52683,
           "club": "AVL",
           "position": 2
+        },
+        {
+          "id": 250089868,
+          "name": "A. Isak",
+          "points": 1,
+          "captain": false,
+          "bench": true,
+          "played": true,
+          "teamPlayed": true,
+          "teamId": 7889,
+          "club": "LIV",
+          "position": 4
+        },
+        {
+          "id": 250112880,
+          "name": "Raphinha",
+          "points": 2,
+          "captain": false,
+          "bench": true,
+          "played": true,
+          "teamPlayed": true,
+          "teamId": 50080,
+          "club": "BAR",
+          "position": 3
+        },
+        {
+          "id": 250192993,
+          "name": "J. Manzambi",
+          "points": 0,
+          "captain": false,
+          "bench": true,
+          "played": true,
+          "teamPlayed": true,
+          "teamId": 52683,
+          "club": "AVL",
+          "position": 3
         },
         {
           "id": 250171278,
@@ -45278,18 +45278,8 @@ window.PENGUIN_UEFA_SNAPSHOT = {
             "position": 4
           },
           {
-            "id": 250089868,
-            "name": "A. Isak",
-            "position": 4
-          },
-          {
             "id": 250176450,
             "name": "L. Yamal",
-            "position": 3
-          },
-          {
-            "id": 250112880,
-            "name": "Raphinha",
             "position": 3
           },
           {
@@ -45326,6 +45316,16 @@ window.PENGUIN_UEFA_SNAPSHOT = {
             "id": 250055905,
             "name": "V. Lindelöf",
             "position": 2
+          },
+          {
+            "id": 250089868,
+            "name": "A. Isak",
+            "position": 4
+          },
+          {
+            "id": 250112880,
+            "name": "Raphinha",
+            "position": 3
           },
           {
             "id": 250171278,
@@ -45889,18 +45889,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 1
         },
         {
-          "id": 250197801,
-          "name": "Gerard Martín",
-          "points": 3,
-          "captain": false,
-          "bench": false,
-          "played": false,
-          "teamPlayed": true,
-          "teamId": 50080,
-          "club": "BAR",
-          "position": 2
-        },
-        {
           "id": 250064064,
           "name": "Marquinhos",
           "points": 3,
@@ -45913,15 +45901,15 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 2
         },
         {
-          "id": 250194474,
-          "name": "D. Huijsen",
+          "id": 250197801,
+          "name": "Gerard Martín",
           "points": 3,
           "captain": false,
           "bench": false,
           "played": false,
           "teamPlayed": true,
-          "teamId": 50051,
-          "club": "RMA",
+          "teamId": 50080,
+          "club": "BAR",
           "position": 2
         },
         {
@@ -45937,16 +45925,16 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 2
         },
         {
-          "id": 250101444,
-          "name": "Vitinha",
-          "points": 9,
+          "id": 250194474,
+          "name": "D. Huijsen",
+          "points": 3,
           "captain": false,
           "bench": false,
           "played": false,
           "teamPlayed": true,
-          "teamId": 52747,
-          "club": "PSG",
-          "position": 3
+          "teamId": 50051,
+          "club": "RMA",
+          "position": 2
         },
         {
           "id": 250112880,
@@ -45985,17 +45973,16 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 3
         },
         {
-          "id": 250076574,
-          "name": "K. Mbappé",
-          "points": 24,
-          "captain": true,
-          "manOfMatch": true,
+          "id": 250101444,
+          "name": "Vitinha",
+          "points": 9,
+          "captain": false,
           "bench": false,
           "played": false,
           "teamPlayed": true,
-          "teamId": 50051,
-          "club": "RMA",
-          "position": 4
+          "teamId": 52747,
+          "club": "PSG",
+          "position": 3
         },
         {
           "id": 250016833,
@@ -46008,6 +45995,19 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "teamPlayed": true,
           "teamId": 50037,
           "club": "BAY",
+          "position": 4
+        },
+        {
+          "id": 250076574,
+          "name": "K. Mbappé",
+          "points": 24,
+          "captain": true,
+          "manOfMatch": true,
+          "bench": false,
+          "played": false,
+          "teamPlayed": true,
+          "teamId": 50051,
+          "club": "RMA",
           "position": 4
         },
         {
@@ -48259,18 +48259,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 1
         },
         {
-          "id": 250113392,
-          "name": "R. Calafiori",
-          "points": 3,
-          "captain": false,
-          "bench": false,
-          "played": false,
-          "teamPlayed": true,
-          "teamId": 52280,
-          "club": "ARS",
-          "position": 2
-        },
-        {
           "id": 250190350,
           "name": "N. Brown",
           "points": 1,
@@ -48283,16 +48271,16 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 2
         },
         {
-          "id": 250081341,
-          "name": "M. Ødegaard",
-          "points": 5,
+          "id": 250113392,
+          "name": "R. Calafiori",
+          "points": 3,
           "captain": false,
           "bench": false,
           "played": false,
           "teamPlayed": true,
           "teamId": 52280,
           "club": "ARS",
-          "position": 3
+          "position": 2
         },
         {
           "id": 250200231,
@@ -48307,17 +48295,16 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 3
         },
         {
-          "id": 250016833,
-          "name": "H. Kane",
-          "points": 12,
+          "id": 250081341,
+          "name": "M. Ødegaard",
+          "points": 5,
           "captain": false,
-          "manOfMatch": true,
           "bench": false,
           "played": false,
           "teamPlayed": true,
-          "teamId": 50037,
-          "club": "BAY",
-          "position": 4
+          "teamId": 52280,
+          "club": "ARS",
+          "position": 3
         },
         {
           "id": 250076574,
@@ -48330,6 +48317,19 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "teamPlayed": true,
           "teamId": 50051,
           "club": "RMA",
+          "position": 4
+        },
+        {
+          "id": 250016833,
+          "name": "H. Kane",
+          "points": 12,
+          "captain": false,
+          "manOfMatch": true,
+          "bench": false,
+          "played": false,
+          "teamPlayed": true,
+          "teamId": 50037,
+          "club": "BAY",
           "position": 4
         },
         {
