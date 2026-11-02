@@ -1,6 +1,6 @@
 window.PENGUIN_UEFA_SNAPSHOT = {
-  "generatedAt": "2026-11-01T07:29:34.568Z",
-  "scheduledRefreshDate": "2026-11-01",
+  "generatedAt": "2026-11-02T06:36:52.507Z",
+  "scheduledRefreshDate": "2026-11-02",
   "matchday": 3,
   "source": "UEFA UCL Fantasy opponent-team API",
   "teamFixtures": {
@@ -57986,30 +57986,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 3
         },
         {
-          "id": 250134138,
-          "name": "B. Barcola",
-          "points": 1,
-          "captain": false,
-          "bench": true,
-          "played": true,
-          "teamPlayed": true,
-          "teamId": 7889,
-          "club": "LIV",
-          "position": 3
-        },
-        {
-          "id": 250092517,
-          "name": "J. Ryerson",
-          "points": 2,
-          "captain": false,
-          "bench": true,
-          "played": true,
-          "teamPlayed": true,
-          "teamId": 52758,
-          "club": "BVB",
-          "position": 2
-        },
-        {
           "id": 250042422,
           "name": "A. Grimaldo",
           "points": 3,
@@ -58032,30 +58008,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "teamId": 52919,
           "club": "MCI",
           "position": 2
-        },
-        {
-          "id": 250075982,
-          "name": "G. Mancini",
-          "points": 1,
-          "captain": false,
-          "bench": true,
-          "played": true,
-          "teamPlayed": true,
-          "teamId": 50137,
-          "club": "ROM",
-          "position": 2
-        },
-        {
-          "id": 250069832,
-          "name": "G. Kobel",
-          "points": 3,
-          "captain": false,
-          "bench": true,
-          "played": true,
-          "teamPlayed": true,
-          "teamId": 52758,
-          "club": "BVB",
-          "position": 1
         },
         {
           "id": 250218560,
@@ -58104,6 +58056,54 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "teamId": 50138,
           "club": "INT",
           "position": 2
+        },
+        {
+          "id": 250134138,
+          "name": "B. Barcola",
+          "points": 1,
+          "captain": false,
+          "bench": true,
+          "played": true,
+          "teamPlayed": true,
+          "teamId": 7889,
+          "club": "LIV",
+          "position": 3
+        },
+        {
+          "id": 250092517,
+          "name": "J. Ryerson",
+          "points": 2,
+          "captain": false,
+          "bench": true,
+          "played": true,
+          "teamPlayed": true,
+          "teamId": 52758,
+          "club": "BVB",
+          "position": 2
+        },
+        {
+          "id": 250075982,
+          "name": "G. Mancini",
+          "points": 1,
+          "captain": false,
+          "bench": true,
+          "played": true,
+          "teamPlayed": true,
+          "teamId": 50137,
+          "club": "ROM",
+          "position": 2
+        },
+        {
+          "id": 250069832,
+          "name": "G. Kobel",
+          "points": 3,
+          "captain": false,
+          "bench": true,
+          "played": true,
+          "teamPlayed": true,
+          "teamId": 52758,
+          "club": "BVB",
+          "position": 1
         }
       ],
       "status": "已结束",
@@ -58607,15 +58607,16 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 4
         },
         {
-          "id": 250066886,
-          "name": "O. Dembélé",
-          "points": 1,
+          "id": 250076574,
+          "name": "K. Mbappé",
+          "points": 12,
           "captain": false,
-          "bench": true,
+          "manOfMatch": true,
+          "bench": false,
           "played": true,
           "teamPlayed": true,
-          "teamId": 52747,
-          "club": "PSG",
+          "teamId": 50051,
+          "club": "RMA",
           "position": 4
         },
         {
@@ -58631,15 +58632,15 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 3
         },
         {
-          "id": 250112880,
-          "name": "Raphinha",
-          "points": 2,
+          "id": 250121533,
+          "name": "Vinícius Júnior",
+          "points": 3,
           "captain": false,
-          "bench": true,
+          "bench": false,
           "played": true,
           "teamPlayed": true,
-          "teamId": 50080,
-          "club": "BAR",
+          "teamId": 50051,
+          "club": "RMA",
           "position": 3
         },
         {
@@ -58653,18 +58654,6 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "teamId": 52919,
           "club": "MCI",
           "position": 3
-        },
-        {
-          "id": 250078922,
-          "name": "G. Donnarumma",
-          "points": 2,
-          "captain": false,
-          "bench": true,
-          "played": true,
-          "teamPlayed": true,
-          "teamId": 52919,
-          "club": "MCI",
-          "position": 1
         },
         {
           "id": 250139445,
@@ -58715,15 +58704,15 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 2
         },
         {
-          "id": 250127284,
-          "name": "J. Gvardiol",
-          "points": 2,
+          "id": 250056189,
+          "name": "F. Dimarco",
+          "points": 1,
           "captain": false,
-          "bench": true,
+          "bench": false,
           "played": true,
           "teamPlayed": true,
-          "teamId": 52919,
-          "club": "MCI",
+          "teamId": 50138,
+          "club": "INT",
           "position": 2
         },
         {
@@ -58739,40 +58728,51 @@ window.PENGUIN_UEFA_SNAPSHOT = {
           "position": 1
         },
         {
-          "id": 250056189,
-          "name": "F. Dimarco",
-          "points": 1,
+          "id": 250078922,
+          "name": "G. Donnarumma",
+          "points": 2,
           "captain": false,
-          "bench": false,
+          "bench": true,
           "played": true,
           "teamPlayed": true,
-          "teamId": 50138,
-          "club": "INT",
+          "teamId": 52919,
+          "club": "MCI",
+          "position": 1
+        },
+        {
+          "id": 250127284,
+          "name": "J. Gvardiol",
+          "points": 2,
+          "captain": false,
+          "bench": true,
+          "played": true,
+          "teamPlayed": true,
+          "teamId": 52919,
+          "club": "MCI",
           "position": 2
         },
         {
-          "id": 250121533,
-          "name": "Vinícius Júnior",
-          "points": 3,
+          "id": 250112880,
+          "name": "Raphinha",
+          "points": 2,
           "captain": false,
-          "bench": false,
+          "bench": true,
           "played": true,
           "teamPlayed": true,
-          "teamId": 50051,
-          "club": "RMA",
+          "teamId": 50080,
+          "club": "BAR",
           "position": 3
         },
         {
-          "id": 250076574,
-          "name": "K. Mbappé",
-          "points": 12,
+          "id": 250066886,
+          "name": "O. Dembélé",
+          "points": 1,
           "captain": false,
-          "manOfMatch": true,
-          "bench": false,
+          "bench": true,
           "played": true,
           "teamPlayed": true,
-          "teamId": 50051,
-          "club": "RMA",
+          "teamId": 52747,
+          "club": "PSG",
           "position": 4
         }
       ],
