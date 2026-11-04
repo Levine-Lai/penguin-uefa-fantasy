@@ -1,5 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
-import { refreshMatchday, sameSnapshotData } from "./uefa-refresh-policy.mjs";
+import { refreshMatchday, scheduledRefreshMatchday, sameSnapshotData } from "./uefa-refresh-policy.mjs";
 import { buildTransfers } from "./uefa-transfers.mjs";
 
 const CURRENT_USER_GUID = "7649f634-a5a9-11f1-ad1f-b33810b58db2";
@@ -39,8 +39,8 @@ if (!Number.isInteger(MATCHDAY) || MATCHDAY < 1 || MATCHDAY > 8) {
   throw new Error(`Invalid UEFA_MATCHDAY: ${process.env.UEFA_MATCHDAY}`);
 }
 
-if (process.env.UEFA_SCHEDULED_RUN === "1" && !dueMatchday) {
-  console.log(`Skipped scheduled refresh: no UEFA round has started before ${TODAY}.`);
+if (process.env.UEFA_SCHEDULED_RUN === "1" && !scheduledRefreshMatchday(MATCHDAY_WINDOWS, TODAY)) {
+  console.log(`Skipped scheduled refresh: no UEFA matches overnight before ${TODAY}.`);
   process.exit(0);
 }
 

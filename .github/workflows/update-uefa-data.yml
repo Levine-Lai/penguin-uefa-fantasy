@@ -2,10 +2,8 @@ name: Update UEFA Fantasy Data
 
 on:
   schedule:
-    # 00:30 UTC = 08:30 Asia/Shanghai. GitHub schedules always use UTC.
-    # Recheck through the morning and afternoon; data changes are deduplicated.
-    - cron: "30,45 0 * * *"
-    - cron: "17 1-7 * * *"
+    # 01:00 UTC = 09:00 Beijing. The script skips mornings without overnight matches.
+    - cron: "0 1 * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,7 +16,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -31,12 +29,18 @@ jobs:
         with:
           node-version: 24
 
-      - name: Refresh latest round every day
+      - name: Refresh after UEFA match nights
         if: github.event_name == 'schedule'
         env:
           UEFA_SCHEDULED_RUN: "1"
           UEFA_COOKIE: ${{ secrets.UEFA_COOKIE }}
-        run: node fetch-uefa-snapshot.mjs
+        run: |
+          if node fetch-uefa-snapshot.mjs; then
+            exit 0
+          fi
+          echo "Refresh failed; retrying once in 15 minutes."
+          sleep 900
+          node fetch-uefa-snapshot.mjs
 
       - name: Refresh manually
         if: github.event_name == 'workflow_dispatch'
@@ -61,5 +65,5 @@ jobs:
         if: always()
         run: |
           echo "### UEFA refresh" >> "$GITHUB_STEP_SUMMARY"
-          echo "Result: ${{ job.status }}. Scheduled times use UTC; 00:30 UTC is 08:30 Beijing." >> "$GITHUB_STEP_SUMMARY"
+          echo "Result: ${{ job.status }}. Match-night refresh: 09:00 Beijing (01:00 UTC); retry once 15 minutes after failure." >> "$GITHUB_STEP_SUMMARY"
           node -e 'const fs=require("fs");const s=JSON.parse(fs.readFileSync("uefa-live-data.js","utf8").replace(/^window\.PENGUIN_UEFA_SNAPSHOT\s*=\s*/,"").replace(/;\s*$/,""));fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,`\nPublished snapshot: GD${s.matchday}, fetched ${s.generatedAt}\n`);'

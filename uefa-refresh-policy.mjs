@@ -11,6 +11,13 @@ export function refreshMatchday(windows, today) {
   )?.number ?? null;
 }
 
+export function scheduledRefreshMatchday(windows, today) {
+  return windows.find((window) =>
+    today >= addCalendarDays(window.start, 1)
+      && today <= addCalendarDays(window.end, 1)
+  )?.number ?? null;
+}
+
 export function sameSnapshotData(previous, next) {
   const dataOnly = ({ generatedAt, scheduledRefreshDate, ...data }) => data;
   return JSON.stringify(dataOnly(previous)) === JSON.stringify(dataOnly(next));
