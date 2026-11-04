@@ -157,6 +157,10 @@ const extras = {
 };
 
 const headers = { Accept: "application/json", entity: "ed0t4n$3!" };
+const memberHeaders = {
+  ...headers,
+  ...(process.env.UEFA_COOKIE ? { Cookie: process.env.UEFA_COOKIE } : {}),
+};
 const playerFeedUrl = `https://gaming.uefa.com/en/uclfantasy/services/feeds/players/players_90_en_${MATCHDAY}.json`;
 const playerFeed = await fetchJson(playerFeedUrl, { headers });
 if (!Array.isArray(playerFeed?.data?.value?.playerList) || !playerFeed.data.value.playerList.length) throw new Error("Empty UEFA player feed");
@@ -231,7 +235,7 @@ function buildRoundAnalytics(players) {
 async function fetchMember(region, expectedTeamName, guid) {
   const endpoint = new URL(`https://gaming.uefa.com/en/uclfantasy/services/api/Gameplay/user/${CURRENT_USER_GUID}/opponent-team`);
   endpoint.search = new URLSearchParams({ matchdayId: String(MATCHDAY), phaseId: String(PHASE_ID), opponentguid: guid }).toString();
-  const payload = await fetchJson(endpoint, { headers });
+  const payload = await fetchJson(endpoint, { headers: memberHeaders });
   const value = payload?.data?.value;
   if (!value || Number(value.retval) !== 1) throw new Error(`${expectedTeamName}: invalid UEFA response`);
   const lineup = value.playerid.map((player) => {

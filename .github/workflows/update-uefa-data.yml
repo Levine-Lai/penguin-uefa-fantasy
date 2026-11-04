@@ -35,10 +35,13 @@ jobs:
         if: github.event_name == 'schedule'
         env:
           UEFA_SCHEDULED_RUN: "1"
+          UEFA_COOKIE: ${{ secrets.UEFA_COOKIE }}
         run: node fetch-uefa-snapshot.mjs
 
       - name: Refresh manually
         if: github.event_name == 'workflow_dispatch'
+        env:
+          UEFA_COOKIE: ${{ secrets.UEFA_COOKIE }}
         run: node fetch-uefa-snapshot.mjs
 
       - name: Commit updated snapshot
