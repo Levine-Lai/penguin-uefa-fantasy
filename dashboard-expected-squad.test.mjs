@@ -23,7 +23,10 @@ test("future squads restore pre-LL lineups and retain ordinary current squads", 
     }
     assert.equal(expectedSquad(current.guid, current.region), baseline);
   }
-  const tierney = expectedSquad("7649f634-a5a9-11f1-ad1f-b33810b58db2", "antarctic");
+  const expectedSquadAfterLL = runInNewContext(`${functionSource}; expectedSquad`, {
+    snapshotRound: 3, managerScoresByRegion: scores,
+  });
+  const tierney = expectedSquadAfterLL("7649f634-a5a9-11f1-ad1f-b33810b58db2", "antarctic");
   assert.equal(tierney.matchday, 2);
   assert.ok(tierney.lineup.some((player) => player.name === "D. Raya"));
   assert.equal(expectedSquad("missing", "antarctic"), null);
