@@ -1,5 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
-import { refreshMatchday, scheduledRefreshMatchday, sameSnapshotData } from "./uefa-refresh-policy.mjs";
+import { refreshMatchday, scheduledRefreshMatchday, scheduledRefreshCompleted, sameSnapshotData } from "./uefa-refresh-policy.mjs";
 import { buildTransfers } from "./uefa-transfers.mjs";
 
 const CURRENT_USER_GUID = "7649f634-a5a9-11f1-ad1f-b33810b58db2";
@@ -52,7 +52,10 @@ try {
   previousSnapshot = {};
 }
 
-// Every fallback may recheck UEFA; a previous success must not freeze partial data.
+if (process.env.UEFA_SCHEDULED_RUN === "1" && scheduledRefreshCompleted(previousSnapshot, MATCHDAY, TODAY)) {
+  console.log(`Skipped scheduled refresh: GD${MATCHDAY} already completed for ${TODAY}.`);
+  process.exit(0);
+}
 
 async function fetchJson(url, options) {
   for (let attempt = 1; attempt <= 3; attempt += 1) {
@@ -336,7 +339,8 @@ const snapshot = {
     [MATCHDAY]: roundAnalytics,
   },
 };
-if (sameSnapshotData(previousSnapshot, snapshot)) {
+if (sameSnapshotData(previousSnapshot, snapshot)
+    && (process.env.UEFA_SCHEDULED_RUN !== "1" || previousSnapshot.scheduledRefreshDate === TODAY)) {
   console.log(`Checked GD${MATCHDAY}: UEFA data unchanged; no new commit required.`);
   process.exit(0);
 }

@@ -22,3 +22,11 @@ export function sameSnapshotData(previous, next) {
   const dataOnly = ({ generatedAt, scheduledRefreshDate, ...data }) => data;
   return JSON.stringify(dataOnly(previous)) === JSON.stringify(dataOnly(next));
 }
+
+export function scheduledRefreshCompleted(snapshot, matchday, today) {
+  if (Number(snapshot.matchday) !== matchday) return false;
+  if (snapshot.scheduledRefreshDate === today) return true;
+  const generatedAt = Date.parse(snapshot.generatedAt);
+  return generatedAt >= Date.parse(`${today}T09:00:00+08:00`)
+    && generatedAt < Date.parse(`${addCalendarDays(today, 1)}T00:00:00+08:00`);
+}
