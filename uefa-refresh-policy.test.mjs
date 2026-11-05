@@ -1,8 +1,18 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { refreshMatchday, scheduledRefreshMatchday, sameSnapshotData } from "./uefa-refresh-policy.mjs";
+import { refreshMatchday, scheduledRefreshMatchday, scheduledRefreshCompleted, sameSnapshotData } from "./uefa-refresh-policy.mjs";
 
 const windows = [{ number: 3, start: "2026-10-20", end: "2026-10-21" }];
+test("fallback skips successful runs but retries stale days and wrong rounds", () => {
+  const snapshot = { matchday: 4, generatedAt: "2026-11-05T01:00:00Z" };
+  assert.equal(scheduledRefreshCompleted(snapshot, 4, "2026-11-05"), true);
+  assert.equal(scheduledRefreshCompleted({ ...snapshot, generatedAt: "2026-11-05T00:59:59Z" }, 4, "2026-11-05"), false);
+  assert.equal(scheduledRefreshCompleted(snapshot, 4, "2026-11-06"), false);
+  assert.equal(scheduledRefreshCompleted(snapshot, 5, "2026-11-05"), false);
+  assert.equal(scheduledRefreshCompleted({ ...snapshot, generatedAt: "invalid" }, 4, "2026-11-05"), false);
+  assert.equal(scheduledRefreshCompleted({ matchday: 4, scheduledRefreshDate: "2026-11-05" }, 4, "2026-11-05"), true);
+  assert.equal(scheduledRefreshCompleted({ ...snapshot, generatedAt: "2026-11-05T16:00:00Z" }, 4, "2026-11-05"), false);
+});
 test("scheduled refresh only runs on mornings after match nights", () => {
   assert.equal(scheduledRefreshMatchday(windows, "2026-10-20"), null);
   assert.equal(scheduledRefreshMatchday(windows, "2026-10-21"), 3);

@@ -4,6 +4,10 @@ on:
   schedule:
     # 01:00 UTC = 09:00 Beijing. The script skips mornings without overnight matches.
     - cron: "0 1 * * *"
+    # Backup triggers at 09:17, 09:32, 09:47 and 10:07 Beijing.
+    # Completed days skip before requesting UEFA data.
+    - cron: "17,32,47 1 * * *"
+    - cron: "7 2 * * *"
   workflow_dispatch:
 
 permissions:
@@ -65,5 +69,5 @@ jobs:
         if: always()
         run: |
           echo "### UEFA refresh" >> "$GITHUB_STEP_SUMMARY"
-          echo "Result: ${{ job.status }}. Match-night refresh: 09:00 Beijing (01:00 UTC); retry once 15 minutes after failure." >> "$GITHUB_STEP_SUMMARY"
+          echo "Result: ${{ job.status }}. Match-night refresh: 09:00 Beijing; backups at 09:17, 09:32, 09:47 and 10:07 skip completed days. Retry once 15 minutes after failure." >> "$GITHUB_STEP_SUMMARY"
           node -e 'const fs=require("fs");const s=JSON.parse(fs.readFileSync("uefa-live-data.js","utf8").replace(/^window\.PENGUIN_UEFA_SNAPSHOT\s*=\s*/,"").replace(/;\s*$/,""));fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,`\nPublished snapshot: GD${s.matchday}, fetched ${s.generatedAt}\n`);'
