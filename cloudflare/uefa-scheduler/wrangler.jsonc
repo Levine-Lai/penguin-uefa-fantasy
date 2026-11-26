@@ -1,0 +1,12 @@
+{
+  "name": "penguin-uefa-scheduler",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-26",
+  "workers_dev": false,
+  "preview_urls": false,
+  "observability": { "enabled": true },
+  "triggers": {
+    // 09:00 and 09:15 Beijing, with the match calendar checked in the Worker.
+    "crons": ["0 1 * * *", "15 1 * * *"]
+  }
+}

@@ -1,4 +1,5 @@
 name: Update UEFA Fantasy Data
+run-name: ${{ inputs.scheduled_date && format('Cloudflare UEFA refresh {0}', inputs.scheduled_date) || 'Update UEFA Fantasy Data' }}
 
 on:
   schedule:
@@ -9,6 +10,11 @@ on:
     - cron: "17,32,47 1 * * *"
     - cron: "7 2 * * *"
   workflow_dispatch:
+    inputs:
+      scheduled_date:
+        description: Beijing date of the Cloudflare trigger. Leave empty for a manual refresh.
+        type: string
+        required: false
 
 permissions:
   contents: write
@@ -34,9 +40,10 @@ jobs:
           node-version: 24
 
       - name: Refresh after UEFA match nights
-        if: github.event_name == 'schedule'
+        if: github.event_name == 'schedule' || inputs.scheduled_date != ''
         env:
           UEFA_SCHEDULED_RUN: "1"
+          UEFA_SCHEDULED_DATE: ${{ inputs.scheduled_date }}
           UEFA_COOKIE: ${{ secrets.UEFA_COOKIE }}
         run: |
           if node fetch-uefa-snapshot.mjs; then
@@ -47,7 +54,7 @@ jobs:
           node fetch-uefa-snapshot.mjs
 
       - name: Refresh manually
-        if: github.event_name == 'workflow_dispatch'
+        if: github.event_name == 'workflow_dispatch' && inputs.scheduled_date == ''
         env:
           UEFA_COOKIE: ${{ secrets.UEFA_COOKIE }}
         run: node fetch-uefa-snapshot.mjs
@@ -69,5 +76,5 @@ jobs:
         if: always()
         run: |
           echo "### UEFA refresh" >> "$GITHUB_STEP_SUMMARY"
-          echo "Result: ${{ job.status }}. Match-night refresh: 09:00 Beijing; backups at 09:17, 09:32, 09:47 and 10:07 skip completed days. Retry once 15 minutes after failure." >> "$GITHUB_STEP_SUMMARY"
+          echo "Result: ${{ job.status }}. Match-night refreshes skip completed days and retry once 15 minutes after a fetch failure." >> "$GITHUB_STEP_SUMMARY"
           node -e 'const fs=require("fs");const s=JSON.parse(fs.readFileSync("uefa-live-data.js","utf8").replace(/^window\.PENGUIN_UEFA_SNAPSHOT\s*=\s*/,"").replace(/;\s*$/,""));fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,`\nPublished snapshot: GD${s.matchday}, fetched ${s.generatedAt}\n`);'

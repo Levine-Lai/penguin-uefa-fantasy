@@ -1,30 +1,8 @@
 import { readFile, writeFile } from "node:fs/promises";
-import { refreshMatchday, scheduledRefreshMatchday, scheduledRefreshCompleted, sameSnapshotData } from "./uefa-refresh-policy.mjs";
+import { MATCHDAY_WINDOWS, shanghaiDateString, refreshMatchday, scheduledRefreshMatchday, scheduledRefreshCompleted, sameSnapshotData } from "./uefa-refresh-policy.mjs";
 import { buildTransfers } from "./uefa-transfers.mjs";
 
 const CURRENT_USER_GUID = "7649f634-a5a9-11f1-ad1f-b33810b58db2";
-const MATCHDAY_WINDOWS = [
-  { number: 1, start: "2026-09-08", end: "2026-09-10" },
-  { number: 2, start: "2026-10-13", end: "2026-10-14" },
-  { number: 3, start: "2026-10-20", end: "2026-10-21" },
-  { number: 4, start: "2026-11-03", end: "2026-11-04" },
-  { number: 5, start: "2026-11-24", end: "2026-11-25" },
-  { number: 6, start: "2026-12-08", end: "2026-12-09" },
-  { number: 7, start: "2027-01-19", end: "2027-01-20" },
-  { number: 8, start: "2027-01-27", end: "2027-01-27" },
-];
-
-function shanghaiDateString(date = new Date()) {
-  const parts = new Intl.DateTimeFormat("en-CA", {
-    timeZone: "Asia/Shanghai",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).formatToParts(date);
-  const value = Object.fromEntries(parts.map((part) => [part.type, part.value]));
-  return `${value.year}-${value.month}-${value.day}`;
-}
-
 const TODAY = process.env.UEFA_TODAY || shanghaiDateString();
 const dueMatchday = refreshMatchday(MATCHDAY_WINDOWS, TODAY);
 const scheduledMatchday = dueMatchday
@@ -39,9 +17,16 @@ if (!Number.isInteger(MATCHDAY) || MATCHDAY < 1 || MATCHDAY > 8) {
   throw new Error(`Invalid UEFA_MATCHDAY: ${process.env.UEFA_MATCHDAY}`);
 }
 
-if (process.env.UEFA_SCHEDULED_RUN === "1" && !scheduledRefreshMatchday(MATCHDAY_WINDOWS, TODAY)) {
-  console.log(`Skipped scheduled refresh: no UEFA matches overnight before ${TODAY}.`);
-  process.exit(0);
+if (process.env.UEFA_SCHEDULED_RUN === "1") {
+  const scheduledDate = process.env.UEFA_SCHEDULED_DATE;
+  if (scheduledDate && scheduledDate !== TODAY) {
+    console.log(`Skipped scheduled refresh: trigger date does not match ${TODAY}.`);
+    process.exit(0);
+  }
+  if (!scheduledRefreshMatchday(MATCHDAY_WINDOWS, TODAY)) {
+    console.log(`Skipped scheduled refresh: no UEFA matches overnight before ${TODAY}.`);
+    process.exit(0);
+  }
 }
 
 let previousSnapshot = {};
