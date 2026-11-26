@@ -11,6 +11,7 @@ test("Cloudflare only dispatches on a match morning without an active or success
   let runs = [];
   const dispatches = [];
   const fetch = t.mock.method(globalThis, "fetch", async (url, options) => {
+    assert.equal(options.redirect, "manual");
     if (new URL(url).pathname.endsWith("/runs")) return Response.json({ workflow_runs: runs });
     assert.equal(new URL(url).pathname.endsWith("/dispatches"), true);
     assert.equal(options.method, "POST");

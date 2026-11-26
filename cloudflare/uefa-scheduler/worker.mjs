@@ -18,7 +18,7 @@ export default {
       "User-Agent": "penguin-uefa-scheduler",
     };
     const query = new URLSearchParams({ event: "workflow_dispatch", branch: "main", per_page: "20" });
-    const runs = await fetch(`${workflow}/runs?${query}`, { headers, redirect: "error" });
+    const runs = await fetch(`${workflow}/runs?${query}`, { headers, redirect: "manual" });
     if (!runs.ok) throw new Error(`GitHub workflow lookup failed (HTTP ${runs.status}).`);
     const { workflow_runs: recentRuns } = await runs.json();
     const runName = `Cloudflare UEFA refresh ${date}`;
@@ -31,7 +31,7 @@ export default {
     const dispatch = await fetch(`${workflow}/dispatches`, {
       method: "POST",
       headers,
-      redirect: "error",
+      redirect: "manual",
       body: JSON.stringify({ ref: "main", inputs: { scheduled_date: date } }),
     });
     if (!dispatch.ok) throw new Error(`GitHub workflow dispatch failed (HTTP ${dispatch.status}).`);
